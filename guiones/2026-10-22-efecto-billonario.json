@@ -1,0 +1,57 @@
+{
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nHoy te hablo del llamado \"efecto billonario\" en Miami.\n\nY de la pregunta que de verdad importa: ¿qué significa esto para quien quiere comprar o vender un negocio aquí?"
+    },
+    {
+      "etiqueta": "Los hechos",
+      "texto": "Empecemos por los hechos.\n\nKen Griffin mudó Citadel de Chicago a Miami en dos mil veintidós. Hoy tiene unos quinientos empleados en Brickell.\n\nY en marzo de este año comenzó a construir su nueva sede: una torre de cincuenta y cuatro pisos... con una inversión estimada de dos mil quinientos millones de dólares.\n\nJeff Bezos se mudó a Miami a finales de dos mil veintitrés. Ha invertido cerca de doscientos treinta y siete millones de dólares en tres propiedades en Indian Creek.\n\nOjo con un detalle: Amazon sigue en Seattle. La mudanza de Bezos fue personal, no de la empresa.\n\nY en marzo, Mark Zuckerberg pagó ciento setenta millones de dólares por una casa en Indian Creek. Es la venta residencial más cara en la historia de Miami-Dade."
+    },
+    {
+      "etiqueta": "Por qué vienen",
+      "texto": "¿Por qué vienen?\n\nFlorida no cobra impuesto estatal sobre la renta personal.\n\nY en California se promueve un impuesto especial a los billonarios... que ha empujado a varios a mudarse antes de tiempo."
+    },
+    {
+      "etiqueta": "Qué significa para ti",
+      "texto": "Ahora... ¿cómo llega todo esto a la calle?\n\nPrimero, por los alquileres. Las oficinas en Miami-Dade subieron un siete por ciento en un año. En Brickell ya se paga más por pie cuadrado que en Manhattan. Y los locales comerciales están casi llenos: la vacancia ronda el tres por ciento.\n\nSegundo, por el consumo. Un billonario no compra una lavandería. Pero sus empresas traen empleados con buenos sueldos... y esos empleados sí consumen servicios todos los días.\n\nRestaurantes, limpieza, piscinas, jardinería, salud, cuidado personal. Esos negocios hoy tienen más demanda... y más compradores interesados.\n\nPero hay un riesgo, y te lo digo con claridad... el alquiler.\n\nSi compras un negocio y el contrato de arrendamiento vence pronto, o tiene aumentos fuertes... la ganancia puede desaparecer en la renovación.\n\nPor eso, antes de comprar, revisa tres cosas. Cuánto tiempo le queda al contrato. Cuánto sube cada año. Y si el dueño del local tiene que aprobar la venta.\n\nY si eres vendedor: un buen contrato de arrendamiento vale casi tanto como tu clientela. Negócialo antes de salir al mercado."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "En resumen: el dinero de los billonarios es real.\n\nPero la oportunidad para nosotros no está en las mansiones de Indian Creek. Está en los negocios de servicios que atienden a la nueva Miami.\n\nSi piensas comprar o vender un negocio en el Sur de Florida, escríbeme a alfredo arroba negociosenflorida punto com. El análisis completo está en el blog de negociosenflorida.com.\n\nSoy Alfredo González, y esto fue ¿Qué pasa en Florida? Hasta la próxima."
+    }
+  ],
+  "duracionMin": 3,
+  "fecha": "2026-10-22",
+  "fuentes": [
+    {
+      "nombre": "Capital Analytics: Citadel amplía su sede en Brickell",
+      "url": "https://capitalanalyticsassociates.com/miami-business-news-citadel-supersizes-its-miami-hq/"
+    },
+    {
+      "nombre": "The Real Deal: Bezos en Indian Creek",
+      "url": "https://therealdeal.com/people/jeff-bezos/"
+    },
+    {
+      "nombre": "Forbes Australia: Zuckerberg cierra la compra récord de $170 millones",
+      "url": "https://www.forbes.com.au/news/billionaires/mark-zuckerberg-closes-on-record-setting-170-million-miami-mansion/"
+    },
+    {
+      "nombre": "Fox Business: propuesta de impuesto a billonarios en California",
+      "url": "https://www.foxbusiness.com/money/billionaires-make-strategic-moves-california-ahead-proposed-wealth-tax"
+    },
+    {
+      "nombre": "Commercial Observer: oficinas en Miami-Dade, 2T 2026 (Savills)",
+      "url": "https://commercialobserver.com/?p=573077"
+    },
+    {
+      "nombre": "MIAMI REALTORS: South Florida Office Insights, agosto 2026",
+      "url": "https://www.miamirealtors.com/?p=153365"
+    },
+    {
+      "nombre": "Commercial Observer: retail en el Sur de Florida, 2T 2026",
+      "url": "https://commercialobserver.com/2026/07/south-florida-miami-retail-leasing-vacancy-rent/"
+    }
+  ],
+  "titulo": "El efecto billonario en Miami: qué significa para quien compra o vende un negocio"
+}
