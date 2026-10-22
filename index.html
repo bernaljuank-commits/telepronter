@@ -45,6 +45,16 @@
   #micBar { width:56px; height:8px; background:#333; border-radius:4px; overflow:hidden; }
   #micLvl { display:block; height:100%; width:0; background:#43a047; transition:width .08s; }
   #mic.off { color:#e53935; } #mic.off #micBar { background:#e53935; }
+  #atBox { position:fixed; left:50%; top:50%; transform:translate(-50%,-50%); z-index:45; background:var(--bar); border:1px solid #3a3a40; border-radius:14px; padding:18px; display:none; flex-direction:column; gap:12px; width:min(92vw,420px); text-align:center; }
+  #atMsg { font-size:18px; font-weight:700; }
+  #atBar { height:14px; background:#333; border-radius:7px; overflow:hidden; }
+  #atLvl { display:block; height:100%; width:0; background:#43a047; transition:width .08s; }
+  #atRes { font-size:15px; color:var(--muted); min-height:1.2em; }
+  #atRes.ok { color:#66bb6a; } #atRes.bad { color:#ef5350; }
+  #atAudio { width:100%; display:none; }
+  #atBox .row { display:flex; gap:10px; justify-content:center; }
+  #atBox button { background:var(--accent); color:#111; border:0; border-radius:8px; padding:10px 14px; font-size:15px; font-weight:700; cursor:pointer; }
+  #atBox button.sec { background:#26262a; color:var(--fg); border:1px solid #3a3a40; }
   /* Celular en horizontal: texto a la izquierda (80%) e imagen a la derecha (20%) */
   @media (orientation: landscape) {
     body.cam #scroller { bottom:0; right:20%; border-bottom:0; border-right:1px solid #26262a; }
@@ -66,6 +76,7 @@
   <button id="mirror" title="Espejo">⇋ Espejo</button>
   <button id="fs" title="Pantalla completa">⛶</button>
   <button id="cam" title="Encender cámara">🎥 Cámara</button>
+  <button id="atest" title="Probar el micrófono">🎤 Probar audio</button>
   <button id="rec" class="rec" title="Grabar video">⏺ Grabar</button>
   <div id="title"></div>
 </div>
@@ -74,6 +85,13 @@
 <div id="recTime">● 00:00</div>
 <div id="mic" title="Nivel del micrófono">🎤<span id="micBar"><span id="micLvl"></span></span></div>
 <div id="count"></div>
+<div id="atBox">
+  <div id="atMsg">Probando…</div>
+  <div id="atBar"><span id="atLvl"></span></div>
+  <div id="atRes"></div>
+  <audio id="atAudio" controls playsinline></audio>
+  <div class="row"><button id="atAgain">Repetir prueba</button><button id="atClose" class="sec">Cerrar</button></div>
+</div>
 <div id="saveBox">
   <span id="saveInfo" style="color:var(--muted);font-size:14px"></span>
   <button id="share">Guardar / compartir</button>
@@ -265,6 +283,60 @@
     } else { $('download').click(); }
   };
   $('discard').onclick = () => { $('saveBox').style.display = 'none'; };
+
+  // ---------- Prueba de audio: graba 5 segundos y los reproduce ----------
+  let atRunning = false, atUrl = null;
+  async function audioTest(){
+    if (atRunning) return;
+    if (recorder && recorder.state === 'recording') { alert('Detén la grabación antes de probar el audio.'); return; }
+    if (!window.MediaRecorder || !navigator.mediaDevices) { alert('Este navegador no permite probar el micrófono.'); return; }
+    atRunning = true;
+    const box = $('atBox'), res = $('atRes'), au = $('atAudio');
+    box.style.display = 'flex'; au.style.display = 'none'; au.removeAttribute('src'); res.className = ''; res.textContent = '';
+    $('atAgain').disabled = true;
+    let s, own = false;
+    try {
+      if (stream && stream.getAudioTracks().length) s = new MediaStream(stream.getAudioTracks());
+      else { s = await navigator.mediaDevices.getUserMedia({ audio:{ echoCancellation:true, noiseSuppression:true } }); own = true; }
+    } catch(e) {
+      $('atMsg').textContent = 'Sin acceso al micrófono';
+      res.className = 'bad'; res.textContent = 'Dale permiso de micrófono a esta página (iPhone: Ajustes > Safari > Micrófono > Permitir) y vuelve a intentar.';
+      $('atAgain').disabled = false; atRunning = false; return;
+    }
+    // medidor
+    let ac, raf, peak = 0;
+    try {
+      const AC = window.AudioContext || window.webkitAudioContext; ac = new AC(); await ac.resume();
+      const an = ac.createAnalyser(); an.fftSize = 512; ac.createMediaStreamSource(s).connect(an);
+      const buf = new Uint8Array(an.fftSize);
+      (function loop(){ an.getByteTimeDomainData(buf); let m = 0; for (let i = 0; i < buf.length; i++) m = Math.max(m, Math.abs(buf[i]-128));
+        peak = Math.max(peak, m); $('atLvl').style.width = Math.min(100, m/24*100) + '%'; raf = requestAnimationFrame(loop); })();
+    } catch(e) {}
+    const types = ['audio/mp4','audio/webm;codecs=opus','audio/webm',''];
+    const t = types.find(x => !x || (MediaRecorder.isTypeSupported && MediaRecorder.isTypeSupported(x)));
+    const ch = [];
+    let r; try { r = new MediaRecorder(s, t ? { mimeType:t } : undefined); } catch(e) { r = new MediaRecorder(s); }
+    r.ondataavailable = e => { if (e.data && e.data.size) ch.push(e.data); };
+    const done = new Promise(ok => r.onstop = ok);
+    r.start();
+    for (let i = 5; i > 0; i--) { $('atMsg').textContent = '🔴 Habla ahora… ' + i; await new Promise(z => setTimeout(z, 1000)); }
+    r.stop(); await done;
+    cancelAnimationFrame(raf); try { ac && ac.close(); } catch(e) {}
+    $('atLvl').style.width = '0%';
+    if (own) s.getTracks().forEach(x => x.stop());
+    const blob = new Blob(ch, { type: r.mimeType || 'audio/mp4' });
+    if (atUrl) URL.revokeObjectURL(atUrl);
+    atUrl = URL.createObjectURL(blob);
+    au.src = atUrl; au.style.display = 'block';
+    $('atMsg').textContent = '▶ Escucha cómo se oye';
+    if (peak >= 6) { res.className = 'ok'; res.textContent = '✔ El micrófono está captando tu voz.'; }
+    else { res.className = 'bad'; res.textContent = '✖ Casi no se oye nada. Revisa que el micrófono no esté tapado o sin permiso.'; }
+    try { await au.play(); } catch(e) {}
+    $('atAgain').disabled = false; atRunning = false;
+  }
+  $('atest').onclick = audioTest;
+  $('atAgain').onclick = audioTest;
+  $('atClose').onclick = () => { $('atAudio').pause(); $('atBox').style.display = 'none'; };
   window.addEventListener('beforeunload', e => { if (recorder && recorder.state === 'recording') { e.preventDefault(); e.returnValue = ''; } });
   document.addEventListener('keydown', e => {
     if (e.target.tagName === 'SELECT') return;
