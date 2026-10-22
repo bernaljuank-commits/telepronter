@@ -28,13 +28,17 @@
   #bar button.rec.on { animation:blink 1s infinite; }
   @keyframes blink { 50% { opacity:.55; } }
   /* Vista previa pequeña de la cámara */
-  #preview { position:fixed; right:12px; bottom:12px; width:28vw; max-width:220px; aspect-ratio:9/16; object-fit:cover; border-radius:12px; border:2px solid #3a3a40; background:#000; z-index:20; display:none; transform:scaleX(-1); cursor:pointer; }
-  #preview.big { width:45vw; max-width:360px; }
+  /* Vista previa: va en una franja propia abajo; el texto se acorta para no quedar tapado */
+  :root { --pvw:min(24vw,130px); }
+  body.pvbig { --pvw:min(36vw,200px); }
+  #preview { position:fixed; left:50%; bottom:10px; transform:translateX(-50%) scaleX(-1); width:var(--pvw); aspect-ratio:9/16; object-fit:cover; border-radius:12px; border:2px solid #3a3a40; background:#000; z-index:20; display:none; cursor:pointer; }
+  body.cam #scroller { bottom:calc(var(--pvw) * 16 / 9 + 20px); border-bottom:1px solid #26262a; }
+  body.cam #text { padding-bottom:60vh; }
   body.recording #preview { border-color:#e53935; box-shadow:0 0 0 3px rgba(229,57,53,.35); }
-  #recTime { position:fixed; right:16px; bottom:calc(12px + min(28vw,220px) * 16 / 9 + 8px); z-index:21; background:#c62828; color:#fff; font:700 13px/1 monospace; padding:5px 8px; border-radius:6px; display:none; }
+  #recTime { position:fixed; left:calc(50% + var(--pvw) / 2 + 10px); bottom:14px; z-index:21; background:#c62828; color:#fff; font:700 13px/1 monospace; padding:5px 8px; border-radius:6px; display:none; }
   body.recording #recTime { display:block; }
   #count { position:fixed; inset:0; display:none; align-items:center; justify-content:center; font-size:30vmin; font-weight:800; color:var(--accent); background:rgba(0,0,0,.55); z-index:30; }
-  #saveBox { position:fixed; left:50%; bottom:20px; transform:translateX(-50%); z-index:40; background:var(--bar); border:1px solid #3a3a40; border-radius:14px; padding:14px; display:none; gap:10px; flex-wrap:wrap; justify-content:center; align-items:center; max-width:94vw; }
+  #saveBox { position:fixed; left:50%; top:50%; transform:translate(-50%,-50%); z-index:40; background:var(--bar); border:1px solid #3a3a40; border-radius:14px; padding:14px; display:none; gap:10px; flex-wrap:wrap; justify-content:center; align-items:center; max-width:94vw; }
   #saveBox button, #saveBox a { background:var(--accent); color:#111; border:0; border-radius:8px; padding:10px 14px; font-size:15px; font-weight:700; text-decoration:none; cursor:pointer; }
   #saveBox .sec { background:#26262a; color:var(--fg); border:1px solid #3a3a40; }
 </style>
@@ -148,14 +152,14 @@
         audio: { echoCancellation:true, noiseSuppression:true }
       });
     } catch(e) { alert('No pude abrir la cámara o el micrófono. Revisa que le diste permiso a esta página.\n\n' + e.message); return false; }
-    pv.srcObject = stream; pv.style.display = 'block';
+    pv.srcObject = stream; pv.style.display = 'block'; document.body.classList.add('cam');
     $('cam').textContent = '🎥 Apagar';
     return true;
   }
   function camOff(){
     if (recorder && recorder.state === 'recording') return;
     if (stream) stream.getTracks().forEach(t => t.stop());
-    stream = null; pv.srcObject = null; pv.style.display = 'none';
+    stream = null; pv.srcObject = null; pv.style.display = 'none'; document.body.classList.remove('cam');
     $('cam').textContent = '🎥 Cámara';
   }
   function countdown(n){
@@ -205,7 +209,7 @@
   }
   $('cam').onclick = () => stream ? camOff() : camOn();
   $('rec').onclick = () => (recorder && recorder.state === 'recording') ? recStopFn() : recStartFn();
-  pv.onclick = () => pv.classList.toggle('big');
+  pv.onclick = () => document.body.classList.toggle('pvbig');
   $('share').onclick = async () => {
     if (!lastBlob) return;
     const file = new File([lastBlob], $('saveBox').dataset.name, { type:lastBlob.type });
