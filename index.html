@@ -41,6 +41,14 @@
   #saveBox { position:fixed; left:50%; top:50%; transform:translate(-50%,-50%); z-index:40; background:var(--bar); border:1px solid #3a3a40; border-radius:14px; padding:14px; display:none; gap:10px; flex-wrap:wrap; justify-content:center; align-items:center; max-width:94vw; }
   #saveBox button, #saveBox a { background:var(--accent); color:#111; border:0; border-radius:8px; padding:10px 14px; font-size:15px; font-weight:700; text-decoration:none; cursor:pointer; }
   #saveBox .sec { background:#26262a; color:var(--fg); border:1px solid #3a3a40; }
+  /* Celular en horizontal: texto a la izquierda (80%) e imagen a la derecha (20%) */
+  @media (orientation: landscape) {
+    body.cam #scroller { bottom:0; right:20%; border-bottom:0; border-right:1px solid #26262a; }
+    body.cam #text { padding-left:4vw; padding-right:4vw; }
+    body.cam #guide { right:20%; }
+    #preview, body.pvbig #preview { left:auto; right:1.5vw; top:50%; bottom:auto; transform:translateY(-50%) scaleX(-1); width:17vw; aspect-ratio:auto; max-height:80vh; }
+    #recTime { left:auto; right:1.5vw; bottom:auto; top:calc(50% - 4.8vw - 30px); }
+  }
 </style>
 </head>
 <body>
@@ -73,7 +81,7 @@
   const store = { get(k,d){ try{ const v=localStorage.getItem(k); return v===null?d:JSON.parse(v);}catch(e){return d;} },
                   set(k,v){ try{ localStorage.setItem(k,JSON.stringify(v)); }catch(e){} } };
   let speed = store.get('tp_speed', 40);   // píxeles por segundo
-  let fs = store.get('tp_fs', window.innerWidth < 700 ? 34 : 56);
+  let fs = store.get('tp_fs', Math.min(window.innerWidth, window.innerHeight) < 600 ? 34 : 56);
   let playing = false, last = 0, acc = 0;
   const sc = $('scroller');
 
