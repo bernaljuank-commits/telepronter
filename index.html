@@ -41,6 +41,10 @@
   #saveBox { position:fixed; left:50%; top:50%; transform:translate(-50%,-50%); z-index:40; background:var(--bar); border:1px solid #3a3a40; border-radius:14px; padding:14px; display:none; gap:10px; flex-wrap:wrap; justify-content:center; align-items:center; max-width:94vw; }
   #saveBox button, #saveBox a { background:var(--accent); color:#111; border:0; border-radius:8px; padding:10px 14px; font-size:15px; font-weight:700; text-decoration:none; cursor:pointer; }
   #saveBox .sec { background:#26262a; color:var(--fg); border:1px solid #3a3a40; }
+  #mic { position:fixed; z-index:21; display:none; align-items:center; gap:6px; font-size:14px; left:calc(50% - var(--pvw) / 2 - 92px); bottom:14px; background:#17171acc; padding:4px 8px; border-radius:8px; }
+  #micBar { width:56px; height:8px; background:#333; border-radius:4px; overflow:hidden; }
+  #micLvl { display:block; height:100%; width:0; background:#43a047; transition:width .08s; }
+  #mic.off { color:#e53935; } #mic.off #micBar { background:#e53935; }
   /* Celular en horizontal: texto a la izquierda (80%) e imagen a la derecha (20%) */
   @media (orientation: landscape) {
     body.cam #scroller { bottom:0; right:20%; border-bottom:0; border-right:1px solid #26262a; }
@@ -48,6 +52,7 @@
     body.cam #guide { right:20%; }
     #preview, body.pvbig #preview { left:auto; right:1.5vw; top:50%; bottom:auto; transform:translateY(-50%) scaleX(-1); width:17vw; aspect-ratio:auto; max-height:80vh; }
     #recTime { left:auto; right:1.5vw; bottom:auto; top:calc(50% - 4.8vw - 30px); }
+    #mic { left:auto; right:1.5vw; bottom:auto; top:calc(50% + 4.8vw + 10px); }
   }
 </style>
 </head>
@@ -67,6 +72,7 @@
 <div id="guide"></div>
 <video id="preview" muted playsinline autoplay title="Toca para cambiar el tamaño"></video>
 <div id="recTime">● 00:00</div>
+<div id="mic" title="Nivel del micrófono">🎤<span id="micBar"><span id="micLvl"></span></span></div>
 <div id="count"></div>
 <div id="saveBox">
   <span id="saveInfo" style="color:var(--muted);font-size:14px"></span>
@@ -147,7 +153,7 @@
   let stream = null, recorder = null, chunks = [], recStart = 0, recTimer = null, lastBlob = null, lastUrl = null;
   const pv = $('preview');
   function pickType(){
-    const opts = ['video/mp4;codecs=avc1,mp4a.40.2','video/mp4','video/webm;codecs=vp9,opus','video/webm;codecs=vp8,opus','video/webm'];
+    const opts = ['video/mp4','video/mp4;codecs=avc1,mp4a.40.2','video/webm;codecs=vp9,opus','video/webm;codecs=vp8,opus','video/webm'];
     if (!window.MediaRecorder || !MediaRecorder.isTypeSupported) return '';
     return opts.find(t => MediaRecorder.isTypeSupported(t)) || '';
   }
@@ -159,17 +165,50 @@
         video: { facingMode:'user', width:{ideal:1920}, height:{ideal:1080}, frameRate:{ideal:30} },
         audio: { echoCancellation:true, noiseSuppression:true }
       });
-    } catch(e) { alert('No pude abrir la cámara o el micrófono. Revisa que le diste permiso a esta página.\n\n' + e.message); return false; }
+    } catch(e) {
+      // Si falla con audio+video juntos, intento por separado para no perder el sonido
+      try {
+        stream = await navigator.mediaDevices.getUserMedia({ video:{ facingMode:'user' } });
+        try { const a = await navigator.mediaDevices.getUserMedia({ audio:true }); a.getAudioTracks().forEach(t => stream.addTrack(t)); } catch(e2) {}
+      } catch(e3) { alert('No pude abrir la cámara. Revisa que le diste permiso a esta página.\n\n' + e3.message); return false; }
+    }
+    if (!stream.getAudioTracks().length) {
+      try { const a = await navigator.mediaDevices.getUserMedia({ audio:true }); a.getAudioTracks().forEach(t => stream.addTrack(t)); } catch(e) {}
+    }
+    if (!stream.getAudioTracks().length) alert('Ojo: no tengo acceso al micrófono, el video se grabaría SIN sonido. Dale permiso de micrófono a esta página (en iPhone: Ajustes > Safari > Micrófono > Permitir) y vuelve a encender la cámara.');
+    stream.getAudioTracks().forEach(t => t.enabled = true);
+    startMeter();
     pv.srcObject = stream; pv.style.display = 'block'; document.body.classList.add('cam');
     $('cam').textContent = '🎥 Apagar';
     return true;
   }
   function camOff(){
     if (recorder && recorder.state === 'recording') return;
+    stopMeter();
     if (stream) stream.getTracks().forEach(t => t.stop());
     stream = null; pv.srcObject = null; pv.style.display = 'none'; document.body.classList.remove('cam');
     $('cam').textContent = '🎥 Cámara';
   }
+  // Medidor de micrófono: barra verde que se mueve cuando hablas
+  let actx = null, meterRAF = null;
+  function startMeter(){
+    try {
+      if (!stream.getAudioTracks().length) { $('mic').classList.add('off'); $('mic').style.display = 'flex'; return; }
+      const AC = window.AudioContext || window.webkitAudioContext; actx = new AC();
+      const src = actx.createMediaStreamSource(new MediaStream(stream.getAudioTracks()));
+      const an = actx.createAnalyser(); an.fftSize = 512; src.connect(an);
+      const buf = new Uint8Array(an.fftSize);
+      $('mic').classList.remove('off'); $('mic').style.display = 'flex';
+      (function loop(){
+        an.getByteTimeDomainData(buf); let m = 0;
+        for (let i = 0; i < buf.length; i++) m = Math.max(m, Math.abs(buf[i] - 128));
+        $('micLvl').style.width = Math.min(100, m / 24 * 100) + '%';
+        meterRAF = requestAnimationFrame(loop);
+      })();
+    } catch(e) {}
+  }
+  function stopMeter(){ cancelAnimationFrame(meterRAF); try { actx && actx.close(); } catch(e) {} actx = null; $('mic').style.display = 'none'; }
+  document.addEventListener('touchend', () => { try { actx && actx.state === 'suspended' && actx.resume(); } catch(e) {} });
   function countdown(n){
     return new Promise(res => {
       const c = $('count'); c.style.display = 'flex';
@@ -184,7 +223,7 @@
     await countdown(3);
     chunks = [];
     const type = pickType();
-    try { recorder = new MediaRecorder(stream, type ? { mimeType:type, videoBitsPerSecond:8000000 } : undefined); }
+    try { recorder = new MediaRecorder(stream, type ? { mimeType:type, videoBitsPerSecond:8000000, audioBitsPerSecond:128000 } : undefined); }
     catch(e) { recorder = new MediaRecorder(stream); }
     recorder.ondataavailable = e => { if (e.data && e.data.size) chunks.push(e.data); };
     recorder.onstop = finishRec;
