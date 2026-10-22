@@ -1,0 +1,53 @@
+{
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, de International Business Group, y esto es Negocios en Florida.\n\nFaltan menos de dos semanas para el tres de noviembre... y en la boleta hay una enmienda que puede cambiar lo que pagas de impuesto a la propiedad.\n\nSe llama la Enmienda tres. Y si tienes un negocio, o piensas comprar uno... esto te interesa."
+    },
+    {
+      "etiqueta": "Noticia principal",
+      "texto": "Este miércoles, el gobernador Ron DeSantis estuvo en Miami-Dade, en un evento a favor de la Enmienda tres.\n\n¿Qué propone? Subir la exención de homestead, para los impuestos que no son escolares... a ciento cincuenta mil dólares en dos mil veintisiete. Y a doscientos cincuenta mil dólares en dos mil veintiocho.\n\nY para las propiedades que no son homestead, como un local comercial... baja el tope de aumento anual del avalúo. Del diez... al cinco por ciento.\n\nPero ojo... necesita el sesenta por ciento de los votos. Y una encuesta de la University of North Florida, publicada este miércoles, le da un cincuenta por ciento de apoyo. Con un catorce por ciento de indecisos.\n\nLos economistas del estado calculan que los gobiernos locales dejarían de recibir unos cinco mil millones de dólares el primer año... y hasta doce mil millones al año cuando se aplique completa.\n\nPor eso se oponen grupos de sheriffs, de policías y de bomberos. Dicen que peligran los servicios locales."
+    },
+    {
+      "etiqueta": "Qué significa para ti",
+      "texto": "Ahora... ¿qué significa esto para ti?\n\nSi eres dueño de un local comercial... el tope más bajo frena el aumento del avalúo. Pero no garantiza una factura más baja. Los condados y las ciudades pueden subir la tasa para compensar.\n\nSi alquilas, y tu contrato te pasa los impuestos de la propiedad... cualquier aumento lo sientes directo en tu bolsillo.\n\nY si vas a comprar un negocio con el inmueble incluido... atención. Después de una venta, o de un cambio de control de más del cincuenta por ciento de la empresa, la propiedad se vuelve a valorar a precio de mercado.\n\nEl ahorro que acumuló el vendedor... desaparece. Y tu factura de impuestos puede saltar.\n\nPor eso, en cualquier compraventa... pide que se calcule el impuesto que vas a pagar después del cierre. No el que paga hoy el vendedor.\n\nY si eres vendedor... ten ese número listo. Un comprador bien asesorado te lo va a preguntar."
+    },
+    {
+      "etiqueta": "Más noticias",
+      "texto": "Ahora, otras noticias rápidas.\n\nUno... el estadio de Inter Miami. Subcontratistas reclaman más de veinte millones de dólares, entre gravámenes y demandas, contra empresas ligadas a Miami Freedom Park. Una lección para cualquier contratista... cuida tus cobros y tus derechos de gravamen.\n\nDos... seguros. El fiscal general de Florida investiga a Velocity Risk Underwriters, por cláusulas que limitarían el uso de ajustadores públicos. Velocity dice que coopera... y que esas pólizas son comerciales, no de vivienda.\n\nY tres... la visa EB-5. Por ley, los montos mínimos de inversión se ajustan por inflación. Y ese ajuste llegaría el primero de enero de dos mil veintisiete.\n\nHoy son ochocientos mil dólares en zonas de empleo prioritario... y un millón cincuenta mil en el resto. Las cifras nuevas todavía no son oficiales. Pero si tienes un inversionista en proceso... el tiempo cuenta."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "Y esto es todo por hoy.\n\nSi piensas comprar o vender un negocio en Florida... contáctanos en International Business Group. Con gusto te ayudamos a tomar una buena decisión.\n\nSuscríbete al canal, y activa la campanita para no perderte las próximas noticias.\n\nSoy Alfredo González... ¡Éxito en tus negocios!"
+    }
+  ],
+  "duracionMin": 4,
+  "fecha": "2026-10-22",
+  "fuentes": [
+    {
+      "nombre": "Florida Phoenix: DeSantis apoya la Enmienda 3 en Miami-Dade",
+      "url": "https://floridaphoenix.com/2026/10/21/despite-earlier-hesitation-to-campaign-desantis-hosts-event-supporting-amendment-3/"
+    },
+    {
+      "nombre": "News4JAX: encuesta UNF sobre la Enmienda 3",
+      "url": "https://www.news4jax.com/news/local/2026/10/21/unf-poll-shows-tight-florida-governor-senate-races/"
+    },
+    {
+      "nombre": "Kaufman Rossin: impacto de la Enmienda 3 en negocios",
+      "url": "https://kaufmanrossin.com/blog/florida-amendment-3/"
+    },
+    {
+      "nombre": "Bisnow: gravámenes en el estadio de Inter Miami",
+      "url": "https://www.bisnow.com/news/south-florida/commercial-real-estate/miami-freedom-park-lawsuits-inter-miami-lionel-messi"
+    },
+    {
+      "nombre": "Insurance Journal: fiscal general investiga a Velocity",
+      "url": "https://www.insurancejournal.com/news/southeast/2026/10/21/889859.htm"
+    },
+    {
+      "nombre": "Business Today: ajuste de montos EB-5 en 2027",
+      "url": "https://businesstoday.in/nri/visa/story/us-eb-5-visa-investment-threshold-to-rise-in-2027-how-it-will-affect-indians-562632-2026-10-20"
+    }
+  ],
+  "titulo": "Enmienda 3: ¿bajan los impuestos a la propiedad en Florida? Lo que debe saber quien compra o vende un negocio"
+}

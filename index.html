@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teleprompter — Negocios en Florida</title>
+<style>
+  :root { --bg:#0b0b0c; --fg:#f5f5f2; --muted:#8a8a85; --accent:#f2b134; --bar:#17171a; }
+  * { box-sizing:border-box; }
+  html,body { margin:0; height:100%; background:var(--bg); color:var(--fg); font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+  #bar { position:fixed; top:0; left:0; right:0; z-index:10; background:var(--bar); display:flex; flex-wrap:wrap; gap:8px; align-items:center; padding:8px 12px; transition:opacity .3s; }
+  body.playing #bar { opacity:.08; } body.playing #bar:hover { opacity:1; }
+  #bar select, #bar button { background:#26262a; color:var(--fg); border:1px solid #3a3a40; border-radius:8px; padding:8px 12px; font-size:15px; cursor:pointer; }
+  #bar button.primary { background:var(--accent); color:#111; border-color:var(--accent); font-weight:700; min-width:96px; }
+  #bar .val { color:var(--muted); font-size:13px; min-width:44px; text-align:center; }
+  #bar .grp { display:flex; align-items:center; gap:4px; }
+  #title { flex-basis:100%; color:var(--muted); font-size:13px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  #guide { position:fixed; left:0; right:0; top:38%; height:0; border-top:2px solid rgba(242,177,52,.35); pointer-events:none; z-index:5; }
+  #scroller { position:fixed; inset:0; overflow-y:scroll; scrollbar-width:none; }
+  #scroller::-webkit-scrollbar { display:none; }
+  #text { max-width:1100px; margin:0 auto; padding:45vh 6vw 90vh; font-size:var(--fs,56px); line-height:1.45; font-weight:600; }
+  body.mirror #text { transform:scaleX(-1); }
+  .label { display:block; font-size:.38em; letter-spacing:.12em; text-transform:uppercase; color:var(--accent); margin:1.6em 0 .4em; font-weight:700; }
+  #text p { margin:0 0 .9em; }
+  .pause { color:var(--accent); }
+  #msg { padding:120px 24px; text-align:center; color:var(--muted); font-size:20px; }
+</style>
+</head>
+<body>
+<div id="bar">
+  <select id="fecha" aria-label="Fecha del guion"></select>
+  <button id="play" class="primary">▶ Iniciar</button>
+  <button id="restart" title="Volver al inicio">⏮</button>
+  <span class="grp"><button id="slower">−</button><span class="val" id="speedVal"></span><button id="faster">+</button></span>
+  <span class="grp"><button id="smaller">A−</button><span class="val" id="fsVal"></span><button id="bigger">A+</button></span>
+  <button id="mirror" title="Espejo">⇋ Espejo</button>
+  <button id="fs" title="Pantalla completa">⛶</button>
+  <div id="title"></div>
+</div>
+<div id="guide"></div>
+<div id="scroller"><div id="text"><div id="msg">Cargando guion…</div></div></div>
+<script>
+(function(){
+  const $ = id => document.getElementById(id);
+  const store = { get(k,d){ try{ const v=localStorage.getItem(k); return v===null?d:JSON.parse(v);}catch(e){return d;} },
+                  set(k,v){ try{ localStorage.setItem(k,JSON.stringify(v)); }catch(e){} } };
+  let speed = store.get('tp_speed', 40);   // píxeles por segundo
+  let fs = store.get('tp_fs', window.innerWidth < 700 ? 34 : 56);
+  let playing = false, last = 0, acc = 0;
+  const sc = $('scroller');
+
+  function applyUI(){
+    $('speedVal').textContent = speed + ' px/s';
+    $('fsVal').textContent = fs + ' px';
+    document.documentElement.style.setProperty('--fs', fs + 'px');
+    document.body.classList.toggle('mirror', store.get('tp_mirror', false));
+  }
+  function esc(s){ return s.replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+  function render(g){
+    $('title').textContent = g.fecha + ' — ' + (g.titulo || '');
+    document.title = 'Teleprompter — ' + g.fecha;
+    $('text').innerHTML = (g.bloques || []).map(b =>
+      '<span class="label">' + esc(b.etiqueta || '') + '</span>' +
+      String(b.texto || '').split(/\n\s*\n/).map(p =>
+        '<p>' + esc(p.trim()).replace(/\.\.\./g, '<span class="pause">...</span>').replace(/\n/g,'<br>') + '</p>').join('')
+    ).join('');
+    sc.scrollTop = 0;
+  }
+  async function load(fecha){
+    stop();
+    try {
+      const r = await fetch('guiones/' + fecha + '.json', {cache:'no-store'});
+      if (!r.ok) throw new Error(r.status);
+      render(await r.json());
+      history.replaceState(null, '', '?fecha=' + fecha);
+    } catch(e) { $('text').innerHTML = '<div id="msg">No encontré el guion del ' + esc(fecha) + '.</div>'; }
+  }
+  async function init(){
+    applyUI();
+    let lista = [];
+    try { const r = await fetch('guiones/index.json', {cache:'no-store'}); lista = await r.json(); } catch(e) {}
+    lista.sort((a,b) => b.fecha.localeCompare(a.fecha));
+    $('fecha').innerHTML = lista.map(g => '<option value="' + g.fecha + '">' + g.fecha + '</option>').join('');
+    const q = new URLSearchParams(location.search).get('fecha');
+    const f = (q && lista.some(g => g.fecha === q)) ? q : (lista[0] && lista[0].fecha);
+    if (!f) { $('text').innerHTML = '<div id="msg">Todavía no hay guiones.</div>'; return; }
+    $('fecha').value = f; load(f);
+  }
+  function tick(t){
+    if (!playing) return;
+    if (last) { acc += speed * (t - last) / 1000; const px = Math.floor(acc); if (px) { sc.scrollTop += px; acc -= px; } }
+    last = t;
+    if (sc.scrollTop + sc.clientHeight >= sc.scrollHeight - 2) { stop(); return; }
+    requestAnimationFrame(tick);
+  }
+  function start(){ playing = true; last = 0; acc = 0; document.body.classList.add('playing'); $('play').textContent = '⏸ Pausa'; requestAnimationFrame(tick); }
+  function stop(){ playing = false; document.body.classList.remove('playing'); $('play').textContent = '▶ Iniciar'; }
+  function setSpeed(d){ speed = Math.max(5, Math.min(300, speed + d)); store.set('tp_speed', speed); applyUI(); }
+  function setFs(d){ fs = Math.max(24, Math.min(140, fs + d)); store.set('tp_fs', fs); applyUI(); }
+
+  $('play').onclick = () => playing ? stop() : start();
+  $('restart').onclick = () => { stop(); sc.scrollTop = 0; };
+  $('faster').onclick = () => setSpeed(5);  $('slower').onclick = () => setSpeed(-5);
+  $('bigger').onclick = () => setFs(4);     $('smaller').onclick = () => setFs(-4);
+  $('mirror').onclick = () => { store.set('tp_mirror', !store.get('tp_mirror', false)); applyUI(); };
+  $('fs').onclick = () => { if (!document.fullscreenElement) document.documentElement.requestFullscreen && document.documentElement.requestFullscreen(); else document.exitFullscreen(); };
+  $('fecha').onchange = e => load(e.target.value);
+  $('text').addEventListener('click', () => playing ? stop() : start()); // tocar el texto = iniciar/pausar (celular)
+  document.addEventListener('keydown', e => {
+    if (e.target.tagName === 'SELECT') return;
+    if (e.code === 'Space') { e.preventDefault(); playing ? stop() : start(); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); setSpeed(5); }
+    else if (e.key === 'ArrowDown') { e.preventDefault(); setSpeed(-5); }
+    else if (e.key === '+' || e.key === '=') setFs(4);
+    else if (e.key === '-') setFs(-4);
+    else if (e.key === 'Home') { stop(); sc.scrollTop = 0; }
+  });
+  init();
+})();
+</script>
+</body>
+</html>
