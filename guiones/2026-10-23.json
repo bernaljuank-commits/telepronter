@@ -1,0 +1,49 @@
+{
+  "fecha": "2026-10-23",
+  "titulo": "Enmienda 3: ¿bajará el impuesto a la propiedad de tu negocio en Florida?",
+  "duracionMin": 4,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, de International Business Group, y esto es Negocios en Florida.\n\nEl tres de noviembre... los votantes de Florida van a decidir algo que toca directamente el bolsillo de muchos dueños de negocio... el impuesto a la propiedad.\n\nY esta semana pasó algo que nadie esperaba. Te lo cuento."
+    },
+    {
+      "etiqueta": "Noticia principal",
+      "texto": "Se trata de la Enmienda tres.\n\nEl presidente del Senado de Florida, Ben Álbriton... votó para poner esta enmienda en la boleta. Pero ahora dice que va a votar en contra. ... Según él, les quitaría hasta un treinta por ciento de los recursos a los condados rurales. La expresidenta del Senado, Kathleen Pásidomo, también se opone. El gobernador DeSantis la sigue apoyando.\n\n¿Qué propone la enmienda? ... Dos cosas.\n\nPrimero... la exención de la vivienda principal, el jóumsted, sube de cincuenta mil a ciento cincuenta mil dólares en dos mil veintisiete... y a doscientos cincuenta mil en dos mil veintiocho. Ojo... esa exención no aplica a la parte del impuesto que va a las escuelas.\n\nSegundo... y esto es lo que más te interesa como empresario. Para las propiedades que no son vivienda principal... incluidos locales comerciales y edificios de renta... el tope de aumento anual del avalúo bajaría del diez al cinco por ciento.\n\n¿Va a pasar? ... Una encuesta de la Universidad del Norte de Florida dice que el cincuenta por ciento votaría que sí... el treinta por ciento que no... y un catorce por ciento está indeciso. Pero necesita el sesenta por ciento. Así que todavía está en el aire."
+    },
+    {
+      "etiqueta": "Qué significa para ti",
+      "texto": "¿Qué significa esto para ti?\n\nSi vas a comprar un negocio... lee bien el contrato de renta. En muchos contratos comerciales, el impuesto a la propiedad lo termina pagando el inquilino. Si la enmienda pasa, ese gasto podría subir más despacio... y ser más predecible. Pide los números y calcula los dos escenarios.\n\nSi vas a vender... ten claros tus gastos de ocupación. Un comprador paga mejor cuando ve costos estables. ... Y si eres dueño del local donde opera tu negocio... habla con tu contador antes del tres de noviembre. Esto puede cambiar el valor de lo que vendes."
+    },
+    {
+      "etiqueta": "Más noticias",
+      "texto": "Ahora... otras noticias rápidas.\n\nPalm Beach apuesta por la computación cuántica. El condado tiene unos quince millones de dólares comprometidos en subsidios e incentivos. La empresa Di Uéiv muda su sede de California a Boca Ratón... y prometió cien empleos en cinco años, con un salario promedio de ciento veinticinco mil dólares. Más empleos bien pagados... más clientes para los negocios de la zona.\n\nEn Tampa, la empresa Íst Grup Própertis planea tres proyectos de almacenes por setenta y tres punto siete millones de dólares. La logística sigue creciendo.\n\nY Art Bázel se queda en Miami Beach hasta dos mil treinta y uno. La ciudad estima quinientos setenta millones de dólares en actividad económica el año pasado. Buena noticia para restaurantes, hoteles y servicios."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "Si estás pensando en comprar o vender un negocio en Florida... contáctanos en International Business Group. Con gusto te ayudamos a ver los números completos.\n\nSuscríbete al canal y activa la campanita para no perderte ningún video.\n\nNos vemos en el próximo. ... ¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "CBS12 / News Service of Florida: Albritton contra la Enmienda 3",
+      "url": "https://cbs12.com/news/florida/florida-senate-president-says-hes-against-amendment-3-citing-cuts-to-towns-couties"
+    },
+    {
+      "nombre": "News4Jax: encuesta UNF sobre la Enmienda 3",
+      "url": "https://www.news4jax.com/news/local/2026/10/21/unf-poll-shows-tight-florida-governor-senate-races/"
+    },
+    {
+      "nombre": "WLRN: Palm Beach apuesta por la computación cuántica",
+      "url": "https://www.wlrn.org/science-technology/2026-10-22/palm-beach-county-bets-on-quantum-computing"
+    },
+    {
+      "nombre": "Tampa Bay Business & Wealth: almacenes de EastGroup en Tampa",
+      "url": "https://tbbwmag.com/2026/10/22/tampa-warehouse-projects/"
+    },
+    {
+      "nombre": "Miami Today: nuevo acuerdo de Art Basel",
+      "url": "https://www.miamitodaynews.com/2026/10/21/art-basel-deal-with-miami-beach-gets-a-redesign/"
+    }
+  ]
+}
