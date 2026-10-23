@@ -37,6 +37,12 @@
   body.recording #preview { border-color:#e53935; box-shadow:0 0 0 3px rgba(229,57,53,.35); }
   #recTime { position:fixed; left:calc(50% + var(--pvw) / 2 + 10px); bottom:14px; z-index:21; background:#c62828; color:#fff; font:700 13px/1 monospace; padding:5px 8px; border-radius:6px; display:none; }
   body.recording #recTime { display:block; }
+  body.recpaused #recTime { background:#555; }
+  body.recpaused #preview { border-color:var(--accent); box-shadow:0 0 0 3px rgba(242,177,52,.35); }
+  #pauseBanner { position:fixed; left:50%; top:64px; transform:translateX(-50%); z-index:25; background:var(--accent); color:#111; font-weight:800; font-size:18px; padding:10px 18px; border-radius:10px; display:none; text-align:center; box-shadow:0 4px 18px rgba(0,0,0,.5); }
+  #pauseBanner small { display:block; font-weight:600; font-size:13px; }
+  body.recpaused #pauseBanner { display:block; }
+  body.recpaused #bar { opacity:1; }
   #count { position:fixed; inset:0; display:none; align-items:center; justify-content:center; font-size:30vmin; font-weight:800; color:var(--accent); background:rgba(0,0,0,.55); z-index:30; }
   #saveBox { position:fixed; left:50%; top:50%; transform:translate(-50%,-50%); z-index:40; background:var(--bar); border:1px solid #3a3a40; border-radius:14px; padding:14px; display:none; gap:10px; flex-wrap:wrap; justify-content:center; align-items:center; max-width:94vw; }
   #saveBox button, #saveBox a { background:var(--accent); color:#111; border:0; border-radius:8px; padding:10px 14px; font-size:15px; font-weight:700; text-decoration:none; cursor:pointer; }
@@ -85,6 +91,7 @@
 <div id="recTime">● 00:00</div>
 <div id="mic" title="Nivel del micrófono">🎤<span id="micBar"><span id="micLvl"></span></span></div>
 <div id="count"></div>
+<div id="pauseBanner">⏸ VIDEO EN PAUSA<small>Toca el texto o ▶ Continuar para seguir grabando</small></div>
 <div id="atBox">
   <div id="atMsg">Probando…</div>
   <div id="atBar"><span id="atLvl"></span></div>
@@ -158,17 +165,21 @@
   function setSpeed(d){ speed = Math.max(5, Math.min(300, speed + d)); store.set('tp_speed', speed); applyUI(); }
   function setFs(d){ fs = Math.max(24, Math.min(140, fs + d)); store.set('tp_fs', fs); applyUI(); }
 
-  $('play').onclick = () => playing ? stop() : start();
-  $('restart').onclick = () => { stop(); sc.scrollTop = 0; };
+  $('play').onclick = () => toggle();
+  $('restart').onclick = () => { if (isRec()) recPause(); else stop(); sc.scrollTop = 0; };
   $('faster').onclick = () => setSpeed(5);  $('slower').onclick = () => setSpeed(-5);
   $('bigger').onclick = () => setFs(4);     $('smaller').onclick = () => setFs(-4);
   $('mirror').onclick = () => { store.set('tp_mirror', !store.get('tp_mirror', false)); applyUI(); };
   $('fs').onclick = () => { if (!document.fullscreenElement) document.documentElement.requestFullscreen && document.documentElement.requestFullscreen(); else document.exitFullscreen(); };
   $('fecha').onchange = e => load(e.target.value);
-  $('text').addEventListener('click', () => playing ? stop() : start()); // tocar el texto = iniciar/pausar (celular)
+  $('text').addEventListener('click', () => toggle()); // tocar el texto = iniciar/pausar (celular); si se está grabando, pausa también el video
 
   // ---------- Cámara y grabación ----------
   let stream = null, recorder = null, chunks = [], recStart = 0, recTimer = null, lastBlob = null, lastUrl = null;
+  let recAcc = 0, recSeg = 0, busy = false;   // tiempo grabado acumulado (sin contar pausas)
+  const canPause = !!(window.MediaRecorder && MediaRecorder.prototype.pause);
+  const isRec = () => !!(recorder && recorder.state !== 'inactive');
+  const recElapsed = () => (recAcc + (recorder && recorder.state === 'recording' ? Date.now() - recSeg : 0)) / 1000;
   const pv = $('preview');
   function pickType(){
     const opts = ['video/mp4','video/mp4;codecs=avc1,mp4a.40.2','video/webm;codecs=vp9,opus','video/webm;codecs=vp8,opus','video/webm'];
@@ -201,7 +212,7 @@
     return true;
   }
   function camOff(){
-    if (recorder && recorder.state === 'recording') return;
+    if (isRec()) return;
     stopMeter();
     if (stream) stream.getTracks().forEach(t => t.stop());
     stream = null; pv.srcObject = null; pv.style.display = 'none'; document.body.classList.remove('cam');
@@ -246,15 +257,45 @@
     recorder.ondataavailable = e => { if (e.data && e.data.size) chunks.push(e.data); };
     recorder.onstop = finishRec;
     recorder.start(1000);
-    recStart = Date.now();
+    recStart = Date.now(); recAcc = 0; recSeg = recStart;
     document.body.classList.add('recording');
     $('rec').textContent = '⏹ Detener'; $('rec').classList.add('on');
-    recTimer = setInterval(() => { $('recTime').textContent = '● ' + fmt((Date.now() - recStart)/1000); }, 500);
+    recTimer = setInterval(() => { $('recTime').textContent = (recorder && recorder.state === 'paused' ? '⏸ ' : '● ') + fmt(recElapsed()); }, 500);
     $('recTime').textContent = '● 00:00';
     if (!playing) start();
   }
+  // Pausar el video: detiene el texto y la grabación a la vez. Al continuar hay una cuenta de 3 s.
+  function recPause(){
+    stop();
+    if (!recorder || recorder.state !== 'recording') return;
+    if (!canPause) return;              // navegador muy viejo: solo se pausa el texto
+    recorder.pause();
+    recAcc += Date.now() - recSeg;
+    document.body.classList.add('recpaused');
+    $('play').textContent = '▶ Continuar';
+    $('recTime').textContent = '⏸ ' + fmt(recElapsed());
+  }
+  async function recResume(){
+    if (busy || !recorder || recorder.state !== 'paused') return;
+    busy = true;
+    document.body.classList.remove('recpaused');
+    await countdown(3);
+    busy = false;
+    if (!recorder || recorder.state !== 'paused') return;
+    recSeg = Date.now();
+    recorder.resume();
+    start();
+  }
+  function toggle(){
+    if (busy) return;
+    if (recorder && recorder.state === 'recording') { if (canPause) recPause(); else (playing ? stop() : start()); return; }
+    if (recorder && recorder.state === 'paused') { recResume(); return; }
+    playing ? stop() : start();
+  }
   function recStopFn(){
-    if (recorder && recorder.state !== 'inactive') recorder.stop();
+    if (recorder && recorder.state === 'recording') recAcc += Date.now() - recSeg;
+    if (isRec()) recorder.stop();
+    document.body.classList.remove('recpaused');
     stop();
   }
   function finishRec(){
@@ -268,12 +309,12 @@
     const ext = type.includes('mp4') ? 'mp4' : 'webm';
     const name = 'negocios-en-florida-' + ($('fecha').value || 'video') + '.' + ext;
     $('download').href = lastUrl; $('download').download = name;
-    $('saveInfo').textContent = 'Video listo (' + fmt((Date.now() - recStart)/1000) + ', ' + (lastBlob.size/1048576).toFixed(1) + ' MB)';
+    $('saveInfo').textContent = 'Video listo (' + fmt(recAcc/1000) + ', ' + (lastBlob.size/1048576).toFixed(1) + ' MB)';
     $('saveBox').dataset.name = name;
     $('saveBox').style.display = 'flex';
   }
   $('cam').onclick = () => stream ? camOff() : camOn();
-  $('rec').onclick = () => (recorder && recorder.state === 'recording') ? recStopFn() : recStartFn();
+  $('rec').onclick = () => { if (busy) return; isRec() ? recStopFn() : recStartFn(); };
   pv.onclick = () => document.body.classList.toggle('pvbig');
   $('share').onclick = async () => {
     if (!lastBlob) return;
@@ -288,7 +329,7 @@
   let atRunning = false, atUrl = null;
   async function audioTest(){
     if (atRunning) return;
-    if (recorder && recorder.state === 'recording') { alert('Detén la grabación antes de probar el audio.'); return; }
+    if (isRec()) { alert('Detén la grabación antes de probar el audio.'); return; }
     if (!window.MediaRecorder || !navigator.mediaDevices) { alert('Este navegador no permite probar el micrófono.'); return; }
     atRunning = true;
     const box = $('atBox'), res = $('atRes'), au = $('atAudio');
@@ -337,15 +378,15 @@
   $('atest').onclick = audioTest;
   $('atAgain').onclick = audioTest;
   $('atClose').onclick = () => { $('atAudio').pause(); $('atBox').style.display = 'none'; };
-  window.addEventListener('beforeunload', e => { if (recorder && recorder.state === 'recording') { e.preventDefault(); e.returnValue = ''; } });
+  window.addEventListener('beforeunload', e => { if (isRec()) { e.preventDefault(); e.returnValue = ''; } });
   document.addEventListener('keydown', e => {
     if (e.target.tagName === 'SELECT') return;
-    if (e.code === 'Space') { e.preventDefault(); playing ? stop() : start(); }
+    if (e.code === 'Space') { e.preventDefault(); toggle(); }
     else if (e.key === 'ArrowUp') { e.preventDefault(); setSpeed(5); }
     else if (e.key === 'ArrowDown') { e.preventDefault(); setSpeed(-5); }
     else if (e.key === '+' || e.key === '=') setFs(4);
     else if (e.key === '-') setFs(-4);
-    else if (e.key === 'Home') { stop(); sc.scrollTop = 0; }
+    else if (e.key === 'Home') { if (isRec()) recPause(); else stop(); sc.scrollTop = 0; }
   });
   init();
 })();
