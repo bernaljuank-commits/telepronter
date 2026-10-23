@@ -43,6 +43,10 @@
   #pauseBanner small { display:block; font-weight:600; font-size:13px; }
   body.recpaused #pauseBanner { display:block; }
   body.recpaused #bar { opacity:1; }
+  #bar button#vpause { display:none; background:var(--accent); color:#111; border-color:var(--accent); font-weight:800; }
+  body.recording #vpause { display:inline-block !important; }
+  body.recording #play { display:none; }  /* mientras grabas, el botón grande es «Pausar video» */
+  body.recpaused #vpause { background:#43a047; border-color:#43a047; color:#fff; }
   #count { position:fixed; inset:0; display:none; align-items:center; justify-content:center; font-size:30vmin; font-weight:800; color:var(--accent); background:rgba(0,0,0,.55); z-index:30; }
   #saveBox { position:fixed; left:50%; top:50%; transform:translate(-50%,-50%); z-index:40; background:var(--bar); border:1px solid #3a3a40; border-radius:14px; padding:14px; display:none; gap:10px; flex-wrap:wrap; justify-content:center; align-items:center; max-width:94vw; }
   #saveBox button, #saveBox a { background:var(--accent); color:#111; border:0; border-radius:8px; padding:10px 14px; font-size:15px; font-weight:700; text-decoration:none; cursor:pointer; }
@@ -83,6 +87,7 @@
   <button id="fs" title="Pantalla completa">⛶</button>
   <button id="cam" title="Encender cámara">🎥 Cámara</button>
   <button id="atest" title="Probar el micrófono">🎤 Probar audio</button>
+  <button id="vpause" title="Pausar o continuar el video">⏸ Pausar video</button>
   <button id="rec" class="rec" title="Grabar video">⏺ Grabar</button>
   <div id="title"></div>
 </div>
@@ -91,7 +96,7 @@
 <div id="recTime">● 00:00</div>
 <div id="mic" title="Nivel del micrófono">🎤<span id="micBar"><span id="micLvl"></span></span></div>
 <div id="count"></div>
-<div id="pauseBanner">⏸ VIDEO EN PAUSA<small>Toca el texto o ▶ Continuar para seguir grabando</small></div>
+<div id="pauseBanner">⏸ VIDEO EN PAUSA<small>Toca ▶ Continuar video (o el texto) para seguir grabando</small></div>
 <div id="atBox">
   <div id="atMsg">Probando…</div>
   <div id="atBar"><span id="atLvl"></span></div>
@@ -273,17 +278,20 @@
     recAcc += Date.now() - recSeg;
     document.body.classList.add('recpaused');
     $('play').textContent = '▶ Continuar';
+    $('vpause').textContent = '▶ Continuar video';
     $('recTime').textContent = '⏸ ' + fmt(recElapsed());
   }
   async function recResume(){
     if (busy || !recorder || recorder.state !== 'paused') return;
     busy = true;
     document.body.classList.remove('recpaused');
+    $('vpause').textContent = '… 3 s';
     await countdown(3);
     busy = false;
     if (!recorder || recorder.state !== 'paused') return;
     recSeg = Date.now();
     recorder.resume();
+    $('vpause').textContent = '⏸ Pausar video';
     start();
   }
   function toggle(){
@@ -299,6 +307,7 @@
     stop();
   }
   function finishRec(){
+    $('vpause').textContent = '⏸ Pausar video';
     clearInterval(recTimer);
     document.body.classList.remove('recording');
     $('rec').textContent = '⏺ Grabar'; $('rec').classList.remove('on');
@@ -314,6 +323,7 @@
     $('saveBox').style.display = 'flex';
   }
   $('cam').onclick = () => stream ? camOff() : camOn();
+  $('vpause').onclick = () => { if (busy) return; if (recorder && recorder.state === 'paused') recResume(); else if (recorder && recorder.state === 'recording') recPause(); };
   $('rec').onclick = () => { if (busy) return; isRec() ? recStopFn() : recStartFn(); };
   pv.onclick = () => document.body.classList.toggle('pvbig');
   $('share').onclick = async () => {
