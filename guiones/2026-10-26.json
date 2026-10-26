@@ -1,0 +1,53 @@
+{
+  "fecha": "2026-10-26",
+  "titulo": "Florida ya está votando: elecciones, el costo del huracán Isaías y el auge industrial",
+  "duracionMin": 4,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nArrancamos la semana con Florida en plena votación... con la factura del huracán Isaías sobre la mesa... y con una economía que quiere competir con países enteros.\n\nVamos por partes."
+    },
+    {
+      "etiqueta": "Florida ya está votando",
+      "texto": "Primero... las elecciones.\n\nHasta este lunes por la mañana... casi dos millones ochocientos mil floridanos ya votaron. Más del veinte por ciento de los votantes registrados... y faltan ocho días para el tres de noviembre.\n\nUn dato curioso... por correo van adelante los demócratas, con unos seiscientos mil votos. En persona van adelante los republicanos, con unos seiscientos mil. Y ojo... los republicanos tienen una ventaja de millón y medio de votantes registrados. Así que esto todavía se mueve.\n\nLa votación anticipada ya está abierta en los sesenta y siete condados... hasta el sábado treinta y uno de octubre."
+    },
+    {
+      "etiqueta": "Gobernador y Enmienda tres",
+      "texto": "¿Y la carrera por gobernador? ... Se está apretando.\n\nUna encuesta publicada el viernes... hecha solo entre votantes hispanos... pone al demócrata David Jolly con cuarenta y tres por ciento... y al republicano Byron Donalds con treinta y ocho. Es una sola encuesta... y de un solo grupo. Pero el voto hispano en Florida pesa... y mucho.\n\nEn esa misma encuesta... setenta y dos por ciento quiere bajar el impuesto a la propiedad. Eso es la Enmienda tres... la que sube la exención de la vivienda principal a ciento cincuenta mil dólares en dos mil veintisiete... y a doscientos cincuenta mil en dos mil veintiocho. Necesita sesenta por ciento para pasar.\n\nSi tienes un negocio... o estás pensando en comprar uno con local propio... sigue de cerca este resultado. Y aunque no pase... los expertos dicen que el tema de los impuestos a la propiedad no se va a ir."
+    },
+    {
+      "etiqueta": "La factura de Isaías",
+      "texto": "Segundo tema... el huracán Isaías.\n\nLa Oficina de Regulación de Seguros reporta unos quinientos ochenta y dos millones de dólares en pérdidas aseguradas... y cerca de cincuenta y cinco mil reclamos. La mayoría en el oeste del Panhandle... Santa Rosa y Escambia.\n\nEl estado pidió una declaración de desastre mayor... unos doscientos treinta y siete millones de dólares en ayuda federal.\n\nAhora... la parte buena. Este golpe llega a un mercado de seguros mucho más fuerte que hace tres años. Ya hay más de veinte aseguradoras nuevas en Florida... Citizens bajó de un millón cuatrocientas mil pólizas a menos de trescientas mil... y hay más de ciento treinta solicitudes para bajar tarifas.\n\n¿Por qué te importa? ... Porque cuando compras un negocio... el seguro es uno de los costos que más mueve el número final. Pide siempre el historial de reclamos... y cotiza el seguro antes de cerrar."
+    },
+    {
+      "etiqueta": "Florida, potencia industrial",
+      "texto": "Y tercero... una de economía.\n\nLa economía de Florida ya supera el billón ochocientos mil millones de dólares. Más grande que la de España... México... o Australia.\n\nY la meta de los líderes empresariales es clara... estar entre las diez economías más grandes del mundo para dos mil treinta... y entre los cinco primeros estados en empleo manufacturero. Cada vez más empresas grandes están construyendo fábricas aquí.\n\nPara quien compra o vende un negocio... eso significa más demanda de proveedores... de transporte... de servicios. Si tu negocio le sirve a la industria... hoy vale más que hace unos años."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "En resumen... Florida está votando... los seguros aguantan el golpe de Isaías... y la economía sigue creciendo.\n\nSi estás pensando en comprar o vender un negocio... este es un buen momento para hablar. Escríbeme.\n\n¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "WLRN – Casi 2,8 millones de votos en Florida",
+      "url": "https://www.wlrn.org/news-in-brief/2026-10-26/florida-voters-almost-2-8m-surge-past-22-midterm-benchmark-as-early-voting-goes-statewide"
+    },
+    {
+      "nombre": "WUSF – Encuesta de votantes hispanos: Enmienda 3 y carrera por gobernador",
+      "url": "https://wusf.org/politics-issues/2026-10-24/poll-floridas-hispanic-voters-back-amendment-3-lean-democratic-in-tightening-governors-race"
+    },
+    {
+      "nombre": "WUSF – Reclamos por el huracán Isaías superan 580 millones",
+      "url": "https://www.wusf.org/weather/2026-10-25/hurricane-isaias-claims-top-580-million-in-florida"
+    },
+    {
+      "nombre": "Newsweek – El mercado de seguros de Florida enfrenta una prueba",
+      "url": "https://www.newsweek.com/floridas-troubled-home-insurance-market-to-face-major-test-12553868"
+    },
+    {
+      "nombre": "Florida Trend – Auge manufacturero y Enmienda 3 (Daily Pulse, 23 oct)",
+      "url": "https://www.floridatrend.com/news/2026/10/23/fridays-daily-pulse/"
+    }
+  ]
+}
