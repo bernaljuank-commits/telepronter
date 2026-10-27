@@ -1,0 +1,61 @@
+{
+  "fecha": "2026-10-27",
+  "titulo": "Lula, hipotecas a la baja y el freno a los centros de datos: lo que mueve a Florida",
+  "duracionMin": 3.5,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nHoy traigo cuatro temas... un resultado electoral fuera del país que se siente en Miami... hipotecas que por fin bajan... condados que le ponen freno a los centros de datos... y lo que pasa con tu bolsillo esta semana.\n\nVamos por partes."
+    },
+    {
+      "etiqueta": "Brasil vota... y Miami escucha",
+      "texto": "Empiezo por Brasil.\n\nLuiz Inácio Lula da Silva ganó un cuarto mandato. Así lo reporta The New York Times... y su rival ya disputó el resultado.\n\n¿Y por qué te lo cuento en un programa de Florida? Porque Brasil es uno de los grandes socios de Miami. Compradores, inversionistas, empresarios que abren aquí sus empresas.\n\nLa propia asociación de Realtors de Miami lo puso en su lista del día... como un tema que puede mover el mercado del sur de Florida.\n\nCuando hay incertidumbre política en América Latina... mucho capital busca refugio. Y Florida suele ser el destino.\n\nSi tienes un negocio a la venta... pon atención al comprador brasileño en las próximas semanas."
+    },
+    {
+      "etiqueta": "Hipotecas: la primera baja desde agosto",
+      "texto": "Segundo tema... las tasas.\n\nLa hipoteca promedio a treinta años bajó a siete punto treinta y dos por ciento... desde siete punto cuarenta. Es la primera baja desde finales de agosto.\n\nNo es una gran caída... pero cambia el ánimo.\n\nY según Florida Realtors, en el tercer trimestre las ventas de casas unifamiliares se mantuvieron estables. Las casas se van a contrato más rápido... y hay menos inventario. Aunque las nuevas ventas pendientes bajaron.\n\n¿Qué significa para ti? Que el crédito sigue caro... pero se está moviendo en la dirección correcta. Y cuando bajan las tasas... también se abre la puerta para financiar la compra de un negocio."
+    },
+    {
+      "etiqueta": "El freno a los centros de datos",
+      "texto": "Tercer tema... y este es de negocios puros.\n\nSegún la Asociación de Condados de Florida... diecinueve condados tienen moratorias temporales a los centros de datos. Y siete ya los prohibieron de forma permanente.\n\nUna encuesta de la Universidad del Norte de Florida encontró que sesenta y ocho por ciento de los votantes no los quiere cerca de su comunidad.\n\n¿La razón? La energía. Un centro grande puede consumir unos cien megavatios... lo mismo que entre ochenta mil y cien mil casas.\n\nOrange County decide en diciembre si aprueba su propia moratoria.\n\nLa lección... antes de comprar un terreno o una empresa ligada a este sector... revisa muy bien qué dice tu condado."
+    },
+    {
+      "etiqueta": "Tu bolsillo esta semana",
+      "texto": "Y cierro con el bolsillo.\n\nLa gasolina regular en Florida está en cuatro dólares con nueve centavos el galón. En Palm Beach, cuatro con veinticinco.\n\nEn seguros, hay alivio. El regulador aprobó recortes en cuatro aseguradoras de vivienda... alrededor de siete por ciento en promedio... para unas sesenta y dos mil pólizas. Y Citizens bajó a unas doscientas sesenta y seis mil pólizas en agosto... cuando en dos mil veintitrés tenía un millón cuatrocientas mil.\n\nOjo con las mareas reales. Martes y miércoles son los días pico... con inundaciones en zonas bajas. Si tu local está cerca del agua... toma precauciones.\n\nY recuerda... la votación anticipada sigue esta semana. Ya votaron más de dos millones setecientos mil floridanos. La elección es el tres de noviembre."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "Ese fue el resumen de hoy.\n\nSi estás pensando en comprar o vender un negocio en Florida... escríbeme. Con gusto te ayudo a leer el mercado.\n\nSoy Alfredo González... ¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "The New York Times – Lula gana un cuarto mandato en Brasil",
+      "url": "https://www.nytimes.com/2026/10/26/world/americas/brazil-election-lula-win-what-to-know.html"
+    },
+    {
+      "nombre": "MIAMI REALTORS® – South Florida Beyond the Headlines, 26 oct",
+      "url": "https://www.miamirealtors.com/2026/10/26/monday-oct-26-2026-south-florida-beyond-the-headlines-news-to-share/"
+    },
+    {
+      "nombre": "Florida Realtors – Las tasas hipotecarias bajan",
+      "url": "https://www.floridarealtors.org/news-media/news-articles/2026/10/mortgage-rates-ease-after-weeks-increases"
+    },
+    {
+      "nombre": "Florida Realtors – Ventas del tercer trimestre",
+      "url": "https://www.floridarealtors.org/news-media/news-articles/2026/10/florida-homes-reach-contract-faster-q3"
+    },
+    {
+      "nombre": "Central Florida Times – Centros de datos y votación anticipada",
+      "url": "https://centralflorida.substack.com/p/florida-election-2026-early-voting-turnout-vaccine-mandate-lawsuit"
+    },
+    {
+      "nombre": "Prime Group Insurance – Recortes de tarifas y Citizens",
+      "url": "https://primegroupins.com/2026/10/22/florida-oir-approves-four-more-ho-rate-cuts-as-citizens-keeps-shrinking/"
+    },
+    {
+      "nombre": "WJNO – Gasolina y mareas reales, 26 oct",
+      "url": "https://wjno.iheart.com/featured/brian-mudd/content/2026-10-26-florida-news-that-impacts-you-october-26th-2026/"
+    }
+  ]
+}
