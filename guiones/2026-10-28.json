@@ -1,0 +1,57 @@
+{
+  "fecha": "2026-10-28",
+  "titulo": "La Fed decide hoy, Florida frena en nuevos negocios y la recta final del voto",
+  "duracionMin": 4,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nHoy es miércoles... y es un día de decisiones. La Reserva Federal anuncia tasas esta tarde. Florida recibe un dato de negocios que conviene mirar con calma. Y entramos a la última semana antes de las elecciones.\n\nVamos por partes."
+    },
+    {
+      "etiqueta": "La Fed y tu préstamo",
+      "texto": "Primero, el dinero.\n\nHoy termina la reunión de la Reserva Federal. Hace un mes subió las tasas un cuarto de punto... y hoy dejó la tasa de referencia entre tres punto setenta y cinco y cuatro por ciento.\n\nLo que se espera es que hoy no la toque. En una encuesta de Reuters, noventa y cuatro de cien economistas dicen que se queda igual.\n\nPero ojo... los cien esperan otra subida en diciembre. La inflación lleva casi seis años por encima de la meta.\n\n¿Qué significa para ti? Si piensas comprar un negocio con un préstamo SBA, esos préstamos suelen ir atados a la tasa prima. Si sube la Fed... sube tu cuota.\n\nMi consejo: si ya tienes un negocio en la mira, no esperes a enero para cerrar el financiamiento. Pide números hoy."
+    },
+    {
+      "etiqueta": "Florida crea negocios... pero más despacio",
+      "texto": "Segundo... un dato que me encanta y me preocupa a la vez.\n\nFlorida sumó más de ciento seis mil negocios con empleados entre dos mil veinte y dos mil veinticinco. Eso es cerca del once por ciento de todos los negocios nuevos del país.\n\nY el empleo privado creció más de doce por ciento desde enero de dos mil veinte. Casi novecientos sesenta y siete mil empleos nuevos.\n\nLa mala noticia... el ritmo se está frenando.\n\nPara quien vende, esto es clave. Un negocio que ya está establecido, con clientes y empleados, vale más cuando abrir uno desde cero se vuelve más difícil y más caro.\n\nPara quien compra... comprar algo que ya funciona sigue siendo el camino más corto."
+    },
+    {
+      "etiqueta": "Seguros: unos bajan, otros suben",
+      "texto": "Tercero... los seguros.\n\nBuena noticia para quien maneja: los reguladores aprobaron bajas de siete por ciento, en promedio, para casi quinientas mil pólizas de auto de USAA.\n\nPero en el mundo comercial la historia es distinta. Los seguros de responsabilidad para edificios multifamiliares... van en subida. Y eso pasa mientras los seguros de casa bajan.\n\nSi estás comprando un edificio de apartamentos o un negocio con propiedad, pide la cotización del seguro antes de firmar. No después."
+    },
+    {
+      "etiqueta": "Recta final del voto",
+      "texto": "Cuarto... la política.\n\nYa votaron cerca de dos millones ochocientos mil floridanos, entre voto por correo y voto anticipado.\n\nY hay una sorpresa: los demócratas van ligeramente arriba en boletas emitidas... aunque los republicanos tienen cerca de un millón y medio más de votantes registrados.\n\nEl voto anticipado termina este fin de semana... y la elección es el martes tres de noviembre. Gobernador, Congreso y enmiendas que tocan tus impuestos.\n\nSea cual sea tu preferencia... vota. Lo que se decide afecta tu negocio."
+    },
+    {
+      "etiqueta": "Y esta noche... béisbol",
+      "texto": "Y para cerrar con algo de ánimo...\n\nLos Rays de Tampa Bay siguen vivos en la Serie Mundial. Ganaron el cuarto juego en doce entradas, con un batazo al final.\n\nVan abajo tres a uno contra Milwaukee... y esta noche juegan en casa, en el Tropicana Field, a las ocho.\n\nPara los restaurantes y bares de Tampa Bay... cada juego extra es dinero en caja."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "Resumen rápido: la Fed decide hoy y diciembre pinta a subida. Florida sigue creando negocios, pero más lento. Revisa tus seguros. Y vota.\n\nSi estás pensando en comprar o vender un negocio en Florida... escríbeme. Lo vemos juntos.\n\n¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Reuters vía Kitco – La Fed pausaría en octubre y subiría en diciembre",
+      "url": "https://www.kitco.com/news/off-the-wire/2026-10-20/fed-skip-october-raise-rates-again-december-nearly-all-economists-say"
+    },
+    {
+      "nombre": "Florida Trend – Tuesday's Daily Pulse (negocios, seguros)",
+      "url": "https://www.floridatrend.com/news/2026/10/27/tuesdays-daily-pulse/"
+    },
+    {
+      "nombre": "Central Florida Substack – Voto anticipado supera el 20%",
+      "url": "https://centralflorida.substack.com/p/florida-election-2026-early-voting-turnout-vaccine-mandate-lawsuit"
+    },
+    {
+      "nombre": "iHeart / Brian Mudd – Florida News That Impacts You, 27 de octubre",
+      "url": "https://veropatriot.iheart.com/featured/brian-mudd/content/2026-10-27-florida-news-that-impacts-you-october-27th-2026/"
+    },
+    {
+      "nombre": "MLB.com – Serie Mundial, Juego 5",
+      "url": "https://www.mlb.com/news/2026-world-series-game-5-storylines-brewers-rays"
+    }
+  ]
+}
