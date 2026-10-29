@@ -1,0 +1,61 @@
+{
+  "fecha": "2026-10-29",
+  "titulo": "La Fed hace una pausa, la Enmienda 3 a votación y bajan los seguros en Florida",
+  "duracionMin": 4,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nHoy es jueves... y tengo buenas y no tan buenas noticias. La Reserva Federal ya decidió. Florida vota una enmienda que puede cambiar lo que pagas de impuestos. Y por fin... algunas aseguradoras están bajando precios.\n\nVamos por partes."
+    },
+    {
+      "etiqueta": "La Fed: pausa, pero no descanso",
+      "texto": "Primero, lo que te prometí ayer.\n\nLa Reserva Federal dejó las tasas quietas... entre tres punto setenta y cinco y cuatro por ciento. Tal como se esperaba.\n\nPero el mensaje fue claro: la inflación sigue por encima de la meta del dos por ciento. Y dejaron la puerta abierta para subir otro cuarto de punto en diciembre... en la reunión del ocho y nueve.\n\nAl mismo tiempo, el empleo se enfría. En septiembre el país creó apenas veintinueve mil empleos... y el desempleo subió a cuatro punto dos por ciento.\n\n¿Qué significa para ti? Que tienes una ventana. Si vas a comprar un negocio con financiamiento SBA... las condiciones de hoy probablemente sean mejores que las de enero. No lo dejes para después."
+    },
+    {
+      "etiqueta": "Enmienda 3: tu casa y tus impuestos",
+      "texto": "Segundo... el tema que domina la recta final de la elección.\n\nLa Enmienda 3. El gobernador DeSantis salió ayer con varios candidatos a pedir el voto a favor.\n\n¿Qué hace? Sube la exención de impuestos a la propiedad de tu residencia principal. Ciento cincuenta mil dólares en dos mil veintisiete... y doscientos cincuenta mil en dos mil veintiocho. Ojo... no aplica a impuestos escolares.\n\nPara aprobarse necesita sesenta por ciento de los votos. No basta con ganar.\n\n¿Y el otro lado? Florida TaxWatch calcula que ciudades y condados dejarían de recibir más de cuarenta y cinco mil millones de dólares en cinco años. Policías y bomberos están preocupados... y los gobiernos locales dicen que podrían subir otras tarifas.\n\nAquí va mi lectura como corredor. La exención es para tu vivienda principal... no para el local de tu negocio. Si los condados buscan dinero en otro lado, el comercio podría sentirlo en tarifas y cargos. Si estás comprando o vendiendo un negocio... ten eso en el radar cuando proyectes gastos.\n\nY un dato: ya votaron más de tres millones y medio de floridanos. La elección es el martes tres de noviembre."
+    },
+    {
+      "etiqueta": "Seguros: por fin bajan",
+      "texto": "Tercero... una noticia que no escuchamos seguido.\n\nMás aseguradoras en Florida están bajando tarifas.\n\nUSAA recorta en promedio siete por ciento el seguro de auto... para casi medio millón de pólizas. Mangrove baja cinco punto seis por ciento el seguro de vivienda. Y Security First baja siete punto tres por ciento el seguro de condominio.\n\nEn total... más de medio millón de pólizas.\n\nPara quien tiene un negocio con flota de vehículos... o compra un local en condominio comercial... esto ayuda. Mi consejo: cuando renueves, cotiza. El mercado se está moviendo a tu favor."
+    },
+    {
+      "etiqueta": "Termómetro rápido",
+      "texto": "Y un repaso rápido para cerrar.\n\nLa confianza de los CEO de Florida bajó de un récord... pero sigue fuerte. El índice quedó en noventa y seis, por encima del año pasado.\n\nMiami-Dade tiene la fuerza laboral más grande de su historia... con desempleo de uno punto nueve por ciento. Buena noticia para la economía... pero contratar sigue siendo difícil. Si compras un negocio, valora mucho al equipo que ya está.\n\nY la gasolina... cuatro dólares con nueve centavos en promedio en Florida. Casi un dólar con veinte más que hace un año. El diésel... seis dólares con catorce. Si tu negocio depende de transporte, revisa esos costos."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "En resumen... tasas en pausa, una enmienda que pide sesenta por ciento, y seguros que empiezan a bajar.\n\nSi estás pensando en comprar o vender un negocio en Florida... escríbeme. Lo analizamos juntos.\n\nNos vemos mañana.\n\n¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Raisin – Fed mantiene tasas en 3.75%–4.00%",
+      "url": "https://www.raisin.com/en-us/news/live-breakdown-fed-policy-statement-october-2026/"
+    },
+    {
+      "nombre": "Reserva Federal – Comunicado 28 de octubre de 2026",
+      "url": "https://www.federalreserve.gov/monetarypolicy/files/monetary20261028a1.pdf"
+    },
+    {
+      "nombre": "WUSF – DeSantis impulsa la Enmienda 3",
+      "url": "https://wusf.org/politics-issues/2026-10-28/desantis-gop-candidates-push-amendment-3-passage-property-tax"
+    },
+    {
+      "nombre": "FOX 13 – 3.5 millones ya votaron en Florida",
+      "url": "https://www.fox13news.com/news/florida-early-voting-analysis-republicans-take-narrow-lead-3-5-million-cast-ballots"
+    },
+    {
+      "nombre": "Insurance Journal – Aseguradoras de Florida anuncian recortes",
+      "url": "https://www.insurancejournal.com/news/southeast/2026/10/28/890623.htm"
+    },
+    {
+      "nombre": "The Capitolist – Florida CEO Index",
+      "url": "https://thecapitolist.com/florida-ceo-confidence-remains-strong-outpaces-national-outlook/"
+    },
+    {
+      "nombre": "Miami Today – FYI Miami 29 de octubre",
+      "url": "https://www.miamitodaynews.com/2026/10/28/fyi-miami-october-29-2026/"
+    }
+  ]
+}
