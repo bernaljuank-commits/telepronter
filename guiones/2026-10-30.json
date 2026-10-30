@@ -1,0 +1,53 @@
+{
+  "fecha": "2026-10-30",
+  "titulo": "Casi cuatro millones ya votaron, la resaca de la Serie Mundial y el pulso de los CEO en Florida",
+  "duracionMin": 4,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nEs viernes... víspera de Halloween... y a cuatro días de la elección.\n\nHoy te traigo tres cosas. Cómo va la votación. Lo que dejó la Serie Mundial en la bahía de Tampa. Y qué piensan los empresarios más grandes del estado.\n\nArrancamos."
+    },
+    {
+      "etiqueta": "Florida vota: la recta final",
+      "texto": "Primero... la elección del martes tres de noviembre.\n\nYa votaron casi cuatro millones de floridanos de forma anticipada.\n\nLos republicanos van un poquito adelante... alrededor de un millón quinientos setenta mil votos. Los demócratas... más de un millón quinientos diez mil. Y los independientes... más de setecientos mil.\n\nO sea... está apretado.\n\nPara gobernador, Byron Donalds y David Jolly están muy cerca. La última encuesta de St. Pete Polls pone a Donalds con cuarenta y ocho por ciento... y a Jolly con cuarenta y seis. Prácticamente un empate.\n\nY el gobernador DeSantis está recorriendo el estado pidiendo el voto por la Enmienda tres... la de impuestos a la propiedad. Dice que es la única oportunidad de alivio en mucho tiempo. Pero las encuestas indican que podría no llegar al sesenta por ciento que necesita.\n\n¿Por qué te importa a ti? Porque el próximo gobernador y la Legislatura van a decidir impuestos, seguros y reglas para los negocios. Si tienes una venta o una compra en proceso... el resultado puede cambiar tus números. Así que... ve a votar."
+    },
+    {
+      "etiqueta": "La Serie Mundial: lo que quedó en caja",
+      "texto": "Segundo... los Rays.\n\nLlegaron a la Serie Mundial... y la perdieron frente a los Cerveceros de Milwaukee. Duele. Pero para los negocios de la bahía... fue una fiesta.\n\nLa Cámara de Comercio de St. Petersburg calcula un impacto de entre siete y diez millones de dólares. Y Visit St. Pete-Clearwater proyectó hasta un millón ochocientos mil solo en Pinellas.\n\nLos hoteles de Tampa que andaban a cincuenta o sesenta por ciento de ocupación... se llenaron. Y el bar Ferg's, en St. Pete, tuvo su mejor racha desde mil novecientos noventa y dos. El dueño lo dijo así: 'En tres días hicimos lo de un mes y medio'.\n\nAhora mi lectura. Si estás evaluando un restaurante o un bar en esa zona... pide los estados financieros completos. Un mes con picos de evento no es el negocio normal. Y los propios dueños esperan menos clientes cuando los Rays se muden a Tampa. La ubicación... siempre manda."
+    },
+    {
+      "etiqueta": "Los CEO de Florida: optimistas, pero con freno",
+      "texto": "Tercero... el ánimo de los que mandan.\n\nEl Florida Council of One Hundred publicó su índice de confianza de los CEO. En el tercer trimestre bajó a noventa y seis puntos... desde un récord de ciento seis en el segundo.\n\nPero ojo... sigue por encima de los noventa y uno de hace un año. Y por encima del promedio nacional.\n\nTraducción: los empresarios siguen confiando en Florida... pero ya no con el pie en el acelerador. Hay cautela por las tasas, la inflación y la elección.\n\nY hablando de crecimiento... Waymo duplicó su zona de taxis sin conductor en Orlando. Ahora cubre ciento veinte millas cuadradas. Más tecnología... más movimiento... más oportunidades alrededor."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "Resumiendo... una elección cerradísima, una Serie Mundial que dejó dinero en la bahía, y empresarios optimistas pero prudentes.\n\nMi consejo para este fin de semana: si estás pensando en comprar o vender un negocio... no esperes al resultado para preparar tus números. Ten tus finanzas en orden... y decide con datos, no con emociones.\n\nGracias por acompañarme. Nos vemos el lunes.\n\n¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Suncoast News (WWSB) – Votación anticipada cerca de 4 millones",
+      "url": "https://www.mysuncoast.com/2026/10/29/florida-early-voting-nears-4-million-ballots-election-day-is-5-days-away/"
+    },
+    {
+      "nombre": "Florida Politics – Encuesta final St. Pete Polls: Donalds 48%, Jolly 46%",
+      "url": "https://floridapolitics.com/archives/827487-final-st-pete-polls-byron-donalds-leads-david-jolly-48-to-46-as-long-as-republicans-show-up/"
+    },
+    {
+      "nombre": "Politico vía Yahoo – DeSantis cierra campaña y empuja la Enmienda 3",
+      "url": "https://www.yahoo.com/news/politics/articles/desantis-emerges-florida-gop-closer-234422065.html"
+    },
+    {
+      "nombre": "Yahoo Sports – Negocios de St. Pete tras la Serie Mundial",
+      "url": "https://sports.yahoo.com/articles/st-pete-businesses-reflect-rays-224946480.html"
+    },
+    {
+      "nombre": "Bay News 9 – La Serie Mundial impulsa hoteles y restaurantes",
+      "url": "https://baynews9.com/fl/tampa/news/2026/10/28/world-series-run-brings-business-boost-to-tampa-bay-hotels-restaurants-and-attractions"
+    },
+    {
+      "nombre": "Florida Trend – Índice de confianza CEO y Waymo en Orlando",
+      "url": "https://www.floridatrend.com/news/2026/10/28/wednesdays-afternoon-update/"
+    }
+  ]
+}
