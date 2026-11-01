@@ -1,0 +1,65 @@
+{
+  "fecha": "2026-11-01",
+  "titulo": "La Enmienda tres a votación, el cierre por la gobernación y la lluvia antes del martes",
+  "duracionMin": 4,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nDomingo, primero de noviembre... Faltan dos días para la elección. Y hoy quiero ir directo a lo que más le toca a tu bolsillo... y a tu negocio: la Enmienda tres. Después, cómo llega la carrera por la gobernación... y qué clima nos espera antes del martes."
+    },
+    {
+      "etiqueta": "Enmienda tres: el impuesto a la propiedad",
+      "texto": "El martes, además de elegir gobernador, vas a votar sobre la Enmienda tres. Es el recorte al impuesto a la propiedad que impulsó el gobernador DeSantis.\n\n¿Qué hace?... Primero, sube la exención de vivienda principal, el famoso homestead, para los impuestos que no son escolares. Ciento cincuenta mil dólares en dos mil veintisiete... y doscientos cincuenta mil en dos mil veintiocho.\n\nSegundo... y esto es lo que más me importa a mí y a mis clientes... baja el tope de aumento anual del avalúo para las propiedades que no son vivienda principal. Del diez por ciento... al cinco por ciento. Eso incluye locales comerciales, naves y propiedades de alquiler.\n\nY tercero... si llegas a Florida después del treinta y uno de diciembre de este año, la exención grande no la recibes de entrada. Arranca en tu quinto año."
+    },
+    {
+      "etiqueta": "Lo que significa si compras o vendes un negocio",
+      "texto": "Ahora, ¿por qué te tiene que importar si compras o vendes un negocio?\n\nSi el negocio es dueño de su local... un tope del cinco por ciento hace más predecible el costo de impuestos a futuro. Y eso se nota en los números que mira un comprador.\n\nPero ojo... los economistas del estado calculan que los gobiernos locales dejarían de recibir unos cinco mil millones de dólares el primer año... y hasta casi doce mil millones al año cuando esté completa. Alcaldes, la Liga de Ciudades y asociaciones de sheriffs advierten recortes de servicios. Y los críticos dicen que los inquilinos podrían terminar pagando más.\n\nMi consejo... si estás negociando hoy, no armes tus proyecciones dando por hecho que pasa. Haz los números con y sin enmienda."
+    },
+    {
+      "etiqueta": "¿Pasa o no pasa?",
+      "texto": "Para aprobarse necesita el sesenta por ciento de los votos. No basta con mayoría.\n\nY las encuestas dicen que está cuesta arriba. St. Pete Polls la tiene en cuarenta y cuatro por ciento a favor... treinta y nueve en contra... y diecisiete indecisos. La Universidad del Norte de Florida, en cincuenta por ciento.\n\nEl comité de Florida Realtors que la apoya ha recaudado más de veintiún millones y medio de dólares. Los que se oponen... poco más de un millón. Así que el martes vamos a ver si el dinero alcanza para llegar al sesenta."
+    },
+    {
+      "etiqueta": "La gobernación: final de fotografía",
+      "texto": "Y la carrera por la gobernación llega cerrada. El republicano Byron Donalds contra el demócrata David Jolly.\n\nLa última de St. Pete Polls: Donalds cuarenta y ocho... Jolly cuarenta y seis. El New York Times con Siena le da a Donalds cuatro puntos de ventaja.\n\nYa votaron más de cuatro millones doscientos mil floridanos. Los republicanos llevan una ventaja estrecha en las boletas emitidas... cuarenta coma cuatro por ciento contra treinta y ocho coma seis de los demócratas. Y el viernes, el presidente Trump hizo mitin en Daytona Beach para empujar a los candidatos republicanos.\n\nSi te toca votar el martes... las urnas abren de siete de la mañana a siete de la noche, en tu precinto. Y si tienes boleta por correo... ya no la mandes por correo. Llévala a la oficina del supervisor electoral o a un buzón seguro. Tiene que llegar antes de las siete de la noche del martes."
+    },
+    {
+      "etiqueta": "Lluvia antes del martes",
+      "texto": "Y antes de cerrar... el clima. Hoy domingo y mañana lunes las lluvias y tormentas se intensifican en el sur de Florida. Hay avisos de inundación costera desde Fort Lauderdale hasta los Cayos por las mareas altas.\n\nLa buena noticia... para el martes, día de elección, la lluvia se retira.\n\nY no se te olvide... anoche terminó el horario de verano. Si tu reloj todavía no se atrasó una hora... hazlo ya."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "Resumen rápido... La Enmienda tres puede cambiar lo que pagas de impuestos por tu casa y por tu local... pero necesita sesenta por ciento. La gobernación se define voto a voto. Y el martes amanece seco para ir a votar.\n\nSi estás pensando en comprar o vender un negocio en Florida y quieres entender cómo te afecta todo esto... escríbeme.\n\nSoy Alfredo González... ¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "NBC Miami – Florida amendments 2026: What voters need to know",
+      "url": "https://www.nbcmiami.com/elections/these-are-the-florida-amendments-on-the-november-2026-ballot/3877785/"
+    },
+    {
+      "nombre": "Florida Phoenix vía Islander News – Amendment 3 remains short of 60%",
+      "url": "https://www.islandernews.com/news/florida/amendment-3-remains-short-of-60-as-election-day-nears/article_aa777fec-0dd5-4e66-972b-dfd655c2b0b2.html"
+    },
+    {
+      "nombre": "Florida Chamber – Amendment 3 resource",
+      "url": "https://www.flchamber.com/amendment3"
+    },
+    {
+      "nombre": "CPA Practice Advisor – Polls point to a close call on Amendment 3",
+      "url": "https://www.cpapracticeadvisor.com/2026/10/29/polls-point-to-a-close-call-on-florida-property-tax-amendment/192781/"
+    },
+    {
+      "nombre": "FOX 13 – Florida early voting: more than 4.2 million ballots cast",
+      "url": "https://www.fox13news.com/news/florida-early-voting-more-than-4-2-million-ballots-cast-ahead-election-day"
+    },
+    {
+      "nombre": "CBS News – Weekend before the midterms (mitin de Trump en Daytona Beach)",
+      "url": "https://www.cbsnews.com/live-updates/2026-midterm-elections-campaigns-weekend-before/"
+    },
+    {
+      "nombre": "CBS Miami – Pronóstico de Halloween y días siguientes",
+      "url": "https://www.cbsnews.com/miami/news/south-florida-halloween-forecast-10-31-2026/"
+    }
+  ]
+}
