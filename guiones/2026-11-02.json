@@ -1,0 +1,61 @@
+{
+  "fecha": "2026-11-02",
+  "titulo": "Florida vota mañana: lo que está en juego para tu negocio y la tragedia del jet en Palm Beach",
+  "duracionMin": 4,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nLunes, dos de noviembre... Mañana Florida vota. Hoy te cuento cómo llegamos... qué está en juego para quien tiene o quiere comprar un negocio... y antes, una noticia muy dura que nos dejó el fin de semana."
+    },
+    {
+      "etiqueta": "Tragedia en Greenacres",
+      "texto": "Ayer domingo, poco antes de la una de la tarde, un jet privado Learjet sesenta se estrelló en Greenacres, en el condado de Palm Beach... a unas siete millas de West Palm Beach.\n\nVenía de Austin, Texas... rumbo a las Bahamas. Iban nueve personas a bordo... y ninguna sobrevivió.\n\nSegún los datos de vuelo, el avión iba a treinta y cinco mil pies, reportó turbulencia y hielo... y entró en una caída en picada. El gobernador DeSantis lo llamó un choque cataclísmico. Por suerte, no se reportaron víctimas en tierra... aunque cayó a metros de casas y carros.\n\nLa Junta Nacional de Seguridad en el Transporte, la NTSB, ya investiga. Nuestro pensamiento con las familias."
+    },
+    {
+      "etiqueta": "Cómo llegamos a la elección",
+      "texto": "Ahora sí... la elección.\n\nCerró el voto anticipado. Y según el conteo con datos de los condados, más de cinco millones trescientos mil floridanos ya votaron... por correo o en persona.\n\nLos republicanos llevan una ventaja corta... cuarenta coma cuatro por ciento de las boletas, contra treinta y siete coma siete de los demócratas. Y casi veintidós por ciento son independientes... que pueden inclinar la balanza.\n\nMañana se elige gobernador... Byron Donalds contra David Jolly. Senado federal... Ashley Moody contra Angie Nixon. Además, el gabinete estatal, congresistas... y enmiendas como la tres, la del impuesto a la propiedad."
+    },
+    {
+      "etiqueta": "Lo que está en juego para tu negocio",
+      "texto": "Y aquí va lo que me importa como corredor... Donalds y Jolly proponen caminos muy distintos.\n\nPrimero... la Enmienda tres. Donalds la apoya. Jolly está en contra. Recuerda que baja del diez al cinco por ciento el tope de aumento del avalúo en propiedades que no son vivienda principal... como un local comercial. Necesita sesenta por ciento para pasar.\n\nSegundo... el poder de los gobiernos locales. Donalds quiere seguir con auditorías a condados y ciudades. Jolly quiere devolverles más control sobre sus presupuestos y reglas. Eso cambia permisos, zonificación... y los impuestos locales que paga tu negocio.\n\nTercero... los centros de datos. Donalds dejaría que cada localidad decida. Jolly propone una moratoria estatal de un año.\n\nSi estás por comprar o vender un negocio... no te paralices. Pero sí pregúntale a tu contador cómo te afectaría la Enmienda tres... sobre todo si el negocio incluye el inmueble."
+    },
+    {
+      "etiqueta": "Para votar mañana",
+      "texto": "Si te toca votar mañana... las urnas abren de siete de la mañana a siete de la noche. Si estás en la fila a las siete... votas.\n\nVe a tu precinto asignado... no a cualquier sitio de voto anticipado. Lleva identificación con foto y firma.\n\nY si tienes boleta por correo... tiene que llegar a la oficina de elecciones de tu condado antes de las siete de la noche. El matasellos no cuenta. Si no la mandaste... llévala a tu centro de votación."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "Resumen rápido... Nueve vidas perdidas en Palm Beach. Más de cinco millones ya votaron. Y mañana se decide quién gobierna Florida... y si baja el impuesto a tu propiedad.\n\nSi quieres entender cómo te afecta el resultado a la hora de comprar o vender un negocio... escríbeme.\n\nSoy Alfredo González... ¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "PBS NewsHour – All 9 people aboard a jet that crashed in Florida have died",
+      "url": "https://www.pbs.org/newshour/nation/all-9-people-aboard-a-jet-that-crashed-in-florida-have-died-transportation-secretary-says"
+    },
+    {
+      "nombre": "Al Jazeera – Nine die in ‘cataclysmic’ Florida business jet crash",
+      "url": "https://www.aljazeera.com/news/2026/11/2/nine-die-in-cataclysmic-florida-business-jet"
+    },
+    {
+      "nombre": "OnPoint Politics – Florida Early Vote Tracker 2026",
+      "url": "https://onpointpolitics.us/maps/early-vote/florida"
+    },
+    {
+      "nombre": "FOX 13 – Florida early voting: more than 4.2 million ballots cast",
+      "url": "https://www.fox13news.com/news/florida-early-voting-more-than-4-2-million-ballots-cast-ahead-election-day"
+    },
+    {
+      "nombre": "WUSF – 3 major issues Byron Donalds or David Jolly will need to address",
+      "url": "https://www.wusf.org/politics-issues/2026-10-31/3-major-issues-byron-donalds-or-david-jolly-will-need-to-address-as-floridas-next-governor"
+    },
+    {
+      "nombre": "News4JAX – Donalds vs. Jolly on AI, data centers and Amendment 3",
+      "url": "https://www.news4jax.com/news/politics/2026/10/06/jolly-vs-donalds-where-floridas-governor-candidates-stand-on-ai-data-centers-and-amendment-3/"
+    },
+    {
+      "nombre": "CBS Miami – Florida 2026 midterm voter guide",
+      "url": "https://www.cbsnews.com/miami/news/miami-broward-florida-early-voting-2026-dates-hours-locations-requirements/"
+    }
+  ]
+}
