@@ -1,0 +1,69 @@
+{
+  "fecha": "2026-11-03",
+  "titulo": "Florida decide hoy: la Enmienda tres explicada para dueños de negocio y lo nuevo del choque en Greenacres",
+  "duracionMin": 4,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nMartes, tres de noviembre... Hoy es el día. Florida vota. Y hoy quiero ir directo a lo que más le puede tocar el bolsillo a quien tiene un negocio... la Enmienda tres."
+    },
+    {
+      "etiqueta": "Hoy se decide",
+      "texto": "Primero, el contexto.\n\nMás de cinco millones cuatrocientos mil floridanos ya votaron... por correo o en voto anticipado. Los republicanos emitieron el cuarenta coma dos por ciento de esas boletas... los demócratas el treinta y siete coma ocho... y los independientes, veintidós por ciento.\n\nPara gobernador... Byron Donalds contra David Jolly. El promedio de encuestas pone a Donalds unos cuatro puntos arriba. Para el Senado federal... Ashley Moody contra Angie Nixon, con Moody unos seis puntos adelante.\n\nPero ojo... las encuestas no votan. Hoy se eligen también los veintiocho escaños del Congreso, toda la Legislatura estatal... y tres enmiendas."
+    },
+    {
+      "etiqueta": "La Enmienda tres, a fondo",
+      "texto": "Vamos con la que más importa.\n\nLa Enmienda tres hace dos cosas.\n\nUna... para tu casa. Sube la exención de vivienda principal, el homestead, en los impuestos que no son escolares. Hoy son unos veintiséis mil dólares. Subiría hasta ciento cincuenta mil en dos mil veintisiete... y hasta doscientos cincuenta mil en dos mil veintiocho. Ojo... quien se mude a Florida a partir de enero empieza con cincuenta mil... y llega al monto completo al quinto año.\n\nDos... y esto es lo tuyo como dueño de negocio. Para propiedades que no son vivienda principal... locales comerciales, bodegas, alquileres, terrenos... el tope de aumento anual del avalúo baja del diez al cinco por ciento. Solo en impuestos no escolares.\n\n¿Qué significa? Si compras un negocio con el inmueble incluido... tu factura de impuestos crecería más despacio. Eso es más previsible... y puede mejorar el flujo de caja que valúa un comprador.\n\nPero hay otra cara. Se calcula que los gobiernos locales dejarían de recibir casi doce mil millones de dólares al año en cinco años. Y la enmienda no fija las tasas... las fijan los condados y ciudades. Así que podrían subirlas... o recortar servicios.\n\nNecesita sesenta por ciento para pasar. Si pasa, entra en vigor el primero de enero de dos mil veintisiete... y lo verías en la factura de noviembre de ese año."
+    },
+    {
+      "etiqueta": "Las otras dos enmiendas",
+      "texto": "Rápido, las otras dos.\n\nLa Enmienda uno sube el tope del fondo de reserva del estado... del diez al veinticinco por ciento de los ingresos generales.\n\nLa Enmienda dos exime de impuesto a la propiedad el equipo agrícola... maquinaria usada en producción o agroturismo. Si tienes o vas a comprar un negocio en el campo... esa te interesa.\n\nAmbas también necesitan sesenta por ciento."
+    },
+    {
+      "etiqueta": "Greenacres, lo nuevo",
+      "texto": "Y una actualización de la tragedia del domingo en Greenacres, Palm Beach.\n\nLos pilotos del Learjet reportaron hielo, turbulencia y pidieron subir dos mil pies... y el avión entró en una caída de hasta treinta mil pies por minuto. La NTSB dijo que el jet pudo haber sufrido cierta ruptura antes de caer.\n\nLas nueve personas a bordo murieron... entre ellas una familia con dos niños pequeños... y la copiloto, Nathalia Filgueiras, exalumna de West Boca. Unos seiscientos vecinos de un parque de casas móviles cercano tuvieron que ser evacuados.\n\nUn abrazo a esas familias."
+    },
+    {
+      "etiqueta": "Si vas a votar",
+      "texto": "Si te toca votar hoy... las urnas están abiertas de siete de la mañana a siete de la noche. Ve a tu precinto, con identificación con foto y firma.\n\nY lleva paraguas... Se esperan aguaceros y tormentas sueltas, aunque menos que el fin de semana."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "Resumen... Hoy Florida elige gobernador y decide si baja el impuesto a la propiedad. Para tu casa, una exención mucho más grande. Para tu negocio, un tope de cinco por ciento al avalúo... con el riesgo de que tu ciudad suba la tasa.\n\nMañana te traigo los resultados... y lo que significan para comprar o vender un negocio.\n\nSoy Alfredo González... ¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Yahoo / USA TODAY Network – It's Election Day in Florida",
+      "url": "https://www.yahoo.com/news/politics/articles/election-day-florida-050504639.html"
+    },
+    {
+      "nombre": "Florida Phoenix – It's Election Day in Florida",
+      "url": "https://floridaphoenix.com/2026/11/03/its-election-day-in-florida/"
+    },
+    {
+      "nombre": "Pinellas County Property Appraiser – Amendment 3 FAQs",
+      "url": "https://www.pcpao.gov/amendment3"
+    },
+    {
+      "nombre": "WFLA – Florida 2026 Election: 3 Amendments explained",
+      "url": "https://wflanews.iheart.com/featured/florida-news/content/2026-10-26-florida-2026-election-3-amendments-on-november-ballot-explained/"
+    },
+    {
+      "nombre": "NBC News – Jet may have experienced 'some breakup' before it crashed, NTSB says",
+      "url": "https://www.nbcnews.com/news/us-news/jet-may-experienced-breakup-crashed-florida-killing-9-ntsb-says-rcna607068"
+    },
+    {
+      "nombre": "NBC6 Miami – South Florida live updates (Greenacres crash)",
+      "url": "https://www.nbcmiami.com/news/local/breaking-news-live-updates-south-florida-miami-today-november-2-2026/3881833/"
+    },
+    {
+      "nombre": "CBS12 – Family of four among 9 killed in Greenacres jet crash",
+      "url": "https://cbs12.com/news/local/parents-2-young-children-nanny-friends-among-9-killed-in-greenacres-plane-crash-greenacres-plane-crash-greenacres-jet-crash-learjet-60-palm-beach-county-florida-plane-crash-deadly-plane-crash-fiery-jet-crash-family-of-four-killed-adam-robinson-h"
+    },
+    {
+      "nombre": "AccuWeather – Florida downpours to ease by Election Day",
+      "url": "https://www.accuweather.com/en/weather-forecasts/florida-downpours-to-ease-by-election-day-as-atlantic-tropical-development-could-bring-bermuda-rain/1953694"
+    }
+  ]
+}
