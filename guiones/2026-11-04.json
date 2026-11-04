@@ -1,0 +1,61 @@
+{
+  "fecha": "2026-11-04",
+  "titulo": "Donalds gobernador y pasa la Enmienda tres: lo que cambia para tu negocio",
+  "duracionMin": 4,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nAyer Florida votó... y hoy amanecemos con dos noticias que van a marcar los próximos años. Tenemos gobernador nuevo... y tenemos un cambio histórico en los impuestos a la propiedad.\n\nVamos por partes."
+    },
+    {
+      "etiqueta": "Florida tiene nuevo gobernador",
+      "texto": "Byron Donalds, republicano, le ganó a David Jolly, el candidato demócrata.\n\nY fue cerrado... Donalds se quedó con alrededor del cincuenta por ciento de los votos... con una ventaja de poco más de un punto.\n\nEs histórico... Donalds será el primer gobernador negro de Florida. Lo acompaña como vicegobernador Bryan Ávila, exsenador estatal.\n\nAsume en enero y releva a Ron DeSantis después de ocho años.\n\n¿Qué esperar? En seguros, Donalds ha dicho que prefiere ajustar el Fondo de Catástrofes por Huracanes que ya existe... en vez de crear uno nuevo. Y en centros de datos, apuesta por que decida cada condado. Ojo con esos dos temas, porque tocan directo los costos de operar aquí."
+    },
+    {
+      "etiqueta": "La Enmienda tres es ley",
+      "texto": "Ahora, la noticia que más te toca el bolsillo.\n\nLa Enmienda tres pasó. Necesitaba el sesenta por ciento... y lo superó.\n\n¿Qué cambia? Si tienes casa propia y vives en ella, la exención de homestead para los impuestos que no son escolares sube de unos cincuenta mil dólares... a ciento cincuenta mil en enero de dos mil veintisiete. Y a doscientos cincuenta mil en dos mil veintiocho. Después se ajusta con la inflación.\n\nOjo... si te mudas a Florida desde el año que viene, tienes que esperar cinco años para tener la exención completa.\n\nY para el resto de las propiedades... locales comerciales, alquileres, segundas viviendas... el tope de aumento anual del avalúo baja del diez... al cinco por ciento."
+    },
+    {
+      "etiqueta": "Lo que significa si compras o vendes un negocio",
+      "texto": "Aquí viene lo importante para ti.\n\nEl análisis económico del estado calcula que los gobiernos locales pierden casi cinco mil millones de dólares el primer año... y hasta unos doce mil millones al año más adelante.\n\nMiami ya preparó un recorte de un veinticinco por ciento. Y varios alcaldes advierten que podrían subir las tasas de impuesto, el famoso millage, para compensar.\n\n¿Qué quiere decir eso? Que si tu negocio alquila local... revisa tu contrato. Muchos arrendamientos comerciales pasan los impuestos al inquilino. El tope del cinco por ciento ayuda... pero una tasa más alta puede comerse ese alivio.\n\nSi estás comprando un negocio, pide la proyección de gastos de ocupación para dos mil veintisiete. Y si vendes... un contrato de arriendo estable y bien negociado hoy vale más que nunca."
+    },
+    {
+      "etiqueta": "Lo demás de la noche",
+      "texto": "Rápido, lo demás.\n\nLos republicanos barrieron el gabinete estatal. James Uthmeier sigue como fiscal general... Blaise Ingoglia gana como jefe financiero frente a Annette Taddeo... y Wilton Simpson repite como comisionado de Agricultura.\n\nLas enmiendas uno y dos no pasaron. Ni la del fondo de reserva del estado... ni la que eximía de impuestos el equipo agrícola.\n\nY a nivel nacional, los resultados apuntan a que los demócratas toman el control del Congreso. Eso puede cambiar el tono entre Tallahassee y Washington."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "En resumen... gobernador nuevo, impuestos nuevos, y un dos mil veintisiete que hay que planear desde ya.\n\nSi tienes dudas de cómo esto afecta el valor de tu negocio... escríbeme. Para eso estoy.\n\n¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Bisnow: Donalds gana y pasa la enmienda de impuestos",
+      "url": "https://www.bisnow.com/news/south-florida/commercial-real-estate/donalds-wins-race-florida-governor-voters-ok-property-tax-amendment"
+    },
+    {
+      "nombre": "Fox 35: Byron Donalds electo gobernador",
+      "url": "https://www.fox35orlando.com/news/florida-midterm-elections-2026-governors-race"
+    },
+    {
+      "nombre": "WUSF: Votantes aprueban la Enmienda 3",
+      "url": "https://www.wusf.org/politics-issues/2026-11-03/florida-2026-election-results-voters-approve-amendment-3-property-tax-reduction"
+    },
+    {
+      "nombre": "Fox 13: Topes históricos al impuesto a la propiedad",
+      "url": "https://www.fox13news.com/news/florida-amendment-3-voters-pass-historic-property-tax-caps"
+    },
+    {
+      "nombre": "Florida Tribune: Ingoglia derrota a Taddeo",
+      "url": "https://floridatrib.org/2026/11/03/ingoglia-defeats-taddeo-continuing-gop-control-of-cfo-cabinet-seat/"
+    },
+    {
+      "nombre": "Tampa Bay Times: Resultados del Gabinete",
+      "url": "https://www.tampabay.com/news/florida-politics/elections/2026/11/03/florida-cabinet-election-results-uthmeier-ingoglia/"
+    },
+    {
+      "nombre": "CBS News: Resultados nacionales",
+      "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+    }
+  ]
+}
