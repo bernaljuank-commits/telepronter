@@ -1,0 +1,61 @@
+{
+  "fecha": "2026-11-05",
+  "titulo": "Sesión especial por la Enmienda tres: la trampa al vender tu negocio, y el diluvio histórico en Brevard",
+  "duracionMin": 3.5,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nHoy jueves, cinco de noviembre... la Enmienda tres ya es ley, y ahora viene la letra pequeña. Te cuento qué sigue... y una trampa que casi nadie está mirando si vas a vender o comprar un negocio. Y al final, el diluvio que golpeó la costa este."
+    },
+    {
+      "etiqueta": "Sesión especial antes de enero",
+      "texto": "El gobernador Ron DeSantis anunció que va a convocar una sesión especial de la Legislatura... dentro de los próximos dos meses. Antes de que termine su mandato, a principios de enero.\n\n¿Para qué? Para poner en marcha la Enmienda tres... que pasó con un sesenta y dos por ciento de los votos. Necesitaba sesenta. O sea, por apenas dos puntos.\n\nDeSantis quiere fijar el calendario de las exenciones... y, sobre todo, impedir que los gobiernos locales le den la vuelta a la enmienda con otros impuestos. Él lo llama evitar una jugada por la puerta de atrás.\n\nRecuerda los números. La exención del homestead sube de cincuenta mil a ciento cincuenta mil dólares en dos mil veintisiete... y a doscientos cincuenta mil en dos mil veintiocho. Ojo... eso es solo para impuestos que no van a las escuelas. Y las facturas de este año... no cambian."
+    },
+    {
+      "etiqueta": "Lo que pagan las ciudades",
+      "texto": "Del otro lado, los condados están haciendo cuentas.\n\nEl estado calcula que los gobiernos locales pierden casi cinco mil millones de dólares el primer año... y cerca de doce mil millones al año hacia dos mil treinta y dos.\n\nEn Sarasota, un comisionado ya dijo que van a planificar como si estuvieran en recesión... con puestos sin llenar y posibles despidos. Y el alguacil de Manatee espera perder más de cincuenta millones.\n\nTraducido... menos servicios, obras que se retrasan, y presión para subir la tasa de impuesto, el millage."
+    },
+    {
+      "etiqueta": "La trampa al vender un negocio",
+      "texto": "Y aquí viene lo que te quería contar... porque esto sí es para ti.\n\nLos locales comerciales y las propiedades de alquiler no reciben exención. Lo que cambia es el tope. El aumento anual del valor tasado baja del diez al cinco por ciento.\n\nSuena bien... mientras eres el dueño. Pero cuando vendes, la propiedad se vuelve a tasar a valor de mercado. Todo el ahorro acumulado... desaparece para el comprador.\n\nY no solo cuando vendes el inmueble. Si un negocio es dueño de su local, y cambia de manos más del cincuenta por ciento de la empresa, aunque sea en varias ventas pequeñas... también puede disparar la retasación. Y ese cambio se reporta al estado con el formulario D R cuatro treinta.\n\n¿Qué hago yo con mis clientes? Si compras... calcula el impuesto que vas a pagar después del cierre, no el que paga el dueño hoy. Si vendes... prepárate, porque un buen comprador va a hacer esa cuenta. Mejor llegar con los números claros que perder el trato en la mesa."
+    },
+    {
+      "etiqueta": "Diluvio en la costa este",
+      "texto": "Y cambiamos de tema... porque la costa este vivió días muy duros.\n\nTres días de lluvia histórica. Más de veintiocho pulgadas en Malabar y Palm Bay. El Servicio Meteorológico lo calificó como un evento de uno en mil años.\n\nHay dos fallecidos en Palm Bay... más de sesenta rescates, casas con hasta cinco pies de agua, y avisos de hervir el agua en Melbourne. DeSantis declaró emergencia en siete condados, entre ellos Brevard, Saint Lucie, Indian River y Martin... y luego la amplió.\n\nUn dato que duele... solo el dieciséis por ciento de los hogares en Florida tiene seguro de inundación. Si tu negocio sufrió daños, toma fotos, documenta todo y llama ya a tu aseguradora. Y mucha fuerza a toda la gente de Brevard."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "Ese fue el resumen de hoy. Si estás pensando en comprar o vender un negocio, y quieres saber cómo te toca la Enmienda tres... escríbeme. Para eso estoy.\n\nNos vemos mañana... ¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "CBS Miami: DeSantis convocará sesión especial por la Enmienda 3",
+      "url": "https://www.cbsnews.com/miami/news/desantis-special-session-amendment-3-property-tax-implement-before-january/"
+    },
+    {
+      "nombre": "WUSF: Votantes aprobaron la Enmienda 3, ¿y ahora qué?",
+      "url": "https://www.wusf.org/politics-issues/2026-11-05/florida-voters-approved-amendment-3-what-happens-next"
+    },
+    {
+      "nombre": "Suncoast Searchlight: Líderes locales ante los recortes",
+      "url": "https://suncoastsearchlight.org/florida-amendment-3-passes-suncoast-property-tax-cuts/"
+    },
+    {
+      "nombre": "Kaufman Rossin: Qué sigue para propietarios y negocios",
+      "url": "https://kaufmanrossin.com/blog/florida-amendment-3/"
+    },
+    {
+      "nombre": "Insurance Journal: Emergencia por inundaciones en la costa este",
+      "url": "https://insurancejournal.com/news/southeast/2026/11/04/891513.htm"
+    },
+    {
+      "nombre": "AccuWeather: Carreteras, agua y escuelas afectadas",
+      "url": "https://www.accuweather.com/en/weather-news/florida-flooding-leaves-roads-washed-out-water-outages-and-schools-closed/1954719"
+    },
+    {
+      "nombre": "ClickOrlando: Escuelas de Brevard reabren tras las inundaciones",
+      "url": "https://www.clickorlando.com/news/local/2026/11/04/brevard-public-schools-reopen-thursday-after-deadly-flooding/"
+    }
+  ]
+}
