@@ -1,0 +1,53 @@
+{
+  "fecha": "2026-11-06",
+  "titulo": "Choque en Tallahassee por la Enmienda tres, el río Saint Johns sigue subiendo y préstamos para negocios del Panhandle",
+  "duracionMin": 4,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nHoy viernes, seis de noviembre... tres noticias. Un choque político que puede tocar tu bolsillo... un río que no deja de subir... y dinero barato para negocios golpeados por el huracán Isaías. Vamos."
+    },
+    {
+      "etiqueta": "Choque en Tallahassee",
+      "texto": "Empezamos con la Enmienda tres... porque la historia cambió.\n\nEl gobernador DeSantis quiere una sesión especial antes del uno de enero. Su idea se llama \"carta de derechos del contribuyente\". ¿Qué busca? Que las ciudades y los condados no recuperen lo que pierden en impuestos... cobrando nuevas tarifas o cargos por otro lado.\n\nPero ojo... los que van a mandar en la Legislatura no tienen prisa.\n\nEl próximo presidente del Senado, Jim Boyd, dice que esto puede esperar a enero... para que opine el nuevo gobierno de Byron Donalds. Y el próximo presidente de la Cámara, Sam Garrison, lo dijo claro: prefiere hacerlo bien... antes que hacerlo rápido.\n\nRecuerda los números. La exención de vivienda principal sube a ciento cincuenta mil dólares en dos mil veintisiete... y a doscientos cincuenta mil en dos mil veintiocho. Y los gobiernos locales podrían perder hasta doce mil millones de dólares al año."
+    },
+    {
+      "etiqueta": "Qué significa para tu negocio",
+      "texto": "¿Y por qué te importa esto si tienes un negocio?\n\nPorque si no hay freno... las ciudades van a buscar la plata en otro lado. Tarifas de licencias... de permisos... de basura... de agua pluvial. Y eso lo paga el comercio.\n\nSi estás comprando un negocio... pide al vendedor el historial de tarifas locales de los últimos años. Y en tus números... deja un margen para posibles aumentos en dos mil veintisiete.\n\nLa semana del treinta de noviembre la Legislatura se reúne en Tallahassee. Ahí sabremos quién gana este pulso."
+    },
+    {
+      "etiqueta": "El río que sigue subiendo",
+      "texto": "Y nos vamos a la costa este... porque la lluvia paró, pero el agua no se fue.\n\nToda esa lluvia histórica de Brevard ahora va por el río Saint Johns... que corre hacia el norte, despacio.\n\nCerca de Cocoa, el río estaba a punto de llegar a inundación mayor este viernes. Muy cerca del récord de mil novecientos cincuenta y tres. Y el agua sube también hacia Sanford y DeLand... y se espera que siga alta toda la próxima semana.\n\nEmergencia de Brevard dice que esto puede durar... meses.\n\nSi tienes un negocio en Palm Bay... hoy hay sesiones de ayuda para residentes y empresarios. De nueve a once de la mañana en la alcaldía... y de una a tres de la tarde en el centro comunitario Tony Rosa.\n\nY si vas a comprar un negocio en la zona del río... revisa bien la póliza de inundación... y pregunta si el local se mojó. Eso cambia el precio."
+    },
+    {
+      "etiqueta": "Dinero para el Panhandle",
+      "texto": "Y una buena noticia para el norte del estado.\n\nLa Administración de Pequeños Negocios, la SBA, abrió préstamos por desastre para los afectados por el huracán Isaías.\n\nAplica en ocho condados: Bay, Escambia, Holmes, Gulf, Okaloosa, Santa Rosa, Walton y Washington. Y hay préstamos por pérdida económica también en Calhoun, Franklin, Jackson y Liberty.\n\nLos números... hasta dos millones de dólares por daños. Interés desde el cuatro por ciento para empresas. Hasta treinta años para pagar... y el primer pago, un año después.\n\nLa fecha clave... veintiocho de diciembre para daños físicos. Para pérdidas económicas, hay plazo hasta julio del año que viene. Se aplica en sba punto gov barra disaster."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "Ese fue el resumen de la semana. Si estás pensando en comprar o vender un negocio en Florida... y quieres saber cómo te afecta todo esto... escríbeme. Para eso estoy.\n\nBuen fin de semana... y ¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "WLRN: DeSantis quiere sesión especial para la carta de derechos del contribuyente",
+      "url": "https://www.wlrn.org/government-politics/2026-11-05/desantis-wants-special-session-to-implement-taxpayer-bill-of-rights"
+    },
+    {
+      "nombre": "CiberCuba: DeSantis busca sesión especial para evitar nuevos cargos",
+      "url": "https://en.cibercuba.com/noticias/2026-11-06-u1-e208933-s27061-nid344976-desantis-busca-sesion-especial-evitar-nuevos-cargos"
+    },
+    {
+      "nombre": "Weatherboy: El río Saint Johns sigue subiendo tras el diluvio en Brevard",
+      "url": "https://weatherboy.com/brevard-county-dries-out-from-historic-deluge-as-slow-moving-st-johns-river-flood-worsens/"
+    },
+    {
+      "nombre": "Space Coast Daily: Sesiones de ayuda en Palm Bay para residentes y negocios",
+      "url": "https://spacecoastdaily.com/2026/11/city-of-palm-bay-to-host-flood-recovery-information-sessions-friday-for-residents-and-businesses/"
+    },
+    {
+      "nombre": "SBA: Préstamos por desastre tras el huracán Isaías",
+      "url": "https://legacy.sba.gov/article/2026/11/04/sba-offers-relief-florida-businesses-private-nonprofits-residents-affected-hurricane-isaias"
+    }
+  ]
+}
