@@ -1,0 +1,65 @@
+{
+  "fecha": "2026-11-07",
+  "titulo": "Quién paga la Enmienda tres, Kane's se vende a capital privado y el imán de los multimillonarios",
+  "duracionMin": 3.5,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nHoy sábado, siete de noviembre... edición de fin de semana. Tres historias que tocan tu negocio. Quién termina pagando el recorte de impuestos... una venta de casi ochenta años de historia... y el dinero grande que sigue llegando a Florida. Vamos."
+    },
+    {
+      "etiqueta": "¿Quién paga la Enmienda tres?",
+      "texto": "Arrancamos con la Enmienda tres... pero hoy desde otro ángulo. La pregunta ya no es cuánto se ahorra el dueño de casa. La pregunta es... ¿quién paga la diferencia?\n\nRecuerda. La exención de vivienda principal sube de cincuenta mil a ciento cincuenta mil dólares el próximo año... y a doscientos cincuenta mil en dos mil veintiocho.\n\nFlorida TaxWatch calcula que condados, ciudades y distritos especiales pueden perder decenas de miles de millones de dólares en cinco años.\n\nY aquí está el detalle que casi nadie dice... los negocios, los propietarios que alquilan y las segundas viviendas... no reciben esa exención. Ninguna."
+    },
+    {
+      "etiqueta": "El golpe escondido: seguros y alquileres",
+      "texto": "Ahora... hay un efecto que no esperabas. Los seguros.\n\nLas aseguradoras miran la calificación ISO de cada comunidad... que mide, entre otras cosas, qué tan bueno es el servicio de bomberos. Si una ciudad recorta bomberos para cuadrar el presupuesto... esa calificación puede bajar. Y si baja... la prima puede subir.\n\nLos expertos dicen que el costo no desaparece... se mueve. A impuestos de venta... a cobros especiales... a tarifas.\n\n¿Qué significa para ti? Si alquilas un local... ojo con la renovación del contrato. Si el dueño del edificio paga más... te lo va a querer pasar. Y si estás comprando un negocio... no calcules el futuro con los gastos del pasado. Pide el contrato de arrendamiento, revisa quién paga los impuestos y el seguro del edificio... y deja un colchón en tus números."
+    },
+    {
+      "etiqueta": "Kane's: una venta de casi ochenta años",
+      "texto": "Segunda historia... y esta me encanta, porque es exactamente lo que hago.\n\nKane's Furniture... la mueblería de Pinellas Park con casi ochenta años de historia... fue comprada por Onyx Partners, una firma de capital privado de Massachusetts.\n\nEl trato incluye dieciocho propiedades comerciales. Pero fíjate cómo se hizo... once se cerraron en octubre... y las otras siete se cierran a principios de dos mil veintisiete. Una venta por etapas.\n\n¿La lección? El capital privado está comprando empresas familiares de Florida. Y una venta grande no siempre se cierra en un solo día. Si tu negocio es dueño del local... eso puede valer tanto como el negocio mismo. Prepáralo con tiempo... y con números limpios."
+    },
+    {
+      "etiqueta": "El imán de los multimillonarios",
+      "texto": "Y cerramos con el dinero que sigue llegando.\n\nSegún datos de la lista de multimillonarios de Forbes... la parte de los multimillonarios de Estados Unidos que vive en Florida creció más de ciento cincuenta por ciento en una década. Y Florida tuvo más vuelos de jets privados que cualquier otro estado el año pasado.\n\nEn Palm Beach... el condado va camino a romper su propio récord de ventas de casas de más de treinta millones de dólares. Y más de la mitad de las ventas de vivienda de septiembre... se pagaron en efectivo.\n\n¿Qué te dice eso? Que hay clientes con mucho poder de compra. Restaurantes, servicios de lujo, mantenimiento, aviación, seguridad... los negocios que atienden a ese cliente tienen demanda. Y valen más."
+    },
+    {
+      "etiqueta": "Una nota de cuidado",
+      "texto": "Un apunte rápido antes de irme. Después de las inundaciones, las autoridades piden precaución. Florida ya suma treinta y cinco casos de la bacteria Vibrio vulnificus este año... y seis muertes. Y sigue la alerta de inundación en el río Peace. No camines ni manejes por agua estancada."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "Ese fue el resumen de este sábado. Si estás pensando en comprar o vender un negocio en Florida... y quieres saber cómo te afecta todo esto... escríbeme. Para eso estoy.\n\nDisfruta el fin de semana... y ¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Carrier Management: El recorte de impuestos a la propiedad podría afectar los seguros",
+      "url": "https://www.carriermanagement.com/news/2026/11/06/293289.htm"
+    },
+    {
+      "nombre": "PolitiFact: Enmienda tres, ¿más impuestos de venta y alquileres más altos?",
+      "url": "https://politifact.com/article/2026/nov/06/florida-amendment-3-property-taxes-sales-tax-rents/"
+    },
+    {
+      "nombre": "Tampa Bay Business & Wealth: Kane's Furniture adquirida por capital privado",
+      "url": "https://tbbwmag.com/2026/11/04/kanes-furniture-acquisition/"
+    },
+    {
+      "nombre": "WLRN: La aviación privada crece con la llegada de multimillonarios",
+      "url": "https://www.wlrn.org/business/2026-11-06/private-aviation-jets-florida-billionaires-safety-accidents"
+    },
+    {
+      "nombre": "Palm Beach Post: Palm Beach rumbo a récord de ventas de más de 30 millones",
+      "url": "https://www.palmbeachpost.com/story/business/real-estate/2026/11/05/palm-beach-county-set-to-break-own-record-for-30-million-home-sales/92519029007/"
+    },
+    {
+      "nombre": "Tallahassee Democrat: Casos de Vibrio vulnificus suben a 35",
+      "url": "https://www.tallahassee.com/story/news/2026/11/05/vibrio-vulnificus-florida/92622612007/"
+    },
+    {
+      "nombre": "Florida Trend: Daily Pulse del viernes",
+      "url": "https://www.floridatrend.com/news/2026/11/06/fridays-daily-pulse/"
+    }
+  ]
+}
