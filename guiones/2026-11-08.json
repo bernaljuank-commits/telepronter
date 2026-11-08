@@ -1,0 +1,53 @@
+{
+  "fecha": "2026-11-08",
+  "titulo": "Seguro de inundación obligatorio en enero, el gran show espacial de Cabo Cañaveral y el río que no baja",
+  "duracionMin": 3.5,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nHoy domingo, ocho de noviembre... Una semana de elecciones, lluvias récord... y ahora toca mirar lo que viene. Te traigo tres cosas que no puedes perder de vista."
+    },
+    {
+      "etiqueta": "Faltan cincuenta y cuatro días",
+      "texto": "Empezamos con una fecha. El uno de enero de dos mil veintisiete.\n\nEse día termina de entrar en vigor una regla de Citizens... la aseguradora del estado. Toda póliza residencial con cobertura de viento... nueva o que se renueve... tiene que tener también seguro de inundación. Sin importar el valor de la casa. Y sin importar si estás o no en zona de inundación.\n\nHasta ahora solo aplicaba a casas de cuatrocientos mil dólares para arriba... o a las que están en zona de alto riesgo. Desde enero... aplica a todas.\n\n¿Cuánto hay que comprar? Lo mismo que cubre tu vivienda... o el máximo del programa federal, que es de doscientos cincuenta mil dólares.\n\nOjo con las excepciones. No aplica a dueños de unidades de condominio... ni a inquilinos... ni a pólizas sin cobertura de viento."
+    },
+    {
+      "etiqueta": "Por qué esto te toca",
+      "texto": "¿Y por qué lo traigo hoy? Porque acabamos de ver lo que puede hacer el agua. Más de veinticuatro pulgadas de lluvia cerca de Malabar... en un evento que no fue huracán.\n\nY hay otro dato. Citizens tiene hoy unas doscientas diecisiete mil pólizas... un mínimo histórico. En dos mil veintitrés tenía casi un millón cuatrocientas mil. Mucha gente se pasó a aseguradoras privadas... y ahí manda lo que pida tu banco.\n\nMi consejo... Si vas a comprar un negocio y también una casa en Florida... mete el seguro de inundación en tu presupuesto desde ya. Y si tu póliza se renueva pronto... llama a tu agente esta semana. No en diciembre."
+    },
+    {
+      "etiqueta": "El gran show de Cabo Cañaveral",
+      "texto": "Segunda historia... y esta es de oportunidades.\n\nEl presidente Trump estuvo el viernes en el Centro Espacial Kennedy y anunció CapeWeek. La idea es convertir la vieja pista de aterrizaje de los transbordadores... mil novecientos acres... en sede de la feria aérea y espacial más grande del mundo. Dijo que estaría lista en unos dos años.\n\nLas promesas son grandes. Cientos de miles de visitantes cada año... y miles de millones en impacto económico. Todavía no hay fecha ni detalles... así que tómalo con calma.\n\nPero si estás mirando negocios en la Costa Espacial... hoteles, restaurantes, transporte, servicios para la industria aeroespacial... esta es una zona que vale la pena seguir de cerca."
+    },
+    {
+      "etiqueta": "El río que no baja",
+      "texto": "Y en la misma Brevard... el agua sigue subiendo.\n\nEl río Saint Johns cerca de Cocoa estaba el viernes en dieciséis punto nueve pies. El Servicio Meteorológico pronostica que llegue a diecisiete punto uno... el martes o el miércoles. Eso es inundación mayor. Prácticamente igual que con la tormenta Fay en dos mil ocho.\n\nEl condado está evaluando daños y va a pedir una declaración de desastre. La ayuda federal todavía no está aprobada.\n\nSi tienes un negocio en la zona... documenta todo con fotos. Y cuidado con los contratistas que tocan la puerta ofreciendo arreglos rápidos. Las estafas aparecen justo después del agua."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "Así cerramos esta semana. Si estás pensando en comprar o vender un negocio en Florida... y quieres entender cómo te afecta todo esto... escríbeme. Para eso estoy.\n\nDisfruta tu domingo... y nos vemos mañana.\n\n¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Citizens Property Insurance: requisitos de seguro de inundación",
+      "url": "https://www.citizensfla.com/flood"
+    },
+    {
+      "nombre": "WFTV: Citizens llega a un mínimo histórico de pólizas",
+      "url": "https://www.wftv.com/news/local/citizens-property-insurance-reports-record-low-policy-count/YZFP7N2S4FH4LG6N4DDTLKVPYA/"
+    },
+    {
+      "nombre": "ClickOrlando: Trump anuncia un gran show aéreo y espacial en Kennedy",
+      "url": "https://www.clickorlando.com/news/2026/11/06/president-trump-speaking-at-kennedy-space-center/"
+    },
+    {
+      "nombre": "ClickOrlando: El río Saint Johns cerca de Cocoa podría igualar a la tormenta Fay",
+      "url": "https://www.clickorlando.com/news/local/2026/11/07/st-johns-river-flooding-near-cocoa-could-rival-tropical-storm-fay-as-residents-brace-for-major-flood/"
+    },
+    {
+      "nombre": "TCPalm vía Yahoo: Llega el frente frío y la inundación baja lentamente",
+      "url": "https://www.yahoo.com/news/weather-news/articles/florida-cold-front-arrives-rain-154951298.html"
+    }
+  ]
+}
