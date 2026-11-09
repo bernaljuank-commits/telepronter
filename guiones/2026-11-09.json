@@ -1,0 +1,65 @@
+{
+  "fecha": "2026-11-09",
+  "titulo": "Florida rompe el récord de negocios nuevos, Mizner Park cambia de manos y el dengue empieza a ceder",
+  "duracionMin": 3.5,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nHoy es lunes, nueve de noviembre... Arrancamos semana. Y hoy te traigo una noticia que, para quien compra o vende un negocio, vale oro... Vamos."
+    },
+    {
+      "etiqueta": "Récord histórico de negocios nuevos",
+      "texto": "Florida acaba de romper su propio récord.\n\nDe enero a septiembre... se registraron cuatrocientos setenta y cuatro mil treinta y nueve negocios nuevos en el estado. Casi medio millón.\n\nEs la cifra más alta de la historia para esos nueve meses... y casi un seis por ciento más que el año pasado.\n\nEl dato lo publicó FiledToday, una empresa de Punta Gorda que sigue cada registro en la División de Corporaciones del estado."
+    },
+    {
+      "etiqueta": "Qué significa para ti",
+      "texto": "Ahora... ¿por qué esto te importa?\n\nSi vas a comprar un negocio... más empresas nuevas significa más competencia. Antes de firmar, mira bien quién está abriendo en tu misma zona y en tu mismo sector.\n\nY si vas a vender... es buena señal. Hay gente con capital y con ganas de emprender en Florida. Muchos de esos emprendedores descubren que comprar un negocio que ya funciona... con clientes, empleados y flujo de caja... es más rápido y menos arriesgado que empezar de cero.\n\nEse es justo el comprador que quieres encontrar."
+    },
+    {
+      "etiqueta": "Movimientos grandes del fin de semana",
+      "texto": "Y hablando de compras... dos movimientos que vale la pena mirar.\n\nEn Boca Ratón... CP Group y The Georgetown Company compraron Mizner Park. Sí, el famoso complejo de tiendas, oficinas y viviendas que abrió en mil novecientos noventa y uno. Los nuevos dueños ya anunciaron grandes cambios.\n\nY en Clearwater... AmeriLife, un gigante en distribución de seguros y productos de retiro, firmó un acuerdo de inteligencia artificial con Palantir para toda la empresa.\n\nEl mensaje es claro... el capital sigue llegando a Florida. Y las empresas que no se modernizan... se quedan atrás."
+    },
+    {
+      "etiqueta": "El dengue empieza a ceder",
+      "texto": "Un tema de salud que también toca la economía de Tampa Bay.\n\nFlorida ya suma quinientos veinticuatro casos de dengue transmitidos localmente este año. Es un récord moderno... el anterior era de ciento ochenta y nueve, en el dos mil veintitrés.\n\nLa buena noticia... en Hillsborough los casos nuevos bajaron a veintidós en una semana, el número más bajo desde agosto. El condado extendió la emergencia local hasta el doce de noviembre.\n\nLos expertos esperan que el frío termine de frenar el brote en las próximas semanas. Mientras tanto... repelente, y no dejes agua estancada en tu negocio ni en tu casa."
+    },
+    {
+      "etiqueta": "Un respiro en el clima",
+      "texto": "Y para cerrar... buenas noticias del Centro Nacional de Huracanes. No hay ninguna amenaza tropical para Florida, y no esperan que se forme nada en los próximos siete días.\n\nLa temporada termina el treinta de noviembre... ya casi."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "Resumen rápido... récord de negocios nuevos, el capital sigue comprando en Florida, el dengue baja y el trópico está tranquilo.\n\nSi estás pensando en comprar o vender tu negocio... este es un buen momento para conversar. Escríbeme.\n\n¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Florida Trend: Florida registra un récord de nuevas empresas",
+      "url": "https://www.floridatrend.com/news/2026/11/06/fridays-afternoon-update/"
+    },
+    {
+      "nombre": "Business Observer: Récord de registros de negocios en Florida",
+      "url": "https://www.businessobserverfl.com/news/2026/nov/05/florida-record-new-business-filings/"
+    },
+    {
+      "nombre": "Palm Beach Post: CP Group compra Mizner Park en Boca Ratón",
+      "url": "https://www.palmbeachpost.com/story/business/real-estate/2026/11/05/tom-crockers-cp-group-buys-boca-raton-mizner-park/92247070007/"
+    },
+    {
+      "nombre": "Tampa Bay Business & Wealth: Acuerdo de IA entre Palantir y AmeriLife",
+      "url": "https://tbbwmag.com/2026/11/05/palantir-amerilife-ai-deal/"
+    },
+    {
+      "nombre": "Forbes: Florida llega a 524 casos locales de dengue",
+      "url": "https://forbes.com/sites/johndrake/2026/11/07/with-524-local-cases-and-counting-floridas-own-mosquitoes-now-drive-its-dengue"
+    },
+    {
+      "nombre": "WUSF: Hillsborough reporta el menor aumento de dengue en semanas",
+      "url": "https://wusf.org/health-news-florida/2026-11-06/hillsborough-reports-lowest-dengue-increase-weeks-extends-state-of-emergency"
+    },
+    {
+      "nombre": "Yahoo News: Lo que vigila el Centro de Huracanes, 8 de noviembre",
+      "url": "https://www.yahoo.com/news/weather-news/articles/heres-hurricane-center-florida-tracking-144122778.html"
+    }
+  ]
+}
