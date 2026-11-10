@@ -1,0 +1,69 @@
+{
+  "fecha": "2026-11-10",
+  "titulo": "¿Cuándo baja tu impuesto a la propiedad?, ayuda para negocios inundados y una venta familiar en West Palm",
+  "duracionMin": 3.5,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nHoy es martes... y la gran pregunta en todo el estado es una sola: ¿cuándo voy a pagar menos impuesto a la propiedad?\n\nVamos por partes."
+    },
+    {
+      "etiqueta": "Enmienda Tres: ganó... pero falta el cuándo",
+      "texto": "La Enmienda Tres pasó con el sesenta y dos por ciento de los votos.\n\nEn dos mil veintisiete, la exención de vivienda principal sube de cincuenta mil... a ciento cincuenta mil dólares. Y en dos mil veintiocho, a doscientos cincuenta mil.\n\nPero ojo... la ley todavía hay que implementarla. El gobernador DeSantis quiere una sesión especial antes de irse en enero. Y varios legisladores prefieren esperar... a que llegue el gobernador electo, Byron Donalds.\n\nTodavía no hay fecha. Así que, por ahora... tu factura no cambia."
+    },
+    {
+      "etiqueta": "Qué significa para tu negocio",
+      "texto": "Aquí viene lo importante para ti, que tienes o quieres comprar un negocio.\n\nEste alivio es para la vivienda principal. No para el local comercial.\n\nY las ciudades y condados van a dejar de recibir cerca de doce mil millones de dólares. Los críticos advierten que ese hueco se puede llenar por otro lado... con tarifas, cargos o más presión sobre otras propiedades.\n\nMi consejo: si estás evaluando un negocio, revisa bien el contrato de alquiler. Si los impuestos del inmueble se trasladan al inquilino... eso te puede tocar a ti."
+    },
+    {
+      "etiqueta": "Si la inundación te golpeó, repórtalo",
+      "texto": "Segundo tema. Las inundaciones históricas de este otoño.\n\nEl estado abrió una encuesta de daños para negocios en catorce condados... entre ellos Palm Beach, Martin, Saint Lucie, Indian River, Brevard, Volusia y Seminole.\n\nEntra a Florida Disaster punto biz y elige \"dos mil veintiséis Fall Flooding\". Con esos datos el estado decide a dónde manda la ayuda.\n\nSi tu negocio perdió inventario o días de venta... no te quedes callado. Reportarlo es gratis... y puede abrirte la puerta a recursos."
+    },
+    {
+      "etiqueta": "Recuento en Miami",
+      "texto": "En política... el Distrito Veintisiete está en recuento.\n\nMaría Elvira Salazar le saca a Eliott Rodríguez apenas mil noventa votos. Menos de medio punto.\n\nUn juez federal negó la petición de sacar a la supervisora de elecciones de Miami-Dade del proceso. Y el recuento sigue en marcha."
+    },
+    {
+      "etiqueta": "Una venta que vale la pena mirar",
+      "texto": "Y una noticia que me encanta... porque es justo lo que yo hago.\n\nEVI Industries compró Commercial Laundry Equipment Company, una empresa familiar de West Palm Beach. Segunda generación. Dieciocho empleados.\n\n¿Y sabes qué? Mantiene su nombre, su local, su gerencia... y a toda su gente.\n\nEsa es la lección. Un negocio bien llevado, con buen equipo, atrae compradores estratégicos. Y tú puedes vender... sin que lo que construiste desaparezca."
+    },
+    {
+      "etiqueta": "El clima y la gasolina",
+      "texto": "Para cerrar... saca el suéter.\n\nEl jueves llega el frente frío más fuerte de la temporada. Hasta quince grados por debajo de lo normal. El sur de Florida podría bajar a los cincuenta.\n\nY una buena: la gasolina regular está en tres dólares con setenta y nueve en promedio... la más baja desde agosto."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "Si estás pensando en comprar o vender un negocio en Florida... escríbeme. Lo vemos juntos, con números claros.\n\n¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Gulf Coast News: Legisladores divididos sobre cuándo implementar la Enmienda 3",
+      "url": "https://www.gulfcoastnewsnow.com/article/amendment-3-property-tax-desantis-donalds-florida/74379842"
+    },
+    {
+      "nombre": "Bay News 9: Cómo funcionará el alivio de la Enmienda 3",
+      "url": "https://baynews9.com/fl/tampa/politics/2026/11/05/florida-lawmakers-to-decide-how-amendment--property-tax-relief-will-work"
+    },
+    {
+      "nombre": "Space Coast Rocket: FloridaCommerce activa encuesta de daños para negocios",
+      "url": "https://thespacecoastrocket.com/floridacommerce-activates-business-damage-assessment-survey-to-measure-impact-of-damage-caused-by-the-2026-fall-flooding/"
+    },
+    {
+      "nombre": "WLRN: La supervisora de Miami-Dade sigue en el recuento Salazar-Rodríguez",
+      "url": "https://www.wlrn.org/government-politics/2026-11-09/soe-miami-dade-garcia-salazar-rodriguez-recount"
+    },
+    {
+      "nombre": "Pulse 2.0: EVI Industries compra Commercial Laundry Equipment Company",
+      "url": "https://pulse2.com/evi-industries-commercial-laundry-equipment-company-acquisition-expands-florida-distribution-network/"
+    },
+    {
+      "nombre": "Florida TODAY vía Yahoo: Frente frío, Enmienda 3 y más",
+      "url": "https://yahoo.com/news/weather-news/articles/florida-today-florida-cold-front-100619968.html"
+    },
+    {
+      "nombre": "WJNO: Noticias de Florida del 9 de noviembre (gasolina)",
+      "url": "https://wjno.iheart.com/featured/brian-mudd/content/2026-11-09-florida-news-that-impacts-you-november-9th-2026/"
+    }
+  ]
+}
