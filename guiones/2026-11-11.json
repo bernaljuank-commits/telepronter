@@ -1,0 +1,73 @@
+{
+  "fecha": "2026-11-11",
+  "titulo": "La inflación vuelve a apretar, Florida pide ayuda federal por las inundaciones y Donalds arma su equipo",
+  "duracionMin": 3.5,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nHoy es miércoles, once de noviembre... Día de los Veteranos. Antes que nada, gracias a todos los que sirvieron. A ustedes... y a sus familias.\n\nY ahora sí, vamos con lo que mueve tu bolsillo y tu negocio."
+    },
+    {
+      "etiqueta": "La inflación no afloja",
+      "texto": "Arrancamos con la noticia que más te toca.\n\nAyer salió el índice de precios al consumidor de octubre. Los precios subieron cuatro décimas de punto en un solo mes... más de lo que esperaban los economistas.\n\n¿Qué subió? El supermercado. Comer fuera. La electricidad. Los pasajes de avión. El alquiler. Y los servicios médicos.\n\nLa inflación sigue muy por encima de la meta de la Reserva Federal, que es dos por ciento. Los mercados bajaron... y las tasas de los bonos del Tesoro subieron."
+    },
+    {
+      "etiqueta": "Qué significa si compras o vendes un negocio",
+      "texto": "Ahora... ¿por qué te lo cuento?\n\nPorque si las tasas no bajan, el dinero prestado sigue caro. Y eso pega directo en el financiamiento para comprar un negocio... incluidos los préstamos SBA.\n\nSi eres comprador: haz tus números con la tasa de hoy, no con la que esperas mañana.\n\nSi eres vendedor: un negocio con márgenes que aguantan la subida de costos... vale más. Muestra cómo has manejado los precios de tus insumos. Eso le da confianza al comprador... y al banco."
+    },
+    {
+      "etiqueta": "Inundaciones: Florida pide ayuda federal",
+      "texto": "Segundo tema. Las inundaciones de este otoño.\n\nEl estado presentó una solicitud de Declaración de Desastre Mayor ante el gobierno federal. Ahora le toca al presidente aprobarla, con la recomendación de FEMA.\n\nSolo en Jensen Beach, en el condado Martin... sesenta y seis casas dañadas. Veinticinco, destruidas. Y hay vecinos que más de una semana después... todavía tienen agua dentro de la casa.\n\nSi la aprueban, puede haber ayuda para vivienda temporal y reparaciones... y fondos para que las ciudades reparen calles y puentes.\n\nY si tienes un negocio en uno de los catorce condados afectados... ya te lo dije ayer: llena la encuesta de daños del estado. Esos datos cuentan."
+    },
+    {
+      "etiqueta": "Donalds arma su equipo",
+      "texto": "En Tallahassee... el gobernador electo Byron Donalds ya tiene equipo de transición.\n\nLo preside Manny Kadre, empresario automotriz de Miami y presidente del consejo de la Universidad de Miami. Lo acompaña Teresa Ressel, exdirectora financiera del Tesoro de Estados Unidos.\n\nDonalds dice que su prioridad es que Florida sea más asequible... y que haya oportunidades económicas.\n\nUn equipo con mucho perfil de negocios. Vamos a ver qué propone."
+    },
+    {
+      "etiqueta": "Se acabó el recuento",
+      "texto": "Y en Miami... se acabó el suspenso.\n\nEl recuento confirmó que María Elvira Salazar se queda con el Distrito Veintisiete. Le ganó a Eliott Rodríguez por apenas mil ochenta y seis votos.\n\nMenos de medio punto. Así de cerrado."
+    },
+    {
+      "etiqueta": "Vice City llega a Miami",
+      "texto": "Para cerrar... algo distinto.\n\nEl diecinueve de noviembre sale Grand Theft Auto Seis, el videojuego ambientado en una Miami ficticia. Y la ciudad ya lo está aprovechando.\n\nEl dieciocho, el Heat juega contra Milwaukee con una cancha especial de Vice City. Wynwood Walls hizo alianza con el juego. Hay mercancía, murales, publicidad...\n\nLa lección para ti: cuando llega una ola así... los negocios que se suben a tiempo, venden."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "Si estás pensando en comprar o vender un negocio en Florida... escríbeme. Lo vemos juntos, con números claros.\n\n¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "CBS News: La inflación siguió alta en octubre",
+      "url": "https://www.cbsnews.com/news/october-cpi-report-elevated-inflation/"
+    },
+    {
+      "nombre": "Transport Topics: La inflación de octubre superó lo esperado",
+      "url": "https://www.ttnews.com/articles/cpi-hotter-october-2026"
+    },
+    {
+      "nombre": "WFLX: Florida pide asistencia federal por las inundaciones",
+      "url": "https://www.wflx.com/2026/11/10/florida-requests-federal-disaster-assistance-after-widespread-flooding/"
+    },
+    {
+      "nombre": "CiberCuba: Qué significa la declaración de desastre mayor",
+      "url": "https://en.cibercuba.com/noticias/2026-11-10-u1-e135253-s27061-nid345411-florida-solicita-declaracion-desastre-mayor"
+    },
+    {
+      "nombre": "News4JAX: Donalds nombra su equipo de transición",
+      "url": "https://www.news4jax.com/news/local/2026/11/10/byron-donalds-names-business-political-and-policy-leaders-to-transition-team/"
+    },
+    {
+      "nombre": "Florida Tribune: El recuento confirma la reelección de Salazar",
+      "url": "https://floridatrib.org/2026/11/10/recount-confirms-salazars-narrow-reelection-to-south-florida-house-seat/"
+    },
+    {
+      "nombre": "KeenGamer: GTA VI y el Heat, noche de Vice City el 18 de noviembre",
+      "url": "https://www.keengamer.com/articles/news/gta-vi-and-miami-heat-team-up-for-a-night-in-vice-city-on-november-18/"
+    },
+    {
+      "nombre": "Miami Today: FYI Miami (Wynwood Walls y GTA VI)",
+      "url": "https://www.miamitodaynews.com/2026/11/11/fyi-miami-november-12-2026/"
+    }
+  ]
+}
