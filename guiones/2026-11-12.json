@@ -1,0 +1,65 @@
+{
+  "fecha": "2026-11-12",
+  "titulo": "La rebaja del impuesto a la propiedad llega a Tallahassee, el hueco del seguro de inundación y el fin de la temporada de huracanes",
+  "duracionMin": 3.5,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nHoy es jueves, doce de noviembre... y la conversación en el estado tiene un tema central: el impuesto a la propiedad.\n\nVamos a fondo con eso... y después un repaso rápido de lo demás."
+    },
+    {
+      "etiqueta": "Enmienda tres: ahora le toca a Tallahassee",
+      "texto": "La Enmienda tres pasó con cerca del sesenta y dos por ciento de los votos. Ya es parte de la Constitución de Florida.\n\nPero ojo... falta lo más importante. Los legisladores tienen que aprobar las leyes que la ponen en marcha.\n\nEl gobernador DeSantis dice que la Legislatura tiene que volver antes del primero de enero. Y la próxima semana los legisladores ya estarán en la capital para su sesión de organización... así que podrían aprovechar el viaje.\n\nDeSantis quiere además una carta de derechos del contribuyente... para que ciudades y condados no compensen lo que pierden subiendo tarifas y cargos."
+    },
+    {
+      "etiqueta": "Qué cambia para tu casa... y para tu negocio",
+      "texto": "Te lo explico rápido.\n\nPara tu casa principal: la exención de homestead sube a ciento cincuenta mil dólares en dos mil veintisiete... y a doscientos cincuenta mil en dos mil veintiocho. Ojo: no aplica a los impuestos escolares. Y no cambia tu factura de este año.\n\nPara el local comercial, el edificio que rentas o tu segunda propiedad... el tope de aumento anual del valor tasado baja del diez al cinco por ciento.\n\n¿Y eso qué significa si compras o vendes un negocio? Si el negocio es dueño del inmueble... el costo de impuestos crece más despacio. Y eso es más previsibilidad en las proyecciones.\n\nPero ojo con el otro lado. Florida TaxWatch calcula que los gobiernos locales pierden cerca de cuatro mil novecientos millones de dólares el primer año. Ese dinero lo van a buscar en algún lado... permisos, licencias, tarifas. Por eso hay que mirar con lupa lo que aprueben en Tallahassee."
+    },
+    {
+      "etiqueta": "Inundaciones: el gran hueco del seguro",
+      "texto": "Segundo tema. Las inundaciones históricas de la costa este.\n\nEn el sur de Brevard cayeron cerca de veinticuatro pulgadas de lluvia en dos días. Hay calles que literalmente se derrumbaron.\n\nY aquí está el problema: según el Instituto de Información de Seguros, solo uno de cada cinco floridanos tiene seguro de inundación. El seguro normal de la casa... casi nunca lo cubre.\n\nDato importante: a partir del primero de enero, las pólizas de Citizens con cobertura de viento van a tener que incluir seguro de inundación... salvo condominios y apartamentos.\n\nEl estado sigue esperando la aprobación de la Declaración de Desastre Mayor. Y puedes pedir ayuda de FEMA... tengas o no seguro de inundación.\n\nSi tienes un negocio... revisa tu póliza hoy. No cuando llueva."
+    },
+    {
+      "etiqueta": "Se apaga la temporada de huracanes",
+      "texto": "Una buena noticia.\n\nLos meteorólogos dicen que la temporada de huracanes, en la práctica... ya terminó. Oficialmente cierra el treinta de noviembre, pero un El Niño fuerte la apagó antes.\n\nUn solo huracán en todo el Atlántico: Isaías, que tocó tierra cerca de Destin en octubre.\n\nMenos riesgo en lo que queda del año... y eso cuenta a la hora de renovar seguros."
+    },
+    {
+      "etiqueta": "Delray Beach cancela su desfile",
+      "texto": "Y para cerrar... una noticia que muestra cómo las leyes de Tallahassee llegan a la calle.\n\nDelray Beach canceló su desfile de San Patricio y su festival del Orgullo para dos mil veintisiete. La ciudad dice que la nueva ley estatal contra los programas de diversidad, equidad e inclusión, que entra en vigor el primero de enero, le prohíbe organizarlos o financiarlos.\n\n¿Por qué te lo cuento? Porque esos eventos llenan restaurantes, bares y tiendas del centro. Si tienes un negocio que depende de eventos municipales... pregunta en tu ciudad qué sigue en pie."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "Resumiendo... la rebaja del impuesto a la propiedad se define en las próximas semanas, revisa tu seguro de inundación, y la temporada de huracanes ya se despide.\n\nSi estás pensando en comprar o vender un negocio en Florida... escríbeme. Lo vemos juntos.\n\n¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "WCTV – Legisladores podrían volver en sesión especial por la Enmienda 3",
+      "url": "https://www.wctv.tv/2026/11/11/florida-lawmakers-could-return-special-session-newly-passed-property-tax-amendment/"
+    },
+    {
+      "nombre": "CBS12 – Cómo funciona la Enmienda 3",
+      "url": "https://cbs12.com/news/florida/florida-homeowners-could-pay-less-under-amendment-3-heres-how-it-works-homestead-exemption-2027-reduce-assessment-cap-property-tax-florida-value"
+    },
+    {
+      "nombre": "Spectrum News 13 – El seguro de inundación, la mayor brecha",
+      "url": "https://mynews13.com/fl/orlando/news/2026/11/11/flood-coverage-is-the-largest-insurance-gap-experts-see"
+    },
+    {
+      "nombre": "WUFT – Inundaciones históricas en el este de Florida",
+      "url": "https://www.wuft.org/weather/2026-11-12/historic-flooding-leaves-parts-of-eastern-florida-in-disarray"
+    },
+    {
+      "nombre": "Florida Trend – Daily Pulse 11 de noviembre",
+      "url": "https://www.floridatrend.com/news/2026/11/11/wednesdays-daily-pulse/"
+    },
+    {
+      "nombre": "AccuWeather – La temporada de huracanes 2026 terminó",
+      "url": "https://www.accuweather.com/en/hurricane/2026-atlantic-hurricane-season-is-over/1955742"
+    },
+    {
+      "nombre": "Fox News – Delray Beach cancela desfile por la ley anti-DEI",
+      "url": "https://www.foxnews.com/politics/florida-city-gop-backed-dei-law-blocks-st-patricks-parade-pride-event"
+    }
+  ]
+}
