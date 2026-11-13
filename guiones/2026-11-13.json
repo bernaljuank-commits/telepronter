@@ -1,0 +1,57 @@
+{
+  "fecha": "2026-11-13",
+  "titulo": "La rebaja del impuesto a la propiedad se enfría en Tallahassee, Donalds pone la asequibilidad primero y el lujo de Florida sigue subiendo",
+  "duracionMin": 3.5,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nCerramos la semana con una noticia que domina todo... la rebaja del impuesto a la propiedad. Y hoy la historia es otra: Tallahassee pisa el freno."
+    },
+    {
+      "etiqueta": "Enmienda tres: DeSantis acelera... la Legislatura frena",
+      "texto": "Te recuerdo. La Enmienda tres pasó con el sesenta y dos por ciento de los votos.\n\nSube la exención de vivienda principal... de cincuenta mil a ciento cincuenta mil dólares en dos mil veintisiete. Y a doscientos cincuenta mil en dos mil veintiocho. Ojo... solo en impuestos que no son escolares. Y pide cinco años de residencia en Florida.\n\nEl gobernador DeSantis quiere una sesión especial antes de fin de año. Para aprobar las reglas... y para ponerle límites a los impuestos y cargos que cobran ciudades y condados.\n\nPero los nuevos líderes no tienen prisa. Jim Boyd, el próximo presidente del Senado, dice que puede esperar a enero... para que opine el gobierno entrante. Y Sam Garrison, el próximo presidente de la Cámara, no se comprometió a nada."
+    },
+    {
+      "etiqueta": "Lo que esto significa para tu negocio",
+      "texto": "Aquí viene lo importante... Según los economistas del estado, ciudades y condados pierden unos cinco mil millones de dólares el año que viene. Y cerca de cuarenta y seis mil millones en cinco años.\n\nEse dinero no desaparece de la nada... Los gobiernos locales van a buscar cómo compensarlo. Y eso puede llegar en forma de cargos, tasas o permisos más caros.\n\nPor eso importa tanto si Tallahassee les pone un tope... o no.\n\nSi estás comprando un negocio... no mires solo el precio. Revisa los gastos fijos: impuestos sobre el local, licencias, cargos municipales. Y si vendes... ten tus números claros. El comprador va a preguntar."
+    },
+    {
+      "etiqueta": "Donalds: la asequibilidad, primero",
+      "texto": "Mientras tanto... el gobernador electo Byron Donalds dio uno de sus primeros discursos. Fue en la Universidad Internacional de la Florida, en Miami.\n\nSu mensaje: el tema número uno para los floridanos es lo caro que está todo. La asequibilidad.\n\nY ojo con el nuevo mapa político. Los republicanos siguen al mando... pero perdieron la supermayoría de dos tercios. Para crear nuevos impuestos, por ejemplo, ahora van a necesitar votos demócratas.\n\nLos nuevos legisladores ya empezaron su orientación. La sesión arranca en marzo... y los comités, el treinta de noviembre."
+    },
+    {
+      "etiqueta": "El lujo en Florida no se enfría",
+      "texto": "Ahora, una de bienes raíces... En todo el país, los precios de las casas de lujo llevan treinta y un meses bajando. ¿En Florida? Al revés.\n\nSegún Realtor punto com, cinco de los doce mercados donde el lujo sube... están aquí. Naples, Sarasota, Fort Myers, Miami y Tampa.\n\nEn Naples, la entrada al segmento de lujo subió nueve por ciento... a unos tres millones setecientos cincuenta mil dólares.\n\n¿Qué te dice esto? Que el dinero sigue llegando a Florida. Y donde llega el dinero... llegan los clientes para los negocios de servicio."
+    },
+    {
+      "etiqueta": "El río sigue alto... y llega el fresco",
+      "texto": "Y un recordatorio... Después de las lluvias históricas en Brevard, el río Saint Johns sigue bajando lento hacia el norte. Seminole, Volusia y Lake siguen vigilando.\n\nSi tienes un negocio cerca del río... no te confíes. Y este fin de semana llega el aire más fresco del otoño a la zona central y norte."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "Esa fue la semana en Florida... Impuestos, política nueva y un mercado de lujo que no se detiene.\n\nSi estás pensando en comprar o vender un negocio... hablemos.\n\n¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "USA TODAY Network–Florida (vía Yahoo): Líderes del GOP fríos ante la sesión especial de DeSantis",
+      "url": "https://www.yahoo.com/news/politics/articles/florida-gop-leaders-cool-desantis-100743689.html"
+    },
+    {
+      "nombre": "Bay News 9: Political Connections Florida, 12 de noviembre",
+      "url": "https://baynews9.com/fl/tampa/political-connections/2026/11/12/political-connections-florida-november-12-2026"
+    },
+    {
+      "nombre": "Yahoo News: Donalds en la Cumbre de Fideicomisarios",
+      "url": "https://www.yahoo.com/news/politics/articles/donalds-opposes-sports-act-address-220910718.html"
+    },
+    {
+      "nombre": "Fortune: Los precios de lujo caen en el país, excepto en Florida",
+      "url": "https://fortune.com/2026/11/10/luxury-home-prices-are-falling-nationwide-except-in-florida-where-billionaires-like-jeff-bezos-and-ken-griffin-have-spent-hundreds-of-millions/"
+    },
+    {
+      "nombre": "Weatherboy: La inundación del St. Johns se extiende al norte",
+      "url": "https://weatherboy.com/st-johns-river-flooding-spreads-north-a-week-after-brevard-deluge-as-cocoa-gauge-sits-at-edge-of-major-stage/"
+    }
+  ]
+}
