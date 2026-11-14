@@ -1,0 +1,61 @@
+{
+  "fecha": "2026-11-14",
+  "titulo": "Florida pisa el acelerador: TaxWatch mejora su pronóstico, el empleo se frena pero no cae, y baja el seguro de auto",
+  "duracionMin": 4,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nHoy es sábado... y te traigo una buena noticia para arrancar el fin de semana. Los números de la economía de Florida... se ven mejor de lo que se esperaba. Vamos por partes."
+    },
+    {
+      "etiqueta": "TaxWatch: lo peor de la incertidumbre ya pasó",
+      "texto": "Florida TaxWatch, el grupo que vigila el gasto del estado, publicó su primer pronóstico en seis meses. ¿El mensaje? En palabras de su director, Jeff Kottkamp... lo peor de la incertidumbre parece haber quedado atrás.\n\nMira los números. Proyectan que la economía de Florida crezca más de tres punto cuatro por ciento al año, en promedio, hasta el dos mil treinta y seis. Eso es casi medio punto más de lo que estimaban antes.\n\nEl empleo pasaría de once millones ciento setenta mil... a doce millones ciento setenta mil puestos. Un millón de empleos nuevos en diez años.\n\nY el desempleo tocaría techo este año... para luego bajar a un poco más de cuatro por ciento.\n\nAdemás... Florida sumaría unos dos millones y medio de residentes. Y el turismo pasaría de ciento cuarenta y tres millones de visitantes al año... a más de ciento ochenta millones.\n\nOjo, que no todo es color de rosa. El reporte advierte que la energía cara, el costo del financiamiento y los presupuestos familiares apretados pueden frenar ese crecimiento. Y que el ingreso de la gente... crece más lento que la economía."
+    },
+    {
+      "etiqueta": "El empleo: ni se contrata ni se despide",
+      "texto": "Y eso conecta con el dato de empleo de esta semana. Las solicitudes de desempleo en Florida subieron un poco... a cinco mil cuarenta y siete. Pero siguen por debajo del promedio del año, que ronda los cinco mil setecientos.\n\nUn economista de FAU lo describió muy bien... es un mercado de poca contratación... y poco despido. Las empresas no están soltando gente... pero tampoco están contratando con prisa.\n\nLa tasa de desempleo del estado está en cuatro punto cuatro por ciento."
+    },
+    {
+      "etiqueta": "Lo que esto significa para tu negocio",
+      "texto": "Ahora... ¿qué quiere decir esto si estás pensando comprar o vender un negocio?\n\nSi vas a comprar... un pronóstico de crecimiento sostenido, más población y más turistas, es exactamente lo que respalda el valor de un negocio a largo plazo. Restaurantes, servicios, hospitalidad, logística... todos se alimentan de esa gente que sigue llegando.\n\nPero el mercado laboral lento te dice algo importante: revisa bien la plantilla del negocio que estás mirando. Un equipo estable y entrenado vale oro... porque reemplazarlo no es tan fácil.\n\nY si vas a vender... estos números son un buen argumento frente al comprador. Florida sigue siendo una apuesta de crecimiento. Eso sí... tus estados financieros tienen que demostrarlo."
+    },
+    {
+      "etiqueta": "Baja el seguro de auto... otra vez",
+      "texto": "Otra noticia que te toca el bolsillo. AAA anunció un recorte promedio de diez por ciento en sus pólizas de auto en Florida. Es la tercera rebaja del año.\n\nAplica desde el primero de diciembre para pólizas nuevas... y desde febrero para las renovaciones. Calculan un ahorro de más de treinta y cinco millones de dólares al año.\n\n¿La razón? Las reformas legales de dos mil veintidós y dos mil veintitrés, que redujeron los costos de reclamos. Si tu negocio tiene vehículos... camionetas de reparto, de servicio... es buen momento para pedir cotizaciones y renegociar."
+    },
+    {
+      "etiqueta": "Tallahassee cambia de manos el martes",
+      "texto": "Y para cerrar... este martes la Legislatura se reúne en sesión organizativa. Sam Garrison asume como presidente de la Cámara... y Jim Boyd como presidente del Senado.\n\nGarrison ya movió fichas. Creó un comité nuevo de Tecnología Avanzada y Seguridad Digital... que verá inteligencia artificial, ciberseguridad y privacidad de datos. Y otro de Política y Estrategia... para pensar dónde debe estar Florida en diez o veinte años.\n\nTambién nombró a Jason Shoaf al frente del Comité de Comercio. Ahí van a pasar muchas de las leyes que afectan a los negocios. Así que... ojo con lo que salga de ahí."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "En resumen... la economía de Florida sigue con viento a favor. El empleo va más lento... el seguro de auto baja... y Tallahassee estrena liderazgo.\n\nSi estás pensando comprar o vender un negocio en Florida... escríbeme. Lo vemos juntos, con números en la mano.\n\nSoy Alfredo González... ¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Florida Politics – TaxWatch pronostica un repunte",
+      "url": "https://floridapolitics.com/archives/832354-florida-taxwatch-welcome-rebound/"
+    },
+    {
+      "nombre": "The Capitolist – TaxWatch eleva su pronóstico hasta 2036",
+      "url": "https://thecapitolist.com/florida-taxwatch-raises-economic-growth-forecast-projects-gains-through-2036/"
+    },
+    {
+      "nombre": "Florida Trend / News Service of Florida – Suben levemente las solicitudes de desempleo",
+      "url": "https://www.floridatrend.com/articles/2026/11/12/florida-unemployment-claims-show-slight-increase/"
+    },
+    {
+      "nombre": "Tampa Free Press – AAA recorta 10% las tarifas de auto en Florida",
+      "url": "https://www.tampafp.com/aaa-slashes-florida-auto-insurance-rates-by-10-in-third-cut-this-year/"
+    },
+    {
+      "nombre": "WFLA – AAA baja tarifas de seguro de auto",
+      "url": "https://www.wfla.com/news/florida/aaa-decreases-auto-insurance-rates-for-florida-policyholders/"
+    },
+    {
+      "nombre": "Florida Trend / News Service of Florida – La Cámara se adentra en la IA",
+      "url": "https://www.floridatrend.com/articles/2026/11/12/house-delve-into-ai/"
+    }
+  ]
+}
