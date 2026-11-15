@@ -1,0 +1,77 @@
+{
+  "fecha": "2026-11-15",
+  "titulo": "La industria crece a oscuras: lo que los apagones le cuestan a cada fábrica",
+  "bajada": "La manufactura privada creció 12,8 % en el tercer trimestre, pero las fábricas pasaron 231 de sus 520 horas laborables sin electricidad. Las fallas eléctricas ya son el primer obstáculo de la industria y cuestan en promedio 34.230 dólares mensuales por empresa. Para el inversionista, ese costo es a la vez un riesgo que debe medir y un mercado que ya existe.",
+  "cuerpo": [
+    "La Confederación Venezolana de Industriales (Conindustria) presentó el jueves su Encuesta de Coyuntura Industrial del tercer trimestre, y trae dos noticias que conviene leer juntas. La buena: la producción manufacturera privada creció 12,8 % interanual, frente a 6,5 % en el segundo trimestre, y acumula 9,7 % entre enero y septiembre. La preocupante: las fallas del servicio eléctrico pasaron al primer lugar de los factores que frenan la producción, señaladas por 71 % de los industriales, por encima de la carga tributaria, que durante años había encabezado esa lista.",
+    "La magnitud del problema se entiende mejor en horas. Entre julio y septiembre, las fábricas estuvieron en promedio 231 de sus 520 horas laborables sin electricidad, es decir, 44 % del tiempo productivo de un turno, con unos cinco cortes no programados por semana. Por primera vez, la encuesta puso precio a esa contingencia: un costo operativo adicional promedio de 34.230 dólares mensuales por empresa, que sube a 51.000 dólares en la gran industria y baja a 14.170 en la mediana y 5.600 en la pequeña. Casi la mitad de ese gasto se va en combustible para plantas eléctricas (43 %) y en mantenimiento de generadores (23 %); el resto son mermas de producción, turnos especiales y químicos de asepsia.",
+    "En la práctica, la electricidad se ha convertido en un impuesto oculto que la empresa paga en efectivo y en dólares, y que no aparece en ninguna gaceta. Y no se reparte por igual. Según Conindustria, la región andina acumuló 324 horas sin servicio en el trimestre, la zuliana 311 y la centro-occidental 306, mientras que la región capital registró 80. Para quien evalúa dónde instalar o comprar una planta, esa diferencia pesa tanto como el costo de la mano de obra o la cercanía a los clientes.",
+    "Que la industria crezca a doble dígito en ese entorno dice mucho de su capacidad de adaptación, pero también revela una brecha. La mediana industria creció 16,1 % y la grande 13,6 %, mientras que la pequeña apenas avanzó 0,1 % y acumula una contracción de 3,4 % en el año. La utilización de la capacidad instalada promedió 51,8 %: 61 % en la gran industria y apenas 34,9 % en la pequeña. Quien puede costear su propia generación sigue produciendo; quien no puede, se queda atrás.",
+    "Para el inversionista, esta encuesta tiene dos lecturas. La primera es de riesgo: cualquier plan de negocios o compra de una empresa industrial en Venezuela debe incluir hoy una auditoría energética, el costo real de autogenerar, la disponibilidad de combustible y el estado de los equipos de respaldo. Una fábrica con generación propia en buen estado vale más que otra idéntica que depende por completo de la red, y esa diferencia debe reflejarse en el precio.",
+    "La segunda lectura es de oportunidad. Los 34.230 dólares que cada empresa gasta cada mes para mantenerse encendida son un presupuesto que ya existe y que hoy se va, en buena parte, en combustible. Ahí compiten soluciones que antes parecían un lujo: generación solar en techos y terrenos industriales, almacenamiento con baterías, generación a gas, servicios de mantenimiento de plantas y proyectos de eficiencia energética. Al margen de cómo se reorganice el sistema eléctrico nacional, la demanda de estas soluciones privadas está aquí y se paga en dólares. El reto no es encontrar clientes, sino financiarlos: la misma encuesta ubica la falta de financiamiento entre los cinco principales obstáculos, con 44 %, y las restricciones para acceder y movilizar divisas en 52 %.",
+    "En Invierta en Venezuela creemos que este dato marca el tono de la próxima etapa. El crecimiento ya no depende solo de que haya demanda o divisas, sino de la infraestructura que la sostiene. Las empresas que resuelvan su energía, y los inversionistas que les ayuden a hacerlo, tendrán una ventaja competitiva clara mientras la red se recupera."
+  ],
+  "claves": [
+    "Horas sin servicio por región en la encuesta del cuarto trimestre, sobre todo en los Andes, Zulia y la región centro-occidental",
+    "Evolución del costo mensual de autogeneración frente a los precios del combustible",
+    "Capacidad utilizada de la pequeña industria, hoy en 34,9 %",
+    "Aparición de esquemas de financiamiento para equipos de generación solar, baterías y gas"
+  ],
+  "etiquetas": [
+    "industria",
+    "electricidad",
+    "manufactura",
+    "energía distribuida",
+    "Conindustria",
+    "inversión"
+  ],
+  "noticia": {
+    "titular": "Manufactura nacional consolida un crecimiento de 12,8 % en el tercer trimestre de 2026",
+    "medio": "Conindustria",
+    "url": "https://www.conindustria.org/manufactura-nacional-consolida-un-crecimiento-de-128-en-el-tercer-trimestre-de-2026/",
+    "fecha": "2026-11-12"
+  },
+  "por_que": "Es el dato sectorial más reciente y completo sobre la industria privada, con cifras inéditas sobre el costo de las fallas eléctricas por tamaño de empresa y por región. Proviene de una encuesta del gremio empresarial y no de una decisión del gobierno de transición, y permite un análisis práctico de riesgo y oportunidad para el inversionista. Complementa la editorial de ayer sobre el PIB del tercer trimestre.",
+  "fuentes": [
+    {
+      "medio": "Conindustria",
+      "titulo": "Manufactura nacional consolida un crecimiento de 12,8 % en el tercer trimestre de 2026",
+      "url": "https://www.conindustria.org/manufactura-nacional-consolida-un-crecimiento-de-128-en-el-tercer-trimestre-de-2026/"
+    },
+    {
+      "medio": "Bloomberg Línea",
+      "titulo": "Fallas eléctricas desplazan a los impuestos como principal obstáculo de la industria venezolana",
+      "url": "https://www.bloomberglinea.com/latinoamerica/venezuela/fallas-electricas-desplazan-a-los-impuestos-como-principal-obstaculo-de-la-industria-venezolana/"
+    },
+    {
+      "medio": "El Impulso",
+      "titulo": "Crisis eléctrica le cuesta más de $34.000 mensuales a cada industria venezolana, según Conindustria",
+      "url": "https://www.elimpulso.com/2026/11/14/crisis-electrica-le-cuesta-mas-de-34-000-mensuales-a-cada-industria-venezolana-segun-conindustria-14nov/"
+    },
+    {
+      "medio": "Finanzas Digital",
+      "titulo": "Conindustria: fallas eléctricas cuestan más de $34.000 mensuales a cada empresa industrial",
+      "url": "https://finanzasdigital.com/conindustria-fallas-electricas-cuestan-mas-de-34000-mensuales-a-cada-empresa-industrial/"
+    }
+  ],
+  "descartadas": [
+    {
+      "tema": "Ingresos de 12.264 millones de dólares por ventas de crudo en cuentas bajo control de EE. UU. y su uso para sostener el tipo de cambio",
+      "motivo": "Depende de la gestión del gobierno de transición y de acuerdos binacionales que podrían revisarse."
+    },
+    {
+      "tema": "PDVSA prevé cerrar 2026 con 1,3 millones de barriles diarios y 80 nuevos acuerdos de hidrocarburos",
+      "motivo": "Proyección oficial y tema petrolero cubierto recientemente."
+    },
+    {
+      "tema": "Marco de acción del Grupo BID para Venezuela",
+      "motivo": "Aún sin préstamos ni proyectos concretos; buen tema para cuando haya operaciones aprobadas."
+    },
+    {
+      "tema": "Misión de empresarios franceses prevista para finales de enero",
+      "motivo": "Es un anuncio sin resultados todavía."
+    }
+  ],
+  "imagen": "https://raw.githubusercontent.com/bernaljuank-commits/telepronter/main/editoriales/img/editorial-2026-11-15.jpg",
+  "imagen_alt": "Portada «La industria a oscuras» con un rayo y barras de horas sin electricidad por región en el tercer trimestre: Andes 324, Zulia 311, Centro-Occidente 306 y Capital 80"
+}
