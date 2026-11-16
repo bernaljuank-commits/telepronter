@@ -1,0 +1,61 @@
+{
+  "fecha": "2026-11-16",
+  "titulo": "Tallahassee cambia de manos: nuevos líderes el martes, ciudades recortando por la Enmienda tres y un cohete que no llegó",
+  "duracionMin": 4,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nArrancamos semana... y arrancamos con movimiento. Mañana cambia el mando en Tallahassee. Las ciudades ya están sacando las tijeras. Y en Cabo Cañaveral, un domingo que nadie quería. Vamos por partes."
+    },
+    {
+      "etiqueta": "Martes: nuevo Congreso estatal",
+      "texto": "Este martes diecisiete de noviembre es la sesión organizativa de la Legislatura.\n\nJuran los nuevos legisladores... y asumen los nuevos jefes. Sam Garrison, como presidente de la Cámara. Jim Boyd, como presidente del Senado.\n\n¿Y por qué te importa? Porque ellos deciden cómo se aplica la Enmienda tres... el gran recorte al impuesto a la propiedad.\n\nEl gobernador DeSantis quiere una sesión especial antes del primero de enero. Pero Boyd ya dijo, y cito: \"personalmente, creo que puede esperar a enero\". Y agregó que la nueva administración debería opinar.\n\nRecuerda: el cinco de enero entra Byron Donalds como gobernador. O sea... las reglas finas de este recorte podrían quedar para el próximo año.\n\nOjo también a algo que pasó casi desapercibido. Garrison creó comités nuevos: uno de inteligencia artificial y tecnología... y otro de integridad pública. Si tu negocio toca tecnología o contratos con el gobierno... ponle atención."
+    },
+    {
+      "etiqueta": "La resaca en las ciudades",
+      "texto": "Mientras Tallahassee decide... las ciudades ya están haciendo cuentas.\n\nLa Enmienda tres pasó con el sesenta y dos por ciento. Sube la exención de vivienda principal a ciento cincuenta mil dólares el próximo año... y a doscientos cincuenta mil en dos mil veintiocho.\n\nLos economistas del estado calculan que ciudades y condados pierden unos cinco mil millones de dólares el primer año.\n\nY ya se nota. El condado St. Johns frenó unos cien millones en obras, incluida una estación de bomberos. En Miami-Dade hablan de recortar rutas de autobús. Jupiter podría aplazar más de veinte millones en calles y parques.\n\nAhora... lo que te toca a ti. Este recorte es para la casa donde vives. No para el local comercial, ni la bodega, ni la propiedad de inversión. Cuando a una ciudad le falta dinero... busca por otro lado: tarifas de servicios, permisos, agua pluvial.\n\nAsí que si estás comprando un negocio... no mires solo la renta y las ventas. Pregunta cuánto paga de impuestos y tarifas locales... y calcula qué pasa si eso sube. Es un riesgo nuevo que hay que meter en el número."
+    },
+    {
+      "etiqueta": "Space Coast: un golpe duro",
+      "texto": "Ayer domingo, desde Cabo Cañaveral, despegó el cohete Vulcan de United Launch Alliance... con cuarenta satélites de Amazon Leo. Era el regreso del cohete después de meses parado.\n\nTodo iba bien... hasta que, a unos diez minutos de vuelo, hubo una anomalía. Los satélites no llegaron a la órbita. Se perdieron los cuarenta.\n\nEs la primera falla total en la historia de la compañía. Y Amazon contaba con Vulcan para subir cerca de mil quinientos satélites... casi la mitad de su red.\n\n¿Por qué importa en Florida? Porque la Costa Espacial vive de esos lanzamientos: empleos, proveedores, hoteles, restaurantes. Si Vulcan vuelve a quedarse en tierra... ese ritmo se frena. Si tienes o buscas un negocio en Brevard, sigue esta historia de cerca."
+    },
+    {
+      "etiqueta": "Vivienda: el sur del Golfo se enfría",
+      "texto": "Y un dato de vivienda que salió el fin de semana.\n\nCon cifras federales al segundo trimestre, Cape Coral y Fort Myers tuvo la mayor baja de precios entre veinticuatro zonas de retiro populares: casi uno por ciento en un año. Sarasota y Port St. Lucie también bajaron un poco.\n\nEn cambio, West Palm Beach subió más de tres y medio por ciento.\n\nTraducción: Florida no es un solo mercado. Para el comprador, en el suroeste hay más espacio para negociar. Y eso también aplica cuando el negocio viene con su local."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "Resumen rápido: mañana cambian los jefes en Tallahassee... las ciudades se aprietan el cinturón... y la Costa Espacial recibió un golpe.\n\nSi estás pensando en comprar o vender un negocio en Florida... escríbeme. Lo vemos con números.\n\n¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Florida Bar News: nuevos líderes legislativos y sesión organizativa del 17 de noviembre",
+      "url": "https://www.floridabar.org/the-florida-bar-news/new-legislative-leaders-prepare-for-2027-session/"
+    },
+    {
+      "nombre": "USA Today Network-Florida (Yahoo): líderes republicanos fríos ante la sesión especial",
+      "url": "https://yahoo.com/news/politics/articles/florida-gop-leaders-cool-desantis-100743555.html"
+    },
+    {
+      "nombre": "Florida Today (Yahoo): la resaca del recorte fiscal en las ciudades",
+      "url": "https://www.yahoo.com/news/politics/articles/tax-cut-hangover-florida-cities-100133304.html"
+    },
+    {
+      "nombre": "WCTV: posible sesión especial por la Enmienda 3",
+      "url": "https://www.wctv.tv/2026/11/11/florida-lawmakers-could-return-special-session-newly-passed-property-tax-amendment/"
+    },
+    {
+      "nombre": "Via Satellite: anomalía del Vulcan en el primer lanzamiento de Amazon Leo",
+      "url": "https://www.satellitetoday.com/launch/2026/11/15/ula-set-to-return-vulcan-to-flight-in-first-amazon-leo-launch/"
+    },
+    {
+      "nombre": "GeekWire: Amazon pierde 40 satélites Leo",
+      "url": "https://www.geekwire.com/2026/amazon-loses-40-leo-satellites-as-ula-vulcan-launch-failure-deals-setback-to-tech-giants-starlink-rival/"
+    },
+    {
+      "nombre": "24/7 Wall St.: Cape Coral, la mayor baja de precios entre zonas de retiro",
+      "url": "https://247wallst.com/personal-finance/2026/11/14/of-24-popular-retirement-metros-cape-coral-had-the-biggest-home-price-drop-over-the-past-year-and-charleston-the-biggest-gain/"
+    }
+  ]
+}
