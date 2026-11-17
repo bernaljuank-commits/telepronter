@@ -1,0 +1,69 @@
+{
+  "fecha": "2026-11-17",
+  "titulo": "Hoy cambia el poder en Tallahassee: Legislatura sin supermayoría, condos en Miami con doce meses de inventario y un millón de empleos en camino",
+  "duracionMin": 4,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nMartes diecisiete de noviembre... y hoy es un día que se va a sentir en tu bolsillo durante los próximos dos años. Arrancamos en Tallahassee."
+    },
+    {
+      "etiqueta": "Hoy: nueva Legislatura... y con otro equilibrio",
+      "texto": "Hoy, a las diez de la mañana el Senado... y a las once la Cámara... se instala oficialmente la nueva Legislatura de Florida.\n\nJim Boyd, de Bradenton, toma el mazo como presidente del Senado. Sam Garrison, de Fleming Island, como presidente de la Cámara. Los dos, por los próximos dos años.\n\nPero ojo... esta Legislatura llega distinta. Después de la elección, los republicanos mantienen la mayoría... pero ya no tienen supermayoría. ¿Qué significa eso? Que para ciertas decisiones grandes... van a necesitar votos demócratas. Los demócratas eligieron a sus líderes: Tracie Davis, de Jacksonville, en el Senado... y Christine Hunschofsky, de Parkland, en la Cámara."
+    },
+    {
+      "etiqueta": "La pregunta del millón: la Enmienda tres",
+      "texto": "¿Y qué es lo que todo el mundo quiere saber? Si van a convocar una sesión especial para poner en marcha la Enmienda tres.\n\nEl gobernador DeSantis la quiere antes de enero, cuando termina su mandato. Los nuevos líderes... hasta ahora, no se han comprometido. Podría quedar para la sesión regular de marzo. A las dos de la tarde, Boyd y Garrison dan rueda de prensa conjunta... y ahí puede haber pistas.\n\nRecuerda lo básico. La exención de vivienda principal sube a ciento cincuenta mil dólares en dos mil veintisiete... y a doscientos cincuenta mil en dos mil veintiocho. Y para propiedades que no son vivienda principal... el tope de aumento anual del avalúo baja del diez al cinco por ciento.\n\nSi tienes un negocio con local propio... o estás comprando uno con propiedad incluida... ese tope del cinco por ciento te interesa. Y la otra cara: las ciudades y condados van a buscar cómo compensar lo que dejan de cobrar. Atento a nuevas tarifas locales."
+    },
+    {
+      "etiqueta": "Miami-Dade: dos mercados en uno",
+      "texto": "Datos frescos de vivienda en Miami-Dade, de octubre.\n\nLas ventas del año van un cuatro por ciento arriba... pero solo en octubre cayeron casi once por ciento.\n\nY aquí está lo interesante. La casa unifamiliar sigue siendo mercado de vendedor: precio medio de setecientos seis mil dólares, y unos cinco meses de inventario. El condominio... es otra historia. Precio medio de trescientos noventa y siete mil quinientos, ligeramente abajo... y casi trece meses de inventario. Eso es mercado de comprador.\n\nTraducción: si vendes un condo, prepárate para negociar. Si compras... tienes margen."
+    },
+    {
+      "etiqueta": "Lo que viene: un millón de empleos",
+      "texto": "Y una buena noticia de largo plazo. Florida TaxWatch mejoró su pronóstico.\n\nDice que el desempleo toca techo este año, alrededor del cuatro y medio por ciento... y después baja. Que Florida suma cerca de un millón de empleos en diez años. Y que los visitantes pasan de ciento cuarenta y tres millones a más de ciento ochenta millones.\n\nEso ya se nota. En el condado de Lee, el impuesto hotelero creció casi veintidós por ciento este año fiscal. Para restaurantes, servicios y turismo... la demanda está ahí."
+    },
+    {
+      "etiqueta": "Hoy, ojo con el clima",
+      "texto": "Dos avisos rápidos para hoy.\n\nEn el sur de Florida, hoy y mañana hay riesgo de inundaciones repentinas en Miami-Dade y Broward, con ráfagas de hasta cincuenta kilómetros por hora. Si tienes negocio en zona baja... revisa drenajes y mercancía.\n\nY a las dos y veinte de la tarde, prueba nacional del sistema de alertas de emergencia. Va a sonar en radio y televisión. Es solo una prueba... y no, no hay ningún apagón de noventa días. Ese rumor es falso."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "Resumen: hoy cambian los jefes en Tallahassee... con menos poder absoluto. Los condos en Miami favorecen al comprador. Y Florida sigue sumando empleos y visitantes.\n\nSi estás pensando en comprar o vender un negocio en Florida... estos cambios en impuestos y en el mercado afectan cuánto vale. Escríbeme y lo vemos juntos.\n\n¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Tampa Free Press: horario de la sesión organizativa del 17 de noviembre",
+      "url": "https://www.tampafp.com/florida-lawmakers-meet-tuesday-to-select-new-leaders/"
+    },
+    {
+      "nombre": "WUSF: los demócratas se preparan para un papel mayor en la Legislatura",
+      "url": "https://www.wusf.org/politics-issues/2026-11-17/florida-democrats-prepare-larger-role-legislature-new-leadership"
+    },
+    {
+      "nombre": "WFLA (Yahoo): presión para implementar la Enmienda 3 antes de enero",
+      "url": "https://www.yahoo.com/news/politics/articles/florida-lawmakers-face-pressure-implement-231514286.html"
+    },
+    {
+      "nombre": "Miami REALTORS (PR Newswire): ventas de vivienda en Miami-Dade, octubre 2026",
+      "url": "https://www.prnewswire.com/news-releases/miami-dade-home-sales-continue-to-outpace-last-year-302940989.html"
+    },
+    {
+      "nombre": "CiberCuba: pronóstico de Florida TaxWatch 2026-2036",
+      "url": "https://en.cibercuba.com/noticias/2026-11-13-u1-e199894-s27061-nid345590-florida-mejora-pronostico-desempleo-tocara-techo"
+    },
+    {
+      "nombre": "Florida Trend Daily Pulse: impuesto hotelero en Lee County y más",
+      "url": "https://www.floridatrend.com/news/2026/11/16/mondays-daily-pulse/"
+    },
+    {
+      "nombre": "CBS Miami: riesgo de inundaciones martes y miércoles",
+      "url": "https://www.cbsnews.com/miami/news/south-florida-weather-forecast-miami-fort-lauderdale-miami-dade-broward-november-16-2026/"
+    },
+    {
+      "nombre": "Yahoo/USA Today: prueba de FEMA y el falso apagón del 17 de noviembre",
+      "url": "https://www.yahoo.com/news/us/articles/90-day-blackout-happening-nov-212139769.html"
+    }
+  ]
+}
