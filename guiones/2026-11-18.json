@@ -1,0 +1,53 @@
+{
+  "fecha": "2026-11-18",
+  "titulo": "Florida bajo el agua otra vez, menos ventas de casas en octubre y solo cuarenta y cinco de cada cien negocios llegan a los cinco años",
+  "duracionMin": 4,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nHoy es miércoles dieciocho de noviembre... y tengo cuatro noticias. Una nos moja. Otra nos hace pensar. Y otra... te va a hacer cuidar mucho tu negocio. Vamos."
+    },
+    {
+      "etiqueta": "Lluvia: la costa este otra vez en alerta",
+      "texto": "Primero, el clima. Porque esto no da tregua.\n\nHace apenas dos semanas el sur de Brevard sufrió inundaciones catastróficas... y ahora vuelve la lluvia. Hay alerta de inundación en casi toda la costa este, desde Duval hasta Miami-Dade, hasta el viernes.\n\nLos pronósticos hablan de cuatro a ocho pulgadas en la costa... y en algunos puntos de Volusia y Brevard, doce o más.\n\nY ojo con esto... el río Saint Johns, cerca de Cocoa, ya está en inundación mayor. Diecisiete pies. A menos de medio pie de su récord histórico.\n\nSi tienes un negocio en la zona... protege inventario, revisa tu seguro y ten un plan para cerrar si hace falta. Y si estás comprando un negocio por allá... pregunta por su historial de inundaciones. Es parte de la debida diligencia."
+    },
+    {
+      "etiqueta": "Casas: el mercado se enfría, pero no se cae",
+      "texto": "Segundo, bienes raíces.\n\nFlorida Realtors publicó los números de octubre. Las ventas de casas unifamiliares bajaron un diez por ciento contra el año pasado. Tercer mes seguido a la baja.\n\nPero el precio medio subió... a cuatrocientos veinte mil dólares. Ocho meses seguidos subiendo.\n\nLos condominios están más flojos... precio medio de doscientos noventa mil, más de un tres por ciento abajo, y ocho meses de inventario.\n\nEl economista jefe lo dijo claro... no confundas demanda lenta con un mercado en crisis. La clave son las tasas. Mientras sigan por encima del siete por ciento... las ventas van a seguir tranquilas."
+    },
+    {
+      "etiqueta": "Tallahassee ya arrancó",
+      "texto": "Tercero, política.\n\nAyer se instaló la nueva Legislatura. Sam Garrison es el nuevo presidente de la Cámara... y Jim Boyd, del Senado.\n\nBoyd puso el costo de vida como prioridad número uno. Garrison habló de inteligencia artificial... y de la Enmienda tres, el gran recorte al impuesto a la propiedad. La llamó... el mayor reto fiscal de Florida en una generación.\n\n¿Por qué te importa? Porque la exención de vivienda sube a ciento cincuenta mil dólares en dos mil veintisiete. Las ciudades y condados van a buscar cómo cubrir ese hueco... y eso puede tocar tarifas, permisos y servicios para los negocios. La sesión regular empieza el dos de marzo. Hay que estar atentos."
+    },
+    {
+      "etiqueta": "Cuarenta y cinco de cada cien",
+      "texto": "Y cuarto... la que más me hizo pensar.\n\nDatos federales: de los negocios que abrieron en Florida hace cinco años... solo el cuarenta y cinco por ciento sigue abierto hoy. Menos de la mitad.\n\nPor eso siempre te digo... empezar de cero es arriesgado. Un negocio establecido ya pasó esa prueba. Tiene clientes, flujo de caja y números que puedes revisar.\n\nY una buena noticia para cerrar... la gasolina en Florida bajó a tres dólares con sesenta y dos el galón. Lo más bajo en ocho meses. Sesenta y un centavos menos que hace un mes."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "Resumen rápido... lluvia fuerte en la costa este, casas más caras pero con menos ventas, Tallahassee ya trabajando... y negocios que, para sobrevivir, necesitan bases sólidas.\n\nSi estás pensando en comprar o vender un negocio... escríbeme. Lo vemos juntos.\n\nSoy Alfredo González. ¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "The Watchers – Riesgo de inundación en la costa este y río Saint Johns",
+      "url": "https://watchers.news/2026/11/18/florida-east-coast-moderate-flash-flood-risk-st-johns-cocoa-major-flood-november-2026/"
+    },
+    {
+      "nombre": "Yahoo News / USA TODAY Network – Florida se prepara para más lluvia",
+      "url": "https://www.yahoo.com/news/weather-news/articles/live-updates-florida-braces-heavy-114733132.html"
+    },
+    {
+      "nombre": "Florida Realtors (PR Newswire) – Mercado de vivienda de octubre",
+      "url": "https://www.prnewswire.com/news-releases/flas-housing-market-higher-rates-slow-oct-sales-prices-mixed-302940636.html"
+    },
+    {
+      "nombre": "CBS Miami – Arranca la nueva Legislatura de Florida",
+      "url": "https://www.cbsnews.com/miami/news/florida-legislature-organizational-session-garrison-boyd-affordability-ai-amendment-3/"
+    },
+    {
+      "nombre": "Florida Trend – Daily Pulse (supervivencia de negocios y gasolina)",
+      "url": "https://www.floridatrend.com/news/2026/11/17/tuesdays-daily-pulse/"
+    }
+  ]
+}
