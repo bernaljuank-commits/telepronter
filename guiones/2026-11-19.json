@@ -1,0 +1,65 @@
+{
+  "fecha": "2026-11-19",
+  "titulo": "Broward bajo el agua: casi un pie de lluvia, escuelas cerradas y la pregunta de quién paga el drenaje con la Enmienda tres",
+  "duracionMin": 4,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nHoy hay una noticia que manda... y es el agua. Ayer te dije que la costa este estaba en alerta. Bueno... la alerta se cumplió. Y con fuerza."
+    },
+    {
+      "etiqueta": "Broward: casi un pie de lluvia en una noche",
+      "texto": "Entre el martes en la noche y el miércoles en la mañana... cayó casi un pie de agua en partes de Broward.\n\nCerca de Plantation, casi doce pulgadas. En Hollywood, entre ocho y diez. En Fort Lauderdale, unas siete. Según el Servicio Nacional de Meteorología... en algunas zonas cayeron de ocho a diez pulgadas en solo tres horas.\n\nEl condado de Broward declaró estado de emergencia... y va a pedir ayuda al estado. Hollywood fue la ciudad más golpeada: más de trescientas llamadas de auxilio en una sola madrugada... rescates por inundación... semáforos apagados en Dixie Highway... y el techo de un templo que se vino abajo. Por suerte, sin heridos.\n\nHubo carros abandonados en rampas de la I-noventa y cinco y en el Turnpike... unos tres mil clientes sin luz en el sur de Florida... y la FAA ordenó una parada en tierra en el aeropuerto de Fort Lauderdale el miércoles en la mañana."
+    },
+    {
+      "etiqueta": "Escuelas cerradas otra vez",
+      "texto": "Las escuelas públicas de Broward cerraron el miércoles... y hoy jueves siguen cerradas. Dos depósitos de autobuses están bajo el agua... y varias escuelas en Davie y Hollywood tienen que ser inspeccionadas antes de reabrir.\n\nY ojo... la vigilancia de inundación sigue hasta esta noche. Se esperan más tormentas hoy... aunque menos generalizadas. El fin de semana, por fin, viene más seco."
+    },
+    {
+      "etiqueta": "Si tienes un negocio... o lo vas a comprar",
+      "texto": "Aquí te hablo como corredor.\n\nSi tu local se mojó... toma fotos y video de todo antes de limpiar. Guarda los recibos. Llama a tu aseguradora hoy mismo. Y recuerda: la póliza comercial normal casi nunca cubre inundación... eso va en una póliza aparte.\n\nY si estás comprando un negocio en Broward... esto entra en tu revisión. Pregunta en qué zona de inundación está el local... si se inundó esta semana... qué daños hubo... y quién los pagó. Un negocio que cerró tres días no es lo mismo que uno que perdió su inventario. Eso se negocia... antes de firmar."
+    },
+    {
+      "etiqueta": "¿Y quién paga el drenaje?",
+      "texto": "Y esta lluvia llega en un momento delicado.\n\nLa Enmienda tres... la que aprobaron los votantes con casi sesenta y dos por ciento... sube la exención del homestead a ciento cincuenta mil dólares en dos mil veintisiete. Los economistas del estado calculan que los gobiernos locales dejarán de recibir casi cinco mil millones de dólares el próximo año fiscal... y casi doce mil millones en cinco años.\n\nCríticos dicen que eso deja menos dinero para drenaje y obras contra inundaciones. Quienes la apoyan, empezando por el gobernador DeSantis, dicen que es alivio real para los dueños de casa.\n\nDeSantis quiere una sesión especial antes de irse en enero. Pero los nuevos líderes... Jim Boyd en el Senado y Sam Garrison en la Cámara... no tienen prisa. Prefieren resolverlo en la sesión regular que arranca el dos de marzo. Garrison lo llamó el mayor reto fiscal de Florida en una generación.\n\nPara ti, como dueño de negocio, ¿qué significa? Que los condados van a buscar ese dinero en otro lado... tarifas, permisos, impuestos a las ventas. Vale la pena seguirlo de cerca."
+    },
+    {
+      "etiqueta": "Una buena señal",
+      "texto": "Y para cerrar con algo positivo... El banco BMO publicó su panorama de negocios y dice que Florida sigue superando al resto del país... aunque el crecimiento se normaliza.\n\nLas empresas siguen invirtiendo... pero con más disciplina: cuidando la liquidez, la productividad y el retorno. Y sectores como aeroespacial, tecnología y ciencias de la vida pesan cada vez más.\n\nEsa es la clave hoy... comprar y crecer, sí... pero con los números bien hechos."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "Si estás en Broward, cuídate... no manejes por calles inundadas.\n\nY si estás pensando en comprar o vender un negocio en Florida, escríbeme. Lo vemos juntos.\n\n¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "CBS Miami – Escuelas de Broward cerradas el jueves por inundaciones",
+      "url": "https://www.cbsnews.com/miami/news/broward-county-schools-closed-thursday-flooding-bus-depots/"
+    },
+    {
+      "nombre": "CBS Miami – Actualizaciones en vivo de las inundaciones",
+      "url": "https://www.cbsnews.com/miami/live-updates/south-florida-flooding-live-updates-heavy-rain-broward-miami-dade/"
+    },
+    {
+      "nombre": "CBS12 – Broward declara emergencia, apagones y rescates en Hollywood",
+      "url": "https://cbs12.com/news/local/florida-weather-news-broward-county-declares-state-of-emergency-after-overnight-flooding-nearly-3000-power-outages-flooding-roads-traffic-signals-"
+    },
+    {
+      "nombre": "NBC 6 Miami – Lluvia de ocho a diez pulgadas en tres horas",
+      "url": "https://www.nbcmiami.com/news/local/breaking-news-live-updates-south-florida-miami-today-november-18-2026/3889620/"
+    },
+    {
+      "nombre": "Yahoo News / Newsweek – Las inundaciones reavivan el debate por la Enmienda tres",
+      "url": "https://www.yahoo.com/news/us/articles/florida-floods-revive-funding-concern-003746612.html"
+    },
+    {
+      "nombre": "Central Florida Public Media – Líderes legislativos sin prisa por la sesión especial",
+      "url": "https://www.cfpublic.org/politics/2026-11-18/new-legislative-leaders-skittish-on-desantis-property-tax-cut-special-session"
+    },
+    {
+      "nombre": "PR Newswire – BMO Business Outlook: Florida",
+      "url": "https://www.prnewswire.com/news-releases/bmo-business-outlook-florida-businesses-keep-investing-as-growth-normalizes-302941405.html"
+    }
+  ]
+}
