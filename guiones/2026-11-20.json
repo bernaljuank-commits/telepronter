@@ -1,0 +1,61 @@
+{
+  "fecha": "2026-11-20",
+  "titulo": "La Florida central bajo el agua: más de un pie y medio de lluvia en Brevard, rescates, Brightline detenido y un pronóstico de empleo que trae alivio",
+  "duracionMin": 4,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nAyer te hablé de Broward. Hoy... el agua se movió al centro del estado. Y lo que está pasando en la costa espacial es, literalmente, histórico."
+    },
+    {
+      "etiqueta": "Brevard: lluvia de récord",
+      "texto": "Mira estos números. En setenta y dos horas... Merritt Island recibió más de diecisiete pulgadas de lluvia. Port Canaveral, casi diecisiete. Y en Melbourne Beach reportaron cerca de veintiuna pulgadas en solo dos días.\n\nEl Centro de Predicción del Tiempo subió el este de la Florida central al nivel cuatro de cuatro... el riesgo más alto de inundación que existe.\n\nEn Brevard ya rescataron a más de cien personas... con lanchas de aire y vehículos para agua alta. En Palm Bay hay evacuaciones obligatorias. Y Daytona Beach declaró estado de emergencia."
+    },
+    {
+      "etiqueta": "Y todavía no termina",
+      "texto": "Lo más delicado es que hoy viernes viene otra ronda fuerte. Los meteorólogos hablan de cuatro a ocho pulgadas más al este de Orlando... y en Brevard, hasta dieciséis pulgadas adicionales hasta el sábado por la mañana.\n\nHay una baja presión formándose frente al sur de Florida... que podría subir por la costa e incluso volverse subtropical. El río San Juan ya está en niveles históricos. Y en Seminole avisan que la inundación podría durar... hasta diciembre.\n\nLa buena noticia: el domingo se ve más seco."
+    },
+    {
+      "etiqueta": "El golpe a la economía local",
+      "texto": "Ahora... lo que nos toca a los que vivimos de los negocios.\n\nLas escuelas de Flagler, Volusia y Brevard cancelaron clases hoy. Brightline suspendió el tren entre Orlando y West Palm Beach por vías inundadas. Y en Palm Bay, el bulevar Port Malabar se volvió a romper... apenas tres días después de reabrir tras una reparación de unos dos millones de dólares.\n\nEl gobernador DeSantis amplió el estado de emergencia a siete condados más y mandó a la Guardia Nacional, a más de doscientos patrulleros y a doscientos treinta y cinco oficiales de vida silvestre."
+    },
+    {
+      "etiqueta": "Si compras o vendes un negocio",
+      "texto": "Si estás comprando un negocio en Brevard, Volusia o Seminole... esta semana pide tres cosas. Uno: fotos y reporte del local después de la tormenta. Dos: confirma si la propiedad está en zona inundable y qué cubre la póliza... porque el seguro normal casi nunca cubre inundación. Y tres: revisa las ventas de estas semanas por separado. Unos días cerrados no son una tendencia... pero un local que se inunda cada vez que llueve, sí lo es.\n\nY si estás vendiendo... documenta todo. La transparencia hoy te ahorra una renegociación mañana."
+    },
+    {
+      "etiqueta": "Un respiro en los números",
+      "texto": "Y para cerrar con algo positivo. Florida TaxWatch publicó su pronóstico... y dice que el desempleo en Florida tocaría su punto más alto este año, cerca de cuatro punto cinco por ciento, y de ahí empezaría a bajar.\n\nProyectan que la economía crezca más de tres por ciento al año durante la próxima década... y que lleguen unos dos millones y medio de nuevos residentes. Eso sí... las finanzas de las familias siguen apretadas. Siete meses seguidos de caída en cómo se sienten los floridanos con su bolsillo.\n\nEn palabras de TaxWatch: lo peor de la incertidumbre parece haber quedado atrás."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "Si estás en la Florida central... cuídate, no manejes por calles inundadas y sigue a tus autoridades locales.\n\nY si tienes preguntas sobre cómo afecta todo esto a un negocio que quieres comprar o vender... escríbeme.\n\n¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "WESH – Más de dieciséis pulgadas de lluvia en setenta y dos horas",
+      "url": "https://www.wesh.com/article/florida-rain-totals-flooding-orlando-update/74476811"
+    },
+    {
+      "nombre": "FOX 35 Orlando – Inundaciones históricas en la Florida central",
+      "url": "https://www.fox35orlando.com/news/central-florida-faces-historic-flooding-heavy-rain-threatens-already-inundated-communities"
+    },
+    {
+      "nombre": "ClickOrlando – Nuevas inundaciones significativas probables",
+      "url": "https://www.clickorlando.com/news/local/2026/11/20/timeline-new-significant-flooding-likely-in-central-florida/"
+    },
+    {
+      "nombre": "WFTV – Alertas por lluvias intensas en la Florida central",
+      "url": "https://www.wftv.com/news/local/heavy-rainfall-triggers-storm-alerts-parts-central-florida/PAUUMPZVX5CI7NTHABW7LS6ZSY/"
+    },
+    {
+      "nombre": "Azat TV – Drenajes al límite y cierre de Brightline",
+      "url": "https://azat.tv/en/central-florida-flooding-infrastructure-rains-2026/"
+    },
+    {
+      "nombre": "Florida Trend – Pronóstico de TaxWatch: mejora el empleo, empeoran las finanzas del hogar",
+      "url": "https://www.floridatrend.com/articles/2026/11/18/forecast-florida-job-market-improves-household-finances-worsen/"
+    }
+  ]
+}
