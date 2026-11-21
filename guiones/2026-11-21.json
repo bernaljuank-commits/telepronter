@@ -1,0 +1,61 @@
+{
+  "fecha": "2026-11-21",
+  "titulo": "Emergencia ampliada a veintiún condados, el desempleo baja por quinto mes y reembolsos para conductores",
+  "duracionMin": 4,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nSábado... y la lluvia todavía no nos suelta. Pero hoy también hay buenas noticias para la economía... y hasta dinero de regreso para algunos conductores. Vamos por partes."
+    },
+    {
+      "etiqueta": "La emergencia crece",
+      "texto": "Empiezo por lo urgente. El gobernador DeSantis amplió el estado de emergencia por las inundaciones. Ya no son solo los condados del centro y del sur... ahora se suman Broward, Miami-Dade, Duval, Flagler, Monroe, Putnam y Saint Johns.\n\nEn total... veintiún condados.\n\nEn partes de Brevard ya se acumulan hasta veintiocho pulgadas de lluvia. Veintiocho. Hay carreteras principales cerradas en Brevard y en Volusia. Y ciudades como Daytona Beach, New Smyrna Beach, Port Orange, Palm Coast y Oviedo declararon su propia emergencia local.\n\nEl estado envió a la Guardia Nacional, más de doscientos agentes de la Patrulla de Carreteras y doscientos treinta y cinco oficiales de la Comisión de Pesca y Vida Silvestre.\n\nLa buena noticia... hoy sábado todavía llueve, pero el domingo se espera mayormente soleado. Brightline, que suspendió el servicio el viernes, retomaba hoy sus salidas desde la Florida central."
+    },
+    {
+      "etiqueta": "Si compras o vendes un negocio",
+      "texto": "Y aquí te hablo como corredor. Si estás comprando un negocio en una de estas zonas... pide ver el local después de la lluvia, no solo las fotos. Revisa si tuvo filtraciones, si cerró días, si perdió inventario.\n\nY pregunta por el seguro: qué cubre, qué deducible tiene y si hay un reclamo abierto. Esos detalles cambian el precio... y a veces cambian el trato completo.\n\nSi vendes... documenta todo ahora. Fotos, facturas, reparaciones. Un comprador confía más en el vendedor que le muestra el problema... que en el que lo esconde."
+    },
+    {
+      "etiqueta": "El empleo sigue mejorando",
+      "texto": "Ahora sí... números que alegran. El desempleo en Florida bajó a cuatro punto tres por ciento en octubre. Es el quinto mes seguido a la baja. En mayo estaba en cuatro punto ocho.\n\nEl sur de Florida está todavía mejor... dos punto nueve por ciento, el más bajo del estado. Orlando en cuatro punto dos. Tampa en cuatro punto tres.\n\n¿Dónde se crearon empleos en el último año? Servicios profesionales y de negocios... treinta y ocho mil. Educación y salud... treinta y tres mil. Turismo y hospitalidad... diecisiete mil quinientos.\n\nOjo... el sector financiero perdió diez mil seiscientos empleos, incluidos casi tres mil en bienes raíces. El mercado de casas se ha enfriado, y eso se nota."
+    },
+    {
+      "etiqueta": "Dinero de regreso al conductor",
+      "texto": "Y una noticia para tu bolsillo. Tres aseguradoras de auto van a devolver más de ciento veintidós millones de dólares en ganancias excesivas a sus asegurados en Florida. Lo anunció el comisionado de Seguros, Mike Yaworsky.\n\nEl dinero llega en los próximos sesenta días... por cheque o como crédito en la renovación de la póliza. Con esto, los reembolsos de este año ya pasan de ciento sesenta y ocho millones.\n\nSi tienes flota de vehículos en tu negocio... revisa tu correo y tu próxima renovación."
+    },
+    {
+      "etiqueta": "Turismo en récord... con una duda",
+      "texto": "Y una más, rápida. Pinellas cerró su año fiscal con un récord de casi cien millones de dólares en impuesto de hoteles. El turismo sigue fuerte.\n\nPero los funcionarios ya están preocupados por la Enmienda tres... el recorte de impuestos a la propiedad que aprobaron los votantes. Menos ingresos para los gobiernos locales... y la pregunta de siempre: ¿de dónde va a salir ese dinero?"
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "Resumiendo... lluvia todavía, empleo mejorando y algo de dinero de vuelta para los conductores. Si estás en las zonas inundadas, cuídate y no manejes por calles con agua.\n\nYo soy Alfredo González... ¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "WESH – Más lluvia el sábado tras días de inundaciones en la Florida central",
+      "url": "https://www.wesh.com/article/rain-saturday-central-florida-flooding/74496967"
+    },
+    {
+      "nombre": "ClickOrlando – Actualizaciones en vivo de las inundaciones",
+      "url": "https://www.clickorlando.com/news/2026/11/17/live-updates/"
+    },
+    {
+      "nombre": "Key West Citizen / News Service of Florida – El desempleo en Florida sigue bajando",
+      "url": "https://www.keysnews.com/business/florida-jobless-rate-continues-slow-decline/article_8d44932b-b78d-4c64-8fae-c92db3f5cf14.html"
+    },
+    {
+      "nombre": "The Capitolist – Aseguradoras de auto devolverán ciento veintidós millones",
+      "url": "https://thecapitolist.com/florida-auto-insurers-to-return-122-6-million-in-excess-profits/amp/"
+    },
+    {
+      "nombre": "Business Observer – Pinellas rompe récord de impuesto hotelero",
+      "url": "https://www.businessobserverfl.com/news/2026/nov/19/pinellas-county-sets-bed-tax-record/"
+    },
+    {
+      "nombre": "Florida Trend – Friday's Afternoon Update",
+      "url": "https://www.floridatrend.com/news/2026/11/20/fridays-afternoon-update/"
+    }
+  ]
+}
