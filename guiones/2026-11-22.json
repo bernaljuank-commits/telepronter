@@ -1,0 +1,57 @@
+{
+  "fecha": "2026-11-22",
+  "titulo": "El San Juan rompe un récord de setenta y tres años, DeSantis quiere arreglar la Enmienda tres y un nuevo crédito fiscal para becas",
+  "duracionMin": 4,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nDomingo... por fin sale el sol en buena parte del estado. Pero ojo... que el agua no se va tan rápido como llegó. Hoy te traigo tres noticias: un río que rompió récord, el futuro de tus impuestos a la propiedad... y una forma nueva de dirigir parte de tus impuestos federales. Vamos."
+    },
+    {
+      "etiqueta": "Un récord que nadie quería",
+      "texto": "El río San Juan, el Saint Johns, cerca de Cocoa... llegó a casi dieciocho pies con ocho décimas. El récord anterior era de diecisiete y medio... de octubre de mil novecientos cincuenta y tres. Setenta y tres años.\n\nY aquí está lo importante... este río es muy plano. Baja apenas una pulgada por milla. Las autoridades de Seminole dicen que el agua podría tardar hasta mediados de diciembre... o hasta Navidad... en retirarse del todo. Lake Harney, Sanford, DeLand... siguen en inundación mayor o cerca.\n\nEn Brevard ya cayeron más de veinticuatro pulgadas en tres días en algunos puntos. Hubo cientos de rescates entre Brevard y Volusia... y, gracias a Dios, no se reportan muertes por la inundación.\n\nHoy y mañana se espera tiempo mayormente seco. Pero el martes y miércoles podría llegar otro sistema desde el Golfo... justo antes de Acción de Gracias. La ruta estatal cincuenta sigue cerrada entre Orange y Brevard... y los peajes de la quinientos veintiocho están suspendidos en parte del tramo. Revisa FL cinco once antes de salir."
+    },
+    {
+      "etiqueta": "Si tienes un negocio en la zona",
+      "texto": "Si tienes un negocio en Brevard, Volusia o Seminole... documenta todo. Fotos, facturas, días cerrados. El gobernador pidió una declaración federal de desastre y FEMA todavía la está revisando. Si se aprueba, esos papeles van a valer oro.\n\nY si estás comprando un negocio en esa zona... pregunta si tuvo daños, si tiene seguro de inundación... y cómo le fue en ventas este mes. Una mala racha por el clima no siempre es una mala empresa... pero hay que saber leerla."
+    },
+    {
+      "etiqueta": "La Enmienda tres... y quién paga la cuenta",
+      "texto": "Segunda noticia. Los votantes aprobaron la Enmienda tres con casi sesenta y dos por ciento. A partir del primero de enero... la exención de vivienda principal sube de cincuenta mil a ciento cincuenta mil dólares... y en dos mil veintiocho a doscientos cincuenta mil. Eso no aplica a la parte que paga las escuelas.\n\nPara propiedades que no son tu residencia principal... el aumento anual del avalúo queda topado en cinco por ciento, antes era diez. Y atención... quien no haya establecido residencia permanente en Florida antes del treinta y uno de diciembre... tendrá que esperar cinco años para la exención ampliada.\n\nLos economistas del estado calculan que los gobiernos locales dejarán de recibir casi cinco mil millones de dólares el próximo año... y cerca de doce mil millones en cinco años.\n\nEl viernes, en Port Richey, DeSantis propuso ayudar a los condados rurales con menos recursos y dar subvenciones temporales para servicios clave como policía. Y advirtió que algunos gobiernos locales podrían recortar lo más visible... solo para mandar un mensaje. Pero los nuevos líderes de la Legislatura no tienen prisa. Prefieren resolverlo en la sesión ordinaria que empieza en marzo.\n\n¿Qué significa para ti como empresario? Los críticos advierten que los condados podrían compensar con tarifas y otros cargos. Así que... si compras o vendes un negocio con local propio... o una propiedad comercial... haz números con calma. El ahorro en impuestos puede venir acompañado de nuevos cobros por otro lado."
+    },
+    {
+      "etiqueta": "Un crédito fiscal nuevo",
+      "texto": "Y la tercera, rapidito. Florida se sumó al nuevo programa federal de crédito fiscal para becas escolares, que arranca el primero de enero. Si donas a una de las organizaciones de becas aprobadas por el estado... puedes recibir un crédito federal de hasta mil setecientos dólares por persona. Tres mil cuatrocientos si son pareja y donan los dos.\n\nLa Cámara de Comercio de Florida quiere que los empleadores corran la voz entre sus trabajadores. La meta es al menos doscientos cincuenta millones de dólares para dos mil veintisiete. Habla con tu contador... a ver si te conviene."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "Así que ya sabes... cuídate del agua, ojo con la Enmienda tres... y aprovecha lo que el sistema te ofrece. Si estás pensando en comprar o vender un negocio en Florida, escríbeme. Para eso estoy.\n\nSoy Alfredo González... ¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Weatherboy: récord del río San Juan",
+      "url": "https://weatherboy.com/record-st-johns-river-flooding-swamps-central-florida-neighborhoods/"
+    },
+    {
+      "nombre": "WESH: más lluvia el sábado en la costa central",
+      "url": "https://www.wesh.com/article/rain-saturday-central-florida-flooding/74496967"
+    },
+    {
+      "nombre": "WKMG ClickOrlando: actualizaciones de las inundaciones",
+      "url": "https://www.clickorlando.com/news/2026/11/17/live-updates/"
+    },
+    {
+      "nombre": "WKMG ClickOrlando: DeSantis explica cómo arreglar la Enmienda 3",
+      "url": "https://www.clickorlando.com/news/florida/2026/11/21/need-to-be-done-florida-gov-desantis-outlines-how-to-fix-amendment-3/"
+    },
+    {
+      "nombre": "WLRN: líderes legislativos sin prisa por la sesión especial",
+      "url": "https://www.wlrn.org/government-politics/2026-11-18/new-legislative-leaders-skittish-on-desantis-property-tax-cut-special-session"
+    },
+    {
+      "nombre": "Alachua Chronicle: programa federal de crédito fiscal para becas",
+      "url": "https://alachuachronicle.com/governor-desantis-announces-floridas-launch-of-new-federal-education-freedom-tax-credit-scholarship-program/"
+    }
+  ]
+}
