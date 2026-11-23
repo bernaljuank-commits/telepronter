@@ -1,0 +1,69 @@
+{
+  "fecha": "2026-11-23",
+  "titulo": "El San Juan seguirá alto por semanas, un Día de Acción de Gracias más caro en la carretera y señales de alerta en los bancos",
+  "duracionMin": 3.5,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nArrancamos una semana corta... la de Acción de Gracias. Y hoy traigo cuatro temas que tocan tu bolsillo y tus decisiones de negocio. Vamos."
+    },
+    {
+      "etiqueta": "El río no baja... todavía",
+      "texto": "Ya dejó de llover en la Florida central. Pero ojo... el río San Juan sigue subiendo.\n\nEl Servicio Nacional de Meteorología pronostica inundaciones de mayores a récord. En Cocoa, el río ya rompió una marca que venía desde mil novecientos cincuenta y tres. Y lo más fuerte... podría quedarse en nivel de inundación entre dos y tres meses.\n\nCerca de Sanford, la cresta se espera el jueves. Cerca de DeLand, el miércoles. En Astor, también el jueves. Y el condado Seminole dice que esto puede durar hasta mediados de diciembre.\n\nEl agua que se juntó en la cuenca alta es enorme... unos sesenta mil millones de galones. Por eso baja tan lento."
+    },
+    {
+      "etiqueta": "Si compras o vendes un negocio en la zona",
+      "texto": "Aquí quiero detenerme contigo.\n\nSi estás mirando un negocio en Volusia, Seminole o Brevard... pregunta. ¿Se inundó el local? ¿Hubo cierre? ¿Cuántos días? Porque eso se va a notar en las ventas de noviembre y diciembre.\n\nPide el historial de reclamos al seguro. Revisa la zona de inundación. Y si eres vendedor... documenta todo. Un mes malo por una causa clara se explica. Un mes malo sin explicación... asusta al comprador."
+    },
+    {
+      "etiqueta": "Acción de Gracias en la carretera",
+      "texto": "Ahora, el viaje del pavo.\n\nAAA calcula que unos cuatro millones seiscientos mil floridanos van a viajar esta semana. Es un poquito menos que el año pasado... y se rompe una racha de tres años de récords.\n\nLa razón tiene mucho que ver con el costo. La gasolina en Florida estaba en tres dólares con sesenta y dos centavos el galón a mediados de mes... contra dos noventa y tres hace un año. Y los boletos de avión reservados con AAA subieron diecisiete por ciento.\n\nPero hay una buena noticia para el turismo... Orlando es el destino número uno del país para este feriado. Fort Lauderdale es segundo y Miami tercero. Y PortMiami cerró su año fiscal con un récord de diez millones y medio de cruceristas.\n\nUn consejo... si vas a manejar, sal temprano. Lo peor será mañana martes en la tarde y el miércoles desde el mediodía."
+    },
+    {
+      "etiqueta": "Los bancos encienden una luz amarilla",
+      "texto": "Un dato que pasó casi desapercibido... pero que a mí me importa mucho.\n\nLos préstamos con problemas en los bancos de Florida están subiendo. Llegaron a cero punto veintitrés por ciento de los activos... desde cero punto dieciséis en junio. Es el nivel más alto desde principios de dos mil veintidós, según un informe de Hovde Group.\n\nTodavía es un número bajo. Pero cuando los bancos ven más préstamos en problemas... se vuelven más exigentes. Si piensas comprar un negocio con financiamiento, prepara bien tus papeles... y empieza el proceso con tiempo."
+    },
+    {
+      "etiqueta": "Cuenta regresiva en Tallahassee",
+      "texto": "Y en la política... faltan unas seis semanas para que Byron Donalds asuma como gobernador, el cinco de enero.\n\nSu equipo de transición sumó ocho personas nuevas, incluyendo asesores de presupuesto y de revisión de agencias.\n\nMientras tanto, la Enmienda tres sigue sin reglas claras. Los nuevos líderes de la Legislatura dicen que pueden esperar a la sesión de marzo. Y ya se sienten los efectos... Deltona canceló su desfile de Navidad, y lo atribuye a la Enmienda tres."
+    },
+    {
+      "etiqueta": "Cierre",
+      "texto": "Esto fue ¿Qué pasa en Florida? Si tienes un negocio en las zonas inundadas, o estás pensando en comprar uno... escríbeme y lo revisamos juntos.\n\nQue pases un feliz Día de Acción de Gracias con los tuyos.\n\n¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "WKMG ClickOrlando – Volusia advierte inundaciones de mayores a récord en el San Juan",
+      "url": "https://www.clickorlando.com/news/local/2026/11/23/st-johns-river-flooding-volusia-county-warns-of-major-to-record-levels/"
+    },
+    {
+      "nombre": "WESH – Niveles y fechas de la cresta del San Juan de Cocoa a Astor",
+      "url": "https://www.wesh.com/article/st-johns-river-flooding-cocoa-astor/74494860"
+    },
+    {
+      "nombre": "WESH – Mejores y peores horas para viajar en Acción de Gracias",
+      "url": "https://www.wesh.com/article/florida-thanksgiving-travel-forecast-2026/74438396"
+    },
+    {
+      "nombre": "Yahoo Travel / When In Your State – Tres ciudades de Florida lideran las reservas de AAA",
+      "url": "https://travel.yahoo.com/news/articles/three-florida-cities-lead-aaa-014500970.html"
+    },
+    {
+      "nombre": "Florida Trend – Friday's Daily Pulse (préstamos con problemas y récord de PortMiami)",
+      "url": "https://www.floridatrend.com/news/2026/11/20/fridays-daily-pulse/"
+    },
+    {
+      "nombre": "Tampa Free Press – Donalds y Ávila amplían su equipo de transición",
+      "url": "https://www.tampafp.com/with-46-days-until-inauguration-donalds-and-avila-expand-florida-transition-team/"
+    },
+    {
+      "nombre": "WKMG ClickOrlando – Nuevos líderes legislativos sin prisa por la sesión especial",
+      "url": "https://www.clickorlando.com/news/2026/11/18/new-florida-lawmakers-skittish-on-desantis-property-tax-cut-special-session/"
+    },
+    {
+      "nombre": "FOX 35 Orlando – Noticias de Florida (Deltona cancela desfile)",
+      "url": "https://www.fox35orlando.com/tag/us/fl/"
+    }
+  ]
+}
