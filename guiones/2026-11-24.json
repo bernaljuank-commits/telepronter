@@ -1,0 +1,53 @@
+{
+  "fecha": "2026-11-24",
+  "titulo": "Enmienda 3: los municipios hacen cuentas y tu alquiler comercial podría subir",
+  "duracionMin": 4,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nHoy te hablo de algo que va a tocar el bolsillo de muchos negocios en el Sur de Florida... aunque tu negocio no lo pague directamente. Es la Enmienda Tres, el gran recorte del impuesto a la propiedad... y los municipios ya empezaron a hacer cuentas."
+    },
+    {
+      "etiqueta": "La noticia",
+      "texto": "El tres de noviembre, cerca del sesenta y dos por ciento de los votantes aprobó la Enmienda Tres. La exención de homestead, en la parte que no paga las escuelas, sube de cincuenta mil a ciento cincuenta mil dólares en dos mil veintisiete... y a doscientos cincuenta mil en dos mil veintiocho.\n\nPara las propiedades que no son homestead... locales comerciales, oficinas, edificios de alquiler... el aumento anual del valor tasado queda limitado al cinco por ciento, en lugar del diez.\n\nY ahora llegan las cuentas. Según Axios, Miami-Dade calcula perder unos trescientos ochenta y seis millones de dólares en dos mil veintisiete... y casi setecientos millones en dos mil veintiocho. Este fin de semana, Florida Politics reportó que Hialeah evalúa recortar salarios hasta un veinte por ciento y congelar contrataciones de empleados no sindicalizados... y que Miami Gardens recortó más del noventa por ciento de su presupuesto de eventos especiales.\n\nEl gobernador DeSantis ha dicho que quiere una sesión especial para aplicar la enmienda antes de dejar el cargo. Pero los nuevos líderes de la Legislatura, Jim Boyd y Sam Garrison, dijeron que esperan resolverlo en la sesión regular, que empieza el dos de marzo."
+    },
+    {
+      "etiqueta": "Qué significa para los negocios",
+      "texto": "Ahora... ¿qué significa esto para ti, que tienes un negocio o quieres comprar uno?\n\nPrimero, lo bueno. Si eres dueño del local donde opera tu negocio, ese tope del cinco por ciento te da más previsibilidad. Tu impuesto ya no podrá subir tan rápido por el valor tasado.\n\nPero ojo... los gobiernos locales van a buscar ingresos por otro lado. El presidente del Senado, Jim Boyd, reconoció la preocupación de que recuperen ese dinero con tarifas y con impuestos a las ventas. Y economistas como Abigail Hall, de la Universidad de Tampa, dicen que los dueños de propiedades de alquiler casi seguro verán facturas más altas.\n\nAquí está el punto clave. La mayoría de los locales comerciales en el Sur de Florida se alquilan en triple neto... o sea, el inquilino paga los impuestos y los gastos del edificio. Si al propietario le suben las tarifas o los impuestos, eso llega directo a tu renta.\n\nRestaurantes, comercios y negocios que viven de festivales y eventos locales pueden ser los primeros en sentirlo. Menos eventos... significa menos ventas para muchos pequeños negocios."
+    },
+    {
+      "etiqueta": "Mi consejo",
+      "texto": "Mi consejo es este.\n\nUno... si alquilas tu local, revisa hoy tu contrato. Mira qué gastos te pueden trasladar y si hay un tope a los aumentos de impuestos y gastos comunes. Si te toca renovar, negocia ese tope ahora.\n\nDos... si estás comprando un negocio, no te quedes con el alquiler de hoy. En la due diligence, proyecta los costos del local para dos mil veintisiete y dos mil veintiocho... y pídele al vendedor el historial de cargos adicionales.\n\nY tres... si piensas vender, adelántate. Un contrato de alquiler largo, con costos claros, le da tranquilidad al comprador... y eso sube el valor de tu negocio."
+    },
+    {
+      "etiqueta": "Despedida",
+      "texto": "La Enmienda Tres apenas empieza... y los próximos meses van a definir cuánto le cuesta a cada negocio. Y recuerda: si estás pensando en comprar o vender un negocio en Florida, estoy a tu orden para asesorarte, con gusto y sin compromiso. Escríbeme a alfredo arroba negociosenflorida punto com, o llámame al siete, ocho, seis... cuatro, ocho, seis... tres, seis, uno, cinco. Soy Alfredo González, de International Business Group. Suscríbete al canal Negocios en Florida... y nos vemos en el próximo ¿Qué pasa en Florida? ¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Miami Times / Florida Politics: municipios de Miami-Dade ante la Enmienda 3 (23 nov)",
+      "url": "https://www.miamitimesonline.com/news/local/pay-cuts-canceled-festivals-shuttered-programs-loom-across-miami-dade-after-amendment-3-passes/article_99ccd569-e459-4a36-9fdd-bda8a29f7a8d.html"
+    },
+    {
+      "nombre": "Axios Miami: impacto de la Enmienda 3 en Miami y Miami-Dade",
+      "url": "https://www.axios.com/local/miami/2026/11/04/florida-amendment-3-miami-budget-property-tax"
+    },
+    {
+      "nombre": "WLRN: líderes legislativos y la sesión especial (18 nov)",
+      "url": "https://www.wlrn.org/government-politics/2026-11-18/new-legislative-leaders-skittish-on-desantis-property-tax-cut-special-session"
+    },
+    {
+      "nombre": "Newsweek: economistas sobre el traslado de costos",
+      "url": "https://www.newsweek.com/how-floridas-property-tax-overhaul-could-send-housing-costs-soaring-12720293"
+    },
+    {
+      "nombre": "CBS News Miami: DeSantis y la sesión especial",
+      "url": "https://www.cbsnews.com/miami/news/desantis-special-session-amendment-3-property-tax-implement-before-january/"
+    },
+    {
+      "nombre": "FAC News Clips: efectos locales de la Enmienda 3 (23 nov)",
+      "url": "https://www.fl-counties.com/fac-news-clips-november-23-2026/"
+    }
+  ]
+}
