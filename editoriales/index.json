@@ -1,47 +1,52 @@
 [
-  {
-    "archivo": "editorial-2026-11-02.json",
-    "fecha": "2026-11-02",
-    "titulo": "Devolver lo expropiado: una señal valiosa que necesita reglas claras"
-  },
-  {
-    "archivo": "editorial-2026-11-05.json",
-    "fecha": "2026-11-05",
-    "titulo": "Turismo en Venezuela: la demanda regresa antes que las camas"
-  },
-  {
-    "archivo": "editorial-2026-11-11.json",
-    "fecha": "2026-11-11",
-    "titulo": "El capital ya no pregunta por el petróleo, pregunta por las instituciones"
-  },
-  {
-    "archivo": "editorial-2026-11-12.json",
-    "fecha": "2026-11-12",
-    "titulo": "Vivienda en Caracas: precios que suben en un mercado sin crédito"
-  },
-  {
-    "archivo": "editorial-2026-11-14.json",
-    "fecha": "2026-11-14",
-    "titulo": "El sector privado toma la delantera: lo que dice el PIB del tercer trimestre"
-  },
-  {
-    "archivo": "editorial-2026-11-15.json",
-    "fecha": "2026-11-15",
-    "titulo": "La industria crece a oscuras: lo que los apagones le cuestan a cada fábrica"
-  },
-  {
-    "archivo": "editorial-2026-11-17.json",
-    "fecha": "2026-11-17",
-    "titulo": "El café venezolano vuelve al mercado: dónde está la oportunidad y dónde el riesgo"
-  },
-  {
-    "archivo": "editorial-2026-11-18.json",
-    "fecha": "2026-11-18",
-    "titulo": "Bancos rentables, crédito escaso: el vacío que el capital privado puede llenar"
-  },
-  {
-    "archivo": "editorial-2026-11-23.json",
-    "fecha": "2026-11-23",
-    "titulo": "El talento vuelve primero: lo que el regreso de la diáspora significa para el inversionista"
-  }
+ {
+  "archivo": "editorial-2026-11-02.json",
+  "fecha": "2026-11-02",
+  "titulo": "Devolver lo expropiado: una señal valiosa que necesita reglas claras"
+ },
+ {
+  "archivo": "editorial-2026-11-05.json",
+  "fecha": "2026-11-05",
+  "titulo": "Turismo en Venezuela: la demanda regresa antes que las camas"
+ },
+ {
+  "archivo": "editorial-2026-11-11.json",
+  "fecha": "2026-11-11",
+  "titulo": "El capital ya no pregunta por el petróleo, pregunta por las instituciones"
+ },
+ {
+  "archivo": "editorial-2026-11-12.json",
+  "fecha": "2026-11-12",
+  "titulo": "Vivienda en Caracas: precios que suben en un mercado sin crédito"
+ },
+ {
+  "archivo": "editorial-2026-11-14.json",
+  "fecha": "2026-11-14",
+  "titulo": "El sector privado toma la delantera: lo que dice el PIB del tercer trimestre"
+ },
+ {
+  "archivo": "editorial-2026-11-15.json",
+  "fecha": "2026-11-15",
+  "titulo": "La industria crece a oscuras: lo que los apagones le cuestan a cada fábrica"
+ },
+ {
+  "archivo": "editorial-2026-11-17.json",
+  "fecha": "2026-11-17",
+  "titulo": "El café venezolano vuelve al mercado: dónde está la oportunidad y dónde el riesgo"
+ },
+ {
+  "archivo": "editorial-2026-11-18.json",
+  "fecha": "2026-11-18",
+  "titulo": "Bancos rentables, crédito escaso: el vacío que el capital privado puede llenar"
+ },
+ {
+  "archivo": "editorial-2026-11-23.json",
+  "fecha": "2026-11-23",
+  "titulo": "El talento vuelve primero: lo que el regreso de la diáspora significa para el inversionista"
+ },
+ {
+  "archivo": "editorial-2026-11-24.json",
+  "fecha": "2026-11-24",
+  "titulo": "La reconstrucción se mide en volumen, no en precios: dónde está el negocio después de los sismos"
+ }
 ]
