@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Teleprompter — Negocios en Florida</title>
+<title>Teleprompter — Negocios en Florida · Invierta en Venezuela</title>
 <style>
   :root { --bg:#0b0b0c; --fg:#f5f5f2; --muted:#8a8a85; --accent:#f2b134; --bar:#17171a; }
   * { box-sizing:border-box; }
@@ -14,6 +14,7 @@
   #bar button.primary { background:var(--accent); color:#111; border-color:var(--accent); font-weight:700; min-width:96px; }
   #bar .val { color:var(--muted); font-size:13px; min-width:44px; text-align:center; }
   #bar .grp { display:flex; align-items:center; gap:4px; }
+  body.vzla { --accent:#f5c518; }
   #title { flex-basis:100%; color:var(--muted); font-size:13px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
   #guide { position:fixed; left:0; right:0; top:38%; height:0; border-top:2px solid rgba(242,177,52,.35); pointer-events:none; z-index:5; }
   #scroller { position:fixed; inset:0; overflow-y:scroll; scrollbar-width:none; }
@@ -89,7 +90,7 @@
   <button id="atest" title="Probar el micrófono">🎤 Probar audio</button>
   <button id="vpause" title="Pausar o continuar el video">⏸ Pausar video</button>
   <button id="rec" class="rec" title="Grabar video">⏺ Grabar</button>
-  <div id="title"></div>
+  <div id="title"><b id="brand" style="color:var(--accent);margin-right:8px">Teleprompter</b><span id="titleTxt"></span></div>
 </div>
 <div id="guide"></div>
 <video id="preview" muted playsinline autoplay title="Toca para cambiar el tamaño"></video>
@@ -128,9 +129,15 @@
     document.body.classList.toggle('mirror', store.get('tp_mirror', false));
   }
   function esc(s){ return s.replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
-  function render(g){
-    $('title').textContent = g.fecha + ' — ' + (g.titulo || '');
-    document.title = 'Teleprompter — ' + g.fecha;
+  // Dos fuentes: guiones de Negocios en Florida (guiones/) y editoriales de Invierta en Venezuela (editoriales/)
+  const BRAND = { f:'Negocios en Florida', v:'Invierta en Venezuela' };
+  let cur = 'f';
+  function render(g, k){
+    cur = k;
+    $('brand').textContent = BRAND[k];
+    document.body.classList.toggle('vzla', k === 'v');
+    $('titleTxt').textContent = g.fecha + ' — ' + (g.titulo || '');
+    document.title = BRAND[k] + ' — ' + g.fecha;
     $('text').innerHTML = (g.bloques || []).map(b =>
       '<span class="label">' + esc(b.etiqueta || '') + '</span>' +
       String(b.texto || '').split(/\n\s*\n/).map(p =>
@@ -138,25 +145,35 @@
     ).join('');
     sc.scrollTop = 0;
   }
-  async function load(fecha){
-    stop();
-    try {
-      const r = await fetch('guiones/' + fecha + '.json', {cache:'no-store'});
-      if (!r.ok) throw new Error(r.status);
-      render(await r.json());
-      history.replaceState(null, '', '?fecha=' + fecha);
-    } catch(e) { $('text').innerHTML = '<div id="msg">No encontré el guion del ' + esc(fecha) + '.</div>'; }
+  // Convierte una editorial (titulo, bajada, cuerpo, claves) en bloques para leer
+  function deEditorial(e){
+    const c = e.cuerpo || [], b = [{ etiqueta:'Apertura', texto:'Editorial de Invierta en Venezuela.\n\n' + (e.titulo || '') + (e.bajada ? '\n\n' + e.bajada : '') }];
+    c.forEach((p, i) => b.push({ etiqueta: i === 0 ? 'La noticia' : (i === c.length - 1 ? 'Cierre' : 'Análisis'), texto:p }));
+    if ((e.claves || []).length) b.push({ etiqueta:'Claves para el inversionista', texto:e.claves.join('\n\n') });
+    return { fecha:e.fecha, titulo:e.titulo, bloques:b };
   }
+  async function load(val){
+    stop();
+    const k = val.slice(0,1), id = val.slice(2);
+    try {
+      const r = await fetch(k === 'v' ? 'editoriales/' + id : 'guiones/' + id + '.json', {cache:'no-store'});
+      if (!r.ok) throw new Error(r.status);
+      const d = await r.json();
+      render(k === 'v' ? deEditorial(d) : d, k);
+      history.replaceState(null, '', '?g=' + encodeURIComponent(val));
+    } catch(e) { $('text').innerHTML = '<div id="msg">No encontré ese guion.</div>'; }
+  }
+  async function getJSON(u){ try { const r = await fetch(u, {cache:'no-store'}); return r.ok ? await r.json() : []; } catch(e) { return []; } }
   async function init(){
     applyUI();
-    let lista = [];
-    try { const r = await fetch('guiones/index.json', {cache:'no-store'}); lista = await r.json(); } catch(e) {}
-    lista.sort((a,b) => b.fecha.localeCompare(a.fecha));
-    $('fecha').innerHTML = lista.map(g => '<option value="' + g.fecha + '">' + g.fecha + '</option>').join('');
-    const q = new URLSearchParams(location.search).get('fecha');
-    const f = (q && lista.some(g => g.fecha === q)) ? q : (lista[0] && lista[0].fecha);
-    if (!f) { $('text').innerHTML = '<div id="msg">Todavía no hay guiones.</div>'; return; }
-    $('fecha').value = f; load(f);
+    const fl = (await getJSON('guiones/index.json')).map(g => ({ val:'f:' + g.fecha, fecha:g.fecha.slice(0,10), txt:BRAND.f + ' · ' + g.fecha }));
+    const vz = (await getJSON('editoriales/index.json')).map(g => ({ val:'v:' + g.archivo, fecha:g.fecha, txt:BRAND.v + ' · ' + g.fecha }));
+    const lista = fl.concat(vz).sort((a,b) => b.fecha.localeCompare(a.fecha) || (a.val < b.val ? -1 : 1));
+    $('fecha').innerHTML = lista.map(g => '<option value="' + esc(g.val) + '">' + esc(g.txt) + '</option>').join('');
+    const qs = new URLSearchParams(location.search), q = qs.get('g') || (qs.get('fecha') ? 'f:' + qs.get('fecha') : null);
+    const pick = (q && lista.find(g => g.val === q)) || fl.sort((a,b) => b.val.localeCompare(a.val))[0] || lista[0];
+    if (!pick) { $('text').innerHTML = '<div id="msg">Todavía no hay guiones.</div>'; return; }
+    $('fecha').value = pick.val; load(pick.val);
   }
   function tick(t){
     if (!playing) return;
@@ -316,7 +333,7 @@
     if (lastUrl) URL.revokeObjectURL(lastUrl);
     lastUrl = URL.createObjectURL(lastBlob);
     const ext = type.includes('mp4') ? 'mp4' : 'webm';
-    const name = 'negocios-en-florida-' + ($('fecha').value || 'video') + '.' + ext;
+    const name = BRAND[cur].toLowerCase().replace(/ /g,'-') + '-' + (($('fecha').value || 'video').slice(2).replace('.json','').replace('editorial-','')) + '.' + ext;
     $('download').href = lastUrl; $('download').download = name;
     $('saveInfo').textContent = 'Video listo (' + fmt(recAcc/1000) + ', ' + (lastBlob.size/1048576).toFixed(1) + ' MB)';
     $('saveBox').dataset.name = name;
@@ -330,7 +347,7 @@
     if (!lastBlob) return;
     const file = new File([lastBlob], $('saveBox').dataset.name, { type:lastBlob.type });
     if (navigator.canShare && navigator.canShare({ files:[file] })) {
-      try { await navigator.share({ files:[file], title:'Negocios en Florida' }); } catch(e) {}
+      try { await navigator.share({ files:[file], title:BRAND[cur] }); } catch(e) {}
     } else { $('download').click(); }
   };
   $('discard').onclick = () => { $('saveBox').style.display = 'none'; };
