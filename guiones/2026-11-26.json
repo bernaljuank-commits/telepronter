@@ -1,0 +1,49 @@
+{
+  "fecha": "2026-11-26",
+  "titulo": "Inundaciones: préstamos al 0% de hasta $100,000 para tu negocio en Florida",
+  "duracionMin": 4,
+  "bloques": [
+    {
+      "etiqueta": "Apertura",
+      "texto": "Hola, ¿qué tal? Soy Alfredo González, corredor de negocios de Florida, y esto es ¿Qué pasa en Florida?\n\nSi tu negocio se mojó con las lluvias de este mes... hoy tengo una noticia que te interesa. El estado abrió préstamos sin intereses... y el reloj ya está corriendo."
+    },
+    {
+      "etiqueta": "La noticia",
+      "texto": "El lunes veintitrés de noviembre, FloridaCommerce activó el Programa de Préstamos Puente de Emergencia para pequeños negocios... con diez millones de dólares para las empresas afectadas por las inundaciones de este otoño.\n\nLos números son claros. Hasta cien mil dólares por negocio... y hasta ciento cincuenta mil para los de agricultura y acuicultura. Cero por ciento de interés. Ojo... no es un regalo. Es un préstamo personal a corto plazo, y hay que devolverlo.\n\nPueden pedirlo negocios de veintiún condados, entre ellos Miami-Dade, Broward, Palm Beach y Monroe. Las solicitudes se reciben hasta el primero de enero de dos mil veintisiete... o hasta que se acabe el dinero.\n\nY el contexto lo conoces. Entre el diecisiete y el diecinueve de noviembre cayeron más de quince pulgadas de lluvia en partes de Broward. Y este miércoles, víspera de Acción de Gracias, volvió a llover fuerte: CBS News Miami reportó unas cuatro pulgadas en doce horas en Florida City, con comercios bajo el agua en Krome Avenue."
+    },
+    {
+      "etiqueta": "Qué significa para los negocios",
+      "texto": "Ahora... ¿qué significa esto para los negocios?\n\nPrimero... los más golpeados son los que viven del cliente que entra por la puerta: restaurantes, tiendas, gimnasios, talleres. Un comerciante de Florida City lo dijo claro a CBS: con esa lluvia, la gente no sale a comprar. Y en Davie, un gimnasio sin seguro de inundación calcula pérdidas de unos doscientos mil dólares.\n\nSegundo... diez millones suena a mucho, pero se reparten entre veintiún condados. Si cada préstamo fuera de cien mil dólares, alcanzaría para unos cien negocios. El que llega primero... cobra primero.\n\nTercero... este préstamo es un puente, no la solución. Sirve para pagar nómina, alquiler o inventario mientras llega el seguro o una ayuda federal. El gobernador DeSantis dijo que el estado está reuniendo evaluaciones de daños para pedir una nueva declaración federal de desastre.\n\nY desde mi mirada de broker... esto también toca a quien compra o vende. Si vas a comprar un negocio en una zona que se inundó, hay que revisar daños, seguros y si el dueño tomó deudas de emergencia. Y si vas a vender... el comprador te lo va a preguntar. Mejor tener los papeles en orden."
+    },
+    {
+      "etiqueta": "Mi consejo",
+      "texto": "Mi consejo es este.\n\nUno... si tuviste daños, llena hoy mismo la encuesta de daños del estado en FloridaDisaster punto biz, y después solicita el préstamo en FloridaJobs punto org. Ten a mano fotos, facturas y tus estados financieros.\n\nDos... llama a tu aseguradora y documenta todo antes de reparar. El préstamo no reemplaza tu reclamo de seguro.\n\nTres... aprovecha la asesoría gratuita del SBDC, el Centro de Desarrollo de Pequeños Negocios, en FIU para Miami-Dade o en FAU para Broward. Y revisa si tu póliza cubre inundación... porque la próxima lluvia no avisa."
+    },
+    {
+      "etiqueta": "Despedida",
+      "texto": "Las lluvias pasan... pero los negocios bien preparados se quedan. Y recuerda: si estás pensando en comprar o vender un negocio en Florida, estoy a tu orden para asesorarte, con gusto y sin compromiso. Escríbeme a alfredo arroba negociosenflorida punto com, o llámame al siete, ocho, seis... cuatro, ocho, seis... tres, seis, uno, cinco. Soy Alfredo González, de International Business Group. Suscríbete al canal Negocios en Florida... y nos vemos en el próximo ¿Qué pasa en Florida? ¡Éxito en tus negocios!"
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "FDEM / FloridaCommerce: préstamos puente de emergencia por las inundaciones de otoño 2026",
+      "url": "https://www.floridadisaster.org/news-media/news/icymi-floridacommerce-activates-the-florida-small-business-emergency-bridge-loan-program-making-$10-million-available-for-businesses-impacted-by-the-2026-fall-flooding/"
+    },
+    {
+      "nombre": "Florida Realtors: Florida abre programa de préstamos de $10 millones",
+      "url": "https://www.floridarealtors.org/news-media/news-articles/2026/11/florida-opens-10-million-loan-program-flood-affected-businesses"
+    },
+    {
+      "nombre": "CBS News Miami: inundaciones en el sur de Florida antes de Acción de Gracias",
+      "url": "https://www.cbsnews.com/miami/live-updates/south-florida-flooding-live-updates-broward-miami-dade-heavy-rain-thanksgiving-travel/"
+    },
+    {
+      "nombre": "CiberCuba: las inundaciones en Broward golpean a pequeños negocios",
+      "url": "https://en.cibercuba.com/noticias/2026-11-20-u1-e43231-s27061-nid346203-inundaciones-broward-golpean-pequenos-negocios"
+    },
+    {
+      "nombre": "CiberCuba: cómo pedir ayuda si tu negocio se inundó en Miami-Dade o Broward",
+      "url": "https://en.cibercuba.com/noticias/2026-11-22-u1-e129488-s27061-nid346369-negocios-inundados-broward-miami-dade-primer-paso"
+    }
+  ]
+}
